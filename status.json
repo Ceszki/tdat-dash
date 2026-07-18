@@ -1,0 +1,137 @@
+{
+  "generated_at": "2026-07-18 15:45 ET",
+  "broker_mode": "Alpaca PAPER",
+  "equity": 100007.56,
+  "equity_unavailable": false,
+  "equity_curve": [
+    {
+      "ts": 1781740800,
+      "equity": 99977.19
+    },
+    {
+      "ts": 1781827200,
+      "equity": 99972.66
+    },
+    {
+      "ts": 1782172800,
+      "equity": 99934.48
+    },
+    {
+      "ts": 1782259200,
+      "equity": 99901.52
+    },
+    {
+      "ts": 1782345600,
+      "equity": 99929.84
+    },
+    {
+      "ts": 1782432000,
+      "equity": 99912.8
+    },
+    {
+      "ts": 1782518400,
+      "equity": 99923.03
+    },
+    {
+      "ts": 1782777600,
+      "equity": 99920.67
+    },
+    {
+      "ts": 1782864000,
+      "equity": 100014.51
+    },
+    {
+      "ts": 1782950400,
+      "equity": 100081.33
+    },
+    {
+      "ts": 1783036800,
+      "equity": 100245.45
+    },
+    {
+      "ts": 1783382400,
+      "equity": 100262.05
+    },
+    {
+      "ts": 1783468800,
+      "equity": 100102.29
+    },
+    {
+      "ts": 1783555200,
+      "equity": 99936.81
+    },
+    {
+      "ts": 1783641600,
+      "equity": 100000.16
+    },
+    {
+      "ts": 1783728000,
+      "equity": 100036.74
+    },
+    {
+      "ts": 1783987200,
+      "equity": 99929.05
+    },
+    {
+      "ts": 1784073600,
+      "equity": 100041.71
+    },
+    {
+      "ts": 1784160000,
+      "equity": 100130.08
+    },
+    {
+      "ts": 1784246400,
+      "equity": 99998.91
+    },
+    {
+      "ts": 1784332800,
+      "equity": 99972.69
+    }
+  ],
+  "decisions": {
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
+  },
+  "alerts": [
+    {
+      "level": "ok",
+      "message": "All clear"
+    }
+  ],
+  "positions": [
+    {
+      "ticker": "BTCUSD",
+      "qty": 0,
+      "entry": 63541.035,
+      "current": 64503.431,
+      "unrealized_pct": 1.5150000000000001
+    },
+    {
+      "ticker": "ETHUSD",
+      "qty": 1,
+      "entry": 1787.14,
+      "current": 1856.6,
+      "unrealized_pct": 3.887
+    },
+    {
+      "ticker": "LMT",
+      "qty": 3,
+      "entry": 505.9,
+      "current": 508.77,
+      "unrealized_pct": 0.567
+    },
+    {
+      "ticker": "RTX",
+      "qty": 10,
+      "entry": 186.79,
+      "current": 193.51,
+      "unrealized_pct": 3.598
+    }
+  ],
+  "positions_unavailable": false,
+  "analyst": [],
+  "sw_trades": []
+}
