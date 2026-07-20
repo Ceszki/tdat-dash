@@ -1,17 +1,9 @@
 {
-  "generated_at": "2026-07-18 16:06 ET",
+  "generated_at": "2026-07-20 14:15 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100008.94,
+  "equity": 100132.59,
   "equity_unavailable": false,
   "equity_curve": [
-    {
-      "ts": 1781740800,
-      "equity": 99977.19
-    },
-    {
-      "ts": 1781827200,
-      "equity": 99972.66
-    },
     {
       "ts": 1782172800,
       "equity": 99934.48
@@ -97,8 +89,8 @@
   },
   "alerts": [
     {
-      "level": "ok",
-      "message": "All clear"
+      "level": "warn",
+      "message": "No trades in 5 days"
     }
   ],
   "positions": [
@@ -106,29 +98,15 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 64529.5,
-      "unrealized_pct": 1.5559999999999998
+      "current": 65667.893,
+      "unrealized_pct": 3.347
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1857.1,
-      "unrealized_pct": 3.9149999999999996
-    },
-    {
-      "ticker": "LMT",
-      "qty": 3,
-      "entry": 505.9,
-      "current": 508.77,
-      "unrealized_pct": 0.567
-    },
-    {
-      "ticker": "RTX",
-      "qty": 10,
-      "entry": 186.79,
-      "current": 193.51,
-      "unrealized_pct": 3.598
+      "current": 1915.32,
+      "unrealized_pct": 7.172000000000001
     }
   ],
   "positions_unavailable": false,
