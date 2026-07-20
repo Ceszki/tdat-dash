@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-20 14:15 ET",
+  "generated_at": "2026-07-20 18:17 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100132.59,
+  "equity": 100100.13,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -82,15 +82,20 @@
     }
   ],
   "decisions": {
-    "considered": 0,
-    "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "considered": 37,
+    "traded": 1,
+    "dropped": 36,
+    "lines": [
+      "\u2705 XAR \u2014 Raytheon Missiles and Defense \u2014 $3,393,637,335",
+      "\u2715 18\u00d7 unresolved company",
+      "\u2715 12\u00d7 duplicate",
+      "\u2715 6\u00d7 below threshold"
+    ]
   },
   "alerts": [
     {
-      "level": "warn",
-      "message": "No trades in 5 days"
+      "level": "ok",
+      "message": "All clear"
     }
   ],
   "positions": [
@@ -98,15 +103,15 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 65667.893,
-      "unrealized_pct": 3.347
+      "current": 65094.0,
+      "unrealized_pct": 2.444
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1915.32,
-      "unrealized_pct": 7.172000000000001
+      "current": 1902.313,
+      "unrealized_pct": 6.444999999999999
     }
   ],
   "positions_unavailable": false,
