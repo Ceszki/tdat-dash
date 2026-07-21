@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-21 13:42 ET",
+  "generated_at": "2026-07-21 18:16 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100167.35,
+  "equity": 100159.18,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -86,10 +86,15 @@
     }
   ],
   "decisions": {
-    "considered": 0,
-    "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "considered": 12,
+    "traded": 1,
+    "dropped": 11,
+    "lines": [
+      "\u2705 XAR \u2014 TCOM LP \u2014 $446,736,050",
+      "\u2715 5\u00d7 unresolved company",
+      "\u2715 3\u00d7 duplicate",
+      "\u2715 3\u00d7 below threshold"
+    ]
   },
   "alerts": [
     {
@@ -102,29 +107,29 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 66411.74,
-      "unrealized_pct": 4.518
+      "current": 66252.831,
+      "unrealized_pct": 4.268000000000001
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1923.13,
-      "unrealized_pct": 7.609000000000001
+      "current": 1921.3,
+      "unrealized_pct": 7.507
     },
     {
       "ticker": "QQQ",
       "qty": 1,
       "entry": 708.5,
-      "current": 709.39,
-      "unrealized_pct": 0.126
+      "current": 708.57,
+      "unrealized_pct": 0.01
     },
     {
       "ticker": "SPY",
       "qty": 1,
       "entry": 746.68,
-      "current": 748.52,
-      "unrealized_pct": 0.246
+      "current": 748.2099,
+      "unrealized_pct": 0.20500000000000002
     }
   ],
   "positions_unavailable": false,
