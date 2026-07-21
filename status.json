@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-20 23:53 ET",
+  "generated_at": "2026-07-21 13:42 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100135.5,
+  "equity": 100167.35,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -79,18 +79,17 @@
     {
       "ts": 1784332800,
       "equity": 99972.69
+    },
+    {
+      "ts": 1784592000,
+      "equity": 100109.18
     }
   ],
   "decisions": {
-    "considered": 37,
-    "traded": 1,
-    "dropped": 36,
-    "lines": [
-      "\u2705 XAR \u2014 Raytheon Missiles and Defense \u2014 $3,393,637,335",
-      "\u2715 18\u00d7 unresolved company",
-      "\u2715 12\u00d7 duplicate",
-      "\u2715 6\u00d7 below threshold"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -103,18 +102,63 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 65464.1,
-      "unrealized_pct": 3.026
+      "current": 66411.74,
+      "unrealized_pct": 4.518
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1923.691,
-      "unrealized_pct": 7.641000000000001
+      "current": 1923.13,
+      "unrealized_pct": 7.609000000000001
+    },
+    {
+      "ticker": "QQQ",
+      "qty": 1,
+      "entry": 708.5,
+      "current": 709.39,
+      "unrealized_pct": 0.126
+    },
+    {
+      "ticker": "SPY",
+      "qty": 1,
+      "entry": 746.68,
+      "current": 748.52,
+      "unrealized_pct": 0.246
     }
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": []
+  "sw_trades": [
+    {
+      "id": 1,
+      "symbol": "SPY",
+      "qty": 1.0,
+      "entry_price": 748.36,
+      "tp_price": 759.59,
+      "stop_price": 740.88,
+      "entered_at": "2026-07-21 10:55:09",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "9504941e-79f2-4fb1-8787-73645bdc6d59"
+    },
+    {
+      "id": 2,
+      "symbol": "QQQ",
+      "qty": 1.0,
+      "entry_price": 710.11,
+      "tp_price": 720.76,
+      "stop_price": 703.01,
+      "entered_at": "2026-07-21 12:13:35",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "7f062755-d28c-4376-abb9-bc6b56692b6b"
+    }
+  ]
 }
