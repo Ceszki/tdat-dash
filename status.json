@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-21 23:55 ET",
+  "generated_at": "2026-07-22 13:39 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100168.15,
+  "equity": 100168.12,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -83,18 +83,17 @@
     {
       "ts": 1784592000,
       "equity": 100109.18
+    },
+    {
+      "ts": 1784678400,
+      "equity": 100174.34
     }
   ],
   "decisions": {
-    "considered": 12,
-    "traded": 1,
-    "dropped": 11,
-    "lines": [
-      "\u2705 XAR \u2014 TCOM LP \u2014 $446,736,050",
-      "\u2715 5\u00d7 unresolved company",
-      "\u2715 3\u00d7 duplicate",
-      "\u2715 3\u00d7 below threshold"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -107,29 +106,22 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 66265.693,
-      "unrealized_pct": 4.288
+      "current": 66036.292,
+      "unrealized_pct": 3.927
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1932.0,
-      "unrealized_pct": 8.106
-    },
-    {
-      "ticker": "QQQ",
-      "qty": 1,
-      "entry": 708.5,
-      "current": 706.1,
-      "unrealized_pct": -0.33899999999999997
+      "current": 1938.616,
+      "unrealized_pct": 8.476
     },
     {
       "ticker": "SPY",
       "qty": 1,
-      "entry": 746.68,
-      "current": 747.36,
-      "unrealized_pct": 0.091
+      "entry": 749.66,
+      "current": 749.22,
+      "unrealized_pct": -0.059000000000000004
     }
   ],
   "positions_unavailable": false,
@@ -143,11 +135,11 @@
       "tp_price": 759.59,
       "stop_price": 740.88,
       "entered_at": "2026-07-21 10:55:09",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
+      "status": "closed",
+      "exit_price": 747.39,
+      "pnl_usd": -0.9700000000000273,
+      "exit_reason": "next-session exit",
+      "exited_at": "2026-07-22 10:53:12",
       "broker_order_id": "9504941e-79f2-4fb1-8787-73645bdc6d59"
     },
     {
@@ -158,12 +150,27 @@
       "tp_price": 720.76,
       "stop_price": 703.01,
       "entered_at": "2026-07-21 12:13:35",
+      "status": "closed",
+      "exit_price": 706.41,
+      "pnl_usd": -3.7000000000000455,
+      "exit_reason": "next-session exit",
+      "exited_at": "2026-07-22 10:53:12",
+      "broker_order_id": "7f062755-d28c-4376-abb9-bc6b56692b6b"
+    },
+    {
+      "id": 3,
+      "symbol": "SPY",
+      "qty": 1.0,
+      "entry_price": 750.91,
+      "tp_price": 762.17,
+      "stop_price": 743.4,
+      "entered_at": "2026-07-22 12:12:44",
       "status": "open",
       "exit_price": null,
       "pnl_usd": null,
       "exit_reason": null,
       "exited_at": null,
-      "broker_order_id": "7f062755-d28c-4376-abb9-bc6b56692b6b"
+      "broker_order_id": "b6427131-6737-4270-962a-e8df3ad15548"
     }
   ]
 }
