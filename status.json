@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-23 13:45 ET",
+  "generated_at": "2026-07-23 18:20 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100061.97,
+  "equity": 100056.4,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -86,10 +86,15 @@
     }
   ],
   "decisions": {
-    "considered": 0,
-    "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "considered": 16,
+    "traded": 1,
+    "dropped": 15,
+    "lines": [
+      "\u2705 XAR \u2014 Oracle America \u2014 $6,990,000,000",
+      "\u2715 6\u00d7 duplicate",
+      "\u2715 6\u00d7 unresolved company",
+      "\u2715 3\u00d7 below threshold"
+    ]
   },
   "alerts": [
     {
@@ -102,15 +107,15 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 64825.64,
-      "unrealized_pct": 2.022
+      "current": 65027.96,
+      "unrealized_pct": 2.34
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1887.041,
-      "unrealized_pct": 5.59
+      "current": 1876.31,
+      "unrealized_pct": 4.99
     }
   ],
   "positions_unavailable": false,
