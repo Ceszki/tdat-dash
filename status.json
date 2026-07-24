@@ -1,19 +1,99 @@
 {
-  "generated_at": "2026-07-23 23:52 ET",
+  "generated_at": "2026-07-24 13:49 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100070.46,
+  "equity": 100012.47,
   "equity_unavailable": false,
-  "equity_curve": [],
+  "equity_curve": [
+    {
+      "ts": 1782345600,
+      "equity": 99929.84
+    },
+    {
+      "ts": 1782432000,
+      "equity": 99912.8
+    },
+    {
+      "ts": 1782518400,
+      "equity": 99923.03
+    },
+    {
+      "ts": 1782777600,
+      "equity": 99920.67
+    },
+    {
+      "ts": 1782864000,
+      "equity": 100014.51
+    },
+    {
+      "ts": 1782950400,
+      "equity": 100081.33
+    },
+    {
+      "ts": 1783036800,
+      "equity": 100245.45
+    },
+    {
+      "ts": 1783382400,
+      "equity": 100262.05
+    },
+    {
+      "ts": 1783468800,
+      "equity": 100102.29
+    },
+    {
+      "ts": 1783555200,
+      "equity": 99936.81
+    },
+    {
+      "ts": 1783641600,
+      "equity": 100000.16
+    },
+    {
+      "ts": 1783728000,
+      "equity": 100036.74
+    },
+    {
+      "ts": 1783987200,
+      "equity": 99929.05
+    },
+    {
+      "ts": 1784073600,
+      "equity": 100041.71
+    },
+    {
+      "ts": 1784160000,
+      "equity": 100130.08
+    },
+    {
+      "ts": 1784246400,
+      "equity": 99998.91
+    },
+    {
+      "ts": 1784332800,
+      "equity": 99972.69
+    },
+    {
+      "ts": 1784592000,
+      "equity": 100109.18
+    },
+    {
+      "ts": 1784678400,
+      "equity": 100174.34
+    },
+    {
+      "ts": 1784764800,
+      "equity": 100148.61
+    },
+    {
+      "ts": 1784851200,
+      "equity": 100055.5
+    }
+  ],
   "decisions": {
-    "considered": 16,
-    "traded": 1,
-    "dropped": 15,
-    "lines": [
-      "\u2705 XAR \u2014 Oracle America \u2014 $6,990,000,000",
-      "\u2715 6\u00d7 duplicate",
-      "\u2715 6\u00d7 unresolved company",
-      "\u2715 3\u00d7 below threshold"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -26,34 +106,18 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 65411.45,
-      "unrealized_pct": 2.944
+      "current": 64132.9,
+      "unrealized_pct": 0.931
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1878.15,
-      "unrealized_pct": 5.092
+      "current": 1862.1,
+      "unrealized_pct": 4.194
     }
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [
-    {
-      "id": 3,
-      "symbol": "SPY",
-      "qty": 1.0,
-      "entry_price": 750.91,
-      "tp_price": 762.17,
-      "stop_price": 743.4,
-      "entered_at": "2026-07-22 12:12:44",
-      "status": "closed",
-      "exit_price": 738.41,
-      "pnl_usd": -12.5,
-      "exit_reason": "next-session exit",
-      "exited_at": "2026-07-23 10:59:30",
-      "broker_order_id": "b6427131-6737-4270-962a-e8df3ad15548"
-    }
-  ]
+  "sw_trades": []
 }
