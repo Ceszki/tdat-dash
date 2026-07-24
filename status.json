@@ -1,90 +1,9 @@
 {
-  "generated_at": "2026-07-23 18:20 ET",
+  "generated_at": "2026-07-23 23:52 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100056.4,
+  "equity": 100070.46,
   "equity_unavailable": false,
-  "equity_curve": [
-    {
-      "ts": 1782259200,
-      "equity": 99901.52
-    },
-    {
-      "ts": 1782345600,
-      "equity": 99929.84
-    },
-    {
-      "ts": 1782432000,
-      "equity": 99912.8
-    },
-    {
-      "ts": 1782518400,
-      "equity": 99923.03
-    },
-    {
-      "ts": 1782777600,
-      "equity": 99920.67
-    },
-    {
-      "ts": 1782864000,
-      "equity": 100014.51
-    },
-    {
-      "ts": 1782950400,
-      "equity": 100081.33
-    },
-    {
-      "ts": 1783036800,
-      "equity": 100245.45
-    },
-    {
-      "ts": 1783382400,
-      "equity": 100262.05
-    },
-    {
-      "ts": 1783468800,
-      "equity": 100102.29
-    },
-    {
-      "ts": 1783555200,
-      "equity": 99936.81
-    },
-    {
-      "ts": 1783641600,
-      "equity": 100000.16
-    },
-    {
-      "ts": 1783728000,
-      "equity": 100036.74
-    },
-    {
-      "ts": 1783987200,
-      "equity": 99929.05
-    },
-    {
-      "ts": 1784073600,
-      "equity": 100041.71
-    },
-    {
-      "ts": 1784160000,
-      "equity": 100130.08
-    },
-    {
-      "ts": 1784246400,
-      "equity": 99998.91
-    },
-    {
-      "ts": 1784332800,
-      "equity": 99972.69
-    },
-    {
-      "ts": 1784592000,
-      "equity": 100109.18
-    },
-    {
-      "ts": 1784678400,
-      "equity": 100174.34
-    }
-  ],
+  "equity_curve": [],
   "decisions": {
     "considered": 16,
     "traded": 1,
@@ -107,15 +26,15 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 65027.96,
-      "unrealized_pct": 2.34
+      "current": 65411.45,
+      "unrealized_pct": 2.944
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1876.31,
-      "unrealized_pct": 4.99
+      "current": 1878.15,
+      "unrealized_pct": 5.092
     }
   ],
   "positions_unavailable": false,
