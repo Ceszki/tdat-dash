@@ -1,21 +1,9 @@
 {
-  "generated_at": "2026-07-24 23:45 ET",
+  "generated_at": "2026-07-27 13:53 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100002.16,
+  "equity": 100148.42,
   "equity_unavailable": false,
   "equity_curve": [
-    {
-      "ts": 1782345600,
-      "equity": 99929.84
-    },
-    {
-      "ts": 1782432000,
-      "equity": 99912.8
-    },
-    {
-      "ts": 1782518400,
-      "equity": 99923.03
-    },
     {
       "ts": 1782777600,
       "equity": 99920.67
@@ -87,18 +75,17 @@
     {
       "ts": 1784851200,
       "equity": 100055.5
+    },
+    {
+      "ts": 1784937600,
+      "equity": 100003.76
     }
   ],
   "decisions": {
-    "considered": 7,
-    "traded": 1,
-    "dropped": 6,
-    "lines": [
-      "\u2705 XAR \u2014 General Dynamics Mission Systems Inc. \u2014 $400,400,000",
-      "\u2715 3\u00d7 duplicate",
-      "\u2715 2\u00d7 unresolved company",
-      "\u2715 1\u00d7 below threshold"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -111,22 +98,15 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 63993.2,
-      "unrealized_pct": 0.712
+      "current": 65042.1,
+      "unrealized_pct": 2.3619999999999997
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1856.7,
-      "unrealized_pct": 3.8920000000000003
-    },
-    {
-      "ticker": "XAR",
-      "qty": 7,
-      "entry": 269.0,
-      "current": 269.01,
-      "unrealized_pct": 0.004
+      "current": 1937.643,
+      "unrealized_pct": 8.421
     }
   ],
   "positions_unavailable": false,
