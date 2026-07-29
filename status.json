@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-28 23:48 ET",
+  "generated_at": "2026-07-29 13:28 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100061.32,
+  "equity": 100056.55,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -83,18 +83,17 @@
     {
       "ts": 1785196800,
       "equity": 100019.49
+    },
+    {
+      "ts": 1785283200,
+      "equity": 100066.35
     }
   ],
   "decisions": {
-    "considered": 18,
-    "traded": 1,
-    "dropped": 17,
-    "lines": [
-      "\u2705 XAR \u2014 Vivsoft Technologies LLC \u2014 $100,000,000",
-      "\u2715 9\u00d7 unresolved company",
-      "\u2715 5\u00d7 duplicate",
-      "\u2715 3\u00d7 below threshold"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -107,15 +106,15 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 63749.74,
-      "unrealized_pct": 0.328
+      "current": 63678.4,
+      "unrealized_pct": 0.216
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1895.776,
-      "unrealized_pct": 6.079
+      "current": 1893.5,
+      "unrealized_pct": 5.951
     }
   ],
   "positions_unavailable": false,
