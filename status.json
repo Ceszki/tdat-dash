@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29 13:28 ET",
+  "generated_at": "2026-07-29 18:18 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100056.55,
+  "equity": 100066.66,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -90,10 +90,15 @@
     }
   ],
   "decisions": {
-    "considered": 0,
-    "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "considered": 7,
+    "traded": 2,
+    "dropped": 5,
+    "lines": [
+      "\u2705 GD \u2014 General Dynamics Electric Boat Corp. \u2014 $6,441,442,332",
+      "\u2705 XAR \u2014 DZSP 21 LLC \u2014 $908,108,425",
+      "\u2715 3\u00d7 unresolved company",
+      "\u2715 2\u00d7 duplicate"
+    ]
   },
   "alerts": [
     {
@@ -106,15 +111,22 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 63678.4,
-      "unrealized_pct": 0.216
+      "current": 63912.33,
+      "unrealized_pct": 0.584
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1893.5,
-      "unrealized_pct": 5.951
+      "current": 1905.5,
+      "unrealized_pct": 6.622999999999999
+    },
+    {
+      "ticker": "XAR",
+      "qty": 7,
+      "entry": 257.51,
+      "current": 256.0,
+      "unrealized_pct": -0.586
     }
   ],
   "positions_unavailable": false,
