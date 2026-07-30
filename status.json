@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-30 13:47 ET",
+  "generated_at": "2026-07-30 18:31 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100125.78,
+  "equity": 100132.01,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -90,10 +90,18 @@
     }
   ],
   "decisions": {
-    "considered": 0,
-    "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "considered": 23,
+    "traded": 4,
+    "dropped": 19,
+    "lines": [
+      "\u2705 LMT \u2014 Lockheed Martin Corp. \u2014 $58,620,843,289",
+      "\u2705 XAR \u2014 CACI Inc. - Federal \u2014 $500,000,000",
+      "\u2705 NOC \u2014 Northrop Grumman Systems Corp. \u2014 $1,840,000,000",
+      "\u2705 RTX \u2014 RTX Corp. \u2014 $1,295,745,898",
+      "\u2715 11\u00d7 duplicate",
+      "\u2715 7\u00d7 unresolved company",
+      "\u2715 1\u00d7 below threshold"
+    ]
   },
   "alerts": [
     {
@@ -106,29 +114,43 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 64905.868,
-      "unrealized_pct": 2.1479999999999997
+      "current": 64927.165,
+      "unrealized_pct": 2.181
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1922.689,
-      "unrealized_pct": 7.585
+      "current": 1926.36,
+      "unrealized_pct": 7.79
+    },
+    {
+      "ticker": "LMT",
+      "qty": 3,
+      "entry": 574.25,
+      "current": 573.11,
+      "unrealized_pct": -0.199
+    },
+    {
+      "ticker": "NOC",
+      "qty": 3,
+      "entry": 535.0,
+      "current": 534.85,
+      "unrealized_pct": -0.027999999999999997
     },
     {
       "ticker": "QQQ",
       "qty": 1,
       "entry": 679.06,
-      "current": 682.63,
-      "unrealized_pct": 0.526
+      "current": 686.15,
+      "unrealized_pct": 1.044
     },
     {
       "ticker": "SPY",
       "qty": 1,
       "entry": 739.99,
-      "current": 739.99,
-      "unrealized_pct": 0.0
+      "current": 741.81,
+      "unrealized_pct": 0.246
     }
   ],
   "positions_unavailable": false,
