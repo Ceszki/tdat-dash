@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-07-29 23:40 ET",
+  "generated_at": "2026-07-30 13:47 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100089.51,
+  "equity": 100125.78,
   "equity_unavailable": false,
   "equity_curve": [
-    {
-      "ts": 1782777600,
-      "equity": 99920.67
-    },
     {
       "ts": 1782864000,
       "equity": 100014.51
@@ -87,18 +83,17 @@
     {
       "ts": 1785283200,
       "equity": 100066.35
+    },
+    {
+      "ts": 1785369600,
+      "equity": 100199.88
     }
   ],
   "decisions": {
-    "considered": 7,
-    "traded": 2,
-    "dropped": 5,
-    "lines": [
-      "\u2705 GD \u2014 General Dynamics Electric Boat Corp. \u2014 $6,441,442,332",
-      "\u2705 XAR \u2014 DZSP 21 LLC \u2014 $908,108,425",
-      "\u2715 3\u00d7 unresolved company",
-      "\u2715 2\u00d7 duplicate"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -111,25 +106,63 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 64046.0,
-      "unrealized_pct": 0.795
+      "current": 64905.868,
+      "unrealized_pct": 2.1479999999999997
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1909.0,
-      "unrealized_pct": 6.819
+      "current": 1922.689,
+      "unrealized_pct": 7.585
     },
     {
-      "ticker": "XAR",
-      "qty": 7,
-      "entry": 257.51,
-      "current": 258.11,
-      "unrealized_pct": 0.233
+      "ticker": "QQQ",
+      "qty": 1,
+      "entry": 679.06,
+      "current": 682.63,
+      "unrealized_pct": 0.526
+    },
+    {
+      "ticker": "SPY",
+      "qty": 1,
+      "entry": 739.99,
+      "current": 739.99,
+      "unrealized_pct": 0.0
     }
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": []
+  "sw_trades": [
+    {
+      "id": 4,
+      "symbol": "QQQ",
+      "qty": 1.0,
+      "entry_price": 684.67,
+      "tp_price": 694.94,
+      "stop_price": 677.82,
+      "entered_at": "2026-07-30 11:00:14",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "3e9f0e02-b4fc-4d50-bcbd-b14b3f1b3260"
+    },
+    {
+      "id": 5,
+      "symbol": "SPY",
+      "qty": 1.0,
+      "entry_price": 741.24,
+      "tp_price": 752.36,
+      "stop_price": 733.83,
+      "entered_at": "2026-07-30 13:47:57",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "f2804022-98fb-4120-90c8-c65fc68f3a95"
+    }
+  ]
 }
