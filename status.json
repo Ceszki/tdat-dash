@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-07-30 23:57 ET",
+  "generated_at": "2026-07-31 13:51 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100083.6,
+  "equity": 100016.59,
   "equity_unavailable": false,
   "equity_curve": [
-    {
-      "ts": 1782864000,
-      "equity": 100014.51
-    },
     {
       "ts": 1782950400,
       "equity": 100081.33
@@ -87,21 +83,17 @@
     {
       "ts": 1785369600,
       "equity": 100199.88
+    },
+    {
+      "ts": 1785456000,
+      "equity": 100096.75
     }
   ],
   "decisions": {
-    "considered": 23,
-    "traded": 4,
-    "dropped": 19,
-    "lines": [
-      "\u2705 LMT \u2014 Lockheed Martin Corp. \u2014 $58,620,843,289",
-      "\u2705 XAR \u2014 CACI Inc. - Federal \u2014 $500,000,000",
-      "\u2705 NOC \u2014 Northrop Grumman Systems Corp. \u2014 $1,840,000,000",
-      "\u2705 RTX \u2014 RTX Corp. \u2014 $1,295,745,898",
-      "\u2715 11\u00d7 duplicate",
-      "\u2715 7\u00d7 unresolved company",
-      "\u2715 1\u00d7 below threshold"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -114,57 +106,22 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 64356.13,
-      "unrealized_pct": 1.283
+      "current": 63103.12,
+      "unrealized_pct": -0.6890000000000001
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1907.309,
-      "unrealized_pct": 6.723999999999999
-    },
-    {
-      "ticker": "LMT",
-      "qty": 3,
-      "entry": 574.25,
-      "current": 573.47,
-      "unrealized_pct": -0.136
+      "current": 1864.17,
+      "unrealized_pct": 4.31
     },
     {
       "ticker": "NOC",
       "qty": 3,
       "entry": 535.0,
-      "current": 531.0,
-      "unrealized_pct": -0.748
-    },
-    {
-      "ticker": "QQQ",
-      "qty": 1,
-      "entry": 679.06,
-      "current": 689.53,
-      "unrealized_pct": 1.542
-    },
-    {
-      "ticker": "RTX",
-      "qty": 9,
-      "entry": 214.8,
-      "current": 214.38,
-      "unrealized_pct": -0.196
-    },
-    {
-      "ticker": "SPY",
-      "qty": 1,
-      "entry": 739.99,
-      "current": 744.55,
-      "unrealized_pct": 0.616
-    },
-    {
-      "ticker": "XAR",
-      "qty": 7,
-      "entry": 263.0,
-      "current": 262.83,
-      "unrealized_pct": -0.065
+      "current": 541.99,
+      "unrealized_pct": 1.307
     }
   ],
   "positions_unavailable": false,
@@ -178,11 +135,11 @@
       "tp_price": 694.94,
       "stop_price": 677.82,
       "entered_at": "2026-07-30 11:00:14",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
+      "status": "closed",
+      "exit_price": 683.62,
+      "pnl_usd": -1.0499999999999545,
+      "exit_reason": "next-session exit",
+      "exited_at": "2026-07-31 11:12:06",
       "broker_order_id": "3e9f0e02-b4fc-4d50-bcbd-b14b3f1b3260"
     },
     {
@@ -193,11 +150,11 @@
       "tp_price": 752.36,
       "stop_price": 733.83,
       "entered_at": "2026-07-30 13:47:57",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
+      "status": "closed",
+      "exit_price": 744.65,
+      "pnl_usd": 3.409999999999968,
+      "exit_reason": "next-session exit",
+      "exited_at": "2026-07-31 13:00:21",
       "broker_order_id": "f2804022-98fb-4120-90c8-c65fc68f3a95"
     }
   ]
