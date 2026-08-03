@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-03 14:03 ET",
+  "generated_at": "2026-08-03 18:21 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100070.18,
+  "equity": 100058.19,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -86,11 +86,14 @@
     }
   ],
   "decisions": {
-    "considered": 1,
+    "considered": 18,
     "traded": 1,
-    "dropped": 0,
+    "dropped": 17,
     "lines": [
-      "\u2705 XAR \u2014 T-MOBILE SECURE FEDERAL OPERATIONS LLC \u2014 $64,214,113"
+      "\u2705 XAR \u2014 T-MOBILE SECURE FEDERAL OPERATIONS LLC \u2014 $64,214,113",
+      "\u2715 9\u00d7 unresolved company",
+      "\u2715 5\u00d7 duplicate",
+      "\u2715 3\u00d7 below threshold"
     ]
   },
   "alerts": [
@@ -104,15 +107,15 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 63866.1,
-      "unrealized_pct": 0.512
+      "current": 63517.245,
+      "unrealized_pct": -0.037
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1870.1,
-      "unrealized_pct": 4.642
+      "current": 1862.995,
+      "unrealized_pct": 4.244
     }
   ],
   "positions_unavailable": false,
