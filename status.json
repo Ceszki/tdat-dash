@@ -1,17 +1,9 @@
 {
-  "generated_at": "2026-07-31 23:57 ET",
+  "generated_at": "2026-08-03 14:03 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100015.5,
+  "equity": 100070.18,
   "equity_unavailable": false,
   "equity_curve": [
-    {
-      "ts": 1782950400,
-      "equity": 100081.33
-    },
-    {
-      "ts": 1783036800,
-      "equity": 100245.45
-    },
     {
       "ts": 1783382400,
       "equity": 100262.05
@@ -87,17 +79,18 @@
     {
       "ts": 1785456000,
       "equity": 100096.75
+    },
+    {
+      "ts": 1785542400,
+      "equity": 100013.97
     }
   ],
   "decisions": {
-    "considered": 29,
+    "considered": 1,
     "traded": 1,
-    "dropped": 28,
+    "dropped": 0,
     "lines": [
-      "\u2705 XAR \u2014 L. Wallace Construction Co. Inc. \u2014 $450,000,000",
-      "\u2715 14\u00d7 unresolved company",
-      "\u2715 11\u00d7 duplicate",
-      "\u2715 3\u00d7 below threshold"
+      "\u2705 XAR \u2014 T-MOBILE SECURE FEDERAL OPERATIONS LLC \u2014 $64,214,113"
     ]
   },
   "alerts": [
@@ -111,64 +104,20 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 62916.05,
-      "unrealized_pct": -0.984
+      "current": 63866.1,
+      "unrealized_pct": 0.512
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1867.4,
-      "unrealized_pct": 4.491
-    },
-    {
-      "ticker": "NOC",
-      "qty": 3,
-      "entry": 535.0,
-      "current": 542.48,
-      "unrealized_pct": 1.398
-    },
-    {
-      "ticker": "SPY",
-      "qty": 1,
-      "entry": 747.3,
-      "current": 747.03,
-      "unrealized_pct": -0.036000000000000004
+      "current": 1870.1,
+      "unrealized_pct": 4.642
     }
   ],
   "positions_unavailable": false,
   "analyst": [],
   "sw_trades": [
-    {
-      "id": 4,
-      "symbol": "QQQ",
-      "qty": 1.0,
-      "entry_price": 684.67,
-      "tp_price": 694.94,
-      "stop_price": 677.82,
-      "entered_at": "2026-07-30 11:00:14",
-      "status": "closed",
-      "exit_price": 683.62,
-      "pnl_usd": -1.0499999999999545,
-      "exit_reason": "next-session exit",
-      "exited_at": "2026-07-31 11:12:06",
-      "broker_order_id": "3e9f0e02-b4fc-4d50-bcbd-b14b3f1b3260"
-    },
-    {
-      "id": 5,
-      "symbol": "SPY",
-      "qty": 1.0,
-      "entry_price": 741.24,
-      "tp_price": 752.36,
-      "stop_price": 733.83,
-      "entered_at": "2026-07-30 13:47:57",
-      "status": "closed",
-      "exit_price": 744.65,
-      "pnl_usd": 3.409999999999968,
-      "exit_reason": "next-session exit",
-      "exited_at": "2026-07-31 13:00:21",
-      "broker_order_id": "f2804022-98fb-4120-90c8-c65fc68f3a95"
-    },
     {
       "id": 6,
       "symbol": "SPY",
@@ -177,11 +126,11 @@
       "tp_price": 760.21,
       "stop_price": 741.49,
       "entered_at": "2026-07-31 15:59:38",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
+      "status": "closed",
+      "exit_price": 755.245,
+      "pnl_usd": 6.264999999999986,
+      "exit_reason": "next-session exit",
+      "exited_at": "2026-08-03 11:35:38",
       "broker_order_id": "dbe1b826-91a4-4b0b-86b5-9110bfacf9d4"
     }
   ]
