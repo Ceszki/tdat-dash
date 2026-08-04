@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-03 23:45 ET",
+  "generated_at": "2026-08-04 14:02 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100064.88,
+  "equity": 100082.72,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -83,18 +83,17 @@
     {
       "ts": 1785542400,
       "equity": 100013.97
+    },
+    {
+      "ts": 1785801600,
+      "equity": 100071.4
     }
   ],
   "decisions": {
-    "considered": 18,
-    "traded": 1,
-    "dropped": 17,
-    "lines": [
-      "\u2705 XAR \u2014 T-MOBILE SECURE FEDERAL OPERATIONS LLC \u2014 $64,214,113",
-      "\u2715 9\u00d7 unresolved company",
-      "\u2715 5\u00d7 duplicate",
-      "\u2715 3\u00d7 below threshold"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -107,34 +106,56 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 63784.8,
-      "unrealized_pct": 0.384
+      "current": 63910.2,
+      "unrealized_pct": 0.581
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1861.459,
-      "unrealized_pct": 4.159
+      "current": 1869.0,
+      "unrealized_pct": 4.5809999999999995
+    },
+    {
+      "ticker": "QQQ",
+      "qty": 1,
+      "entry": 717.44,
+      "current": 722.98,
+      "unrealized_pct": 0.772
     }
   ],
   "positions_unavailable": false,
   "analyst": [],
   "sw_trades": [
     {
-      "id": 6,
+      "id": 7,
       "symbol": "SPY",
       "qty": 1.0,
-      "entry_price": 748.98,
-      "tp_price": 760.21,
-      "stop_price": 741.49,
-      "entered_at": "2026-07-31 15:59:38",
+      "entry_price": 766.02,
+      "tp_price": 777.51,
+      "stop_price": 758.36,
+      "entered_at": "2026-08-04 11:14:35",
       "status": "closed",
-      "exit_price": 755.245,
-      "pnl_usd": 6.264999999999986,
-      "exit_reason": "next-session exit",
-      "exited_at": "2026-08-03 11:35:38",
-      "broker_order_id": "dbe1b826-91a4-4b0b-86b5-9110bfacf9d4"
+      "exit_price": 0.0,
+      "pnl_usd": 0.0,
+      "exit_reason": "reconciled: no live position",
+      "exited_at": "2026-08-04 13:10:18",
+      "broker_order_id": "3bc8e7f3-c94a-4e0d-8a25-2059cfa9b3b3"
+    },
+    {
+      "id": 8,
+      "symbol": "QQQ",
+      "qty": 1.0,
+      "entry_price": 717.44,
+      "tp_price": 728.2,
+      "stop_price": 710.27,
+      "entered_at": "2026-08-04 11:14:35",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "7543b5c9-b0fe-4ed8-826b-f038f3ae94f1"
     }
   ]
 }
