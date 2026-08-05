@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04 23:42 ET",
+  "generated_at": "2026-08-05 13:53 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100094.75,
+  "equity": 100155.18,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -87,18 +87,17 @@
     {
       "ts": 1785801600,
       "equity": 100071.4
+    },
+    {
+      "ts": 1785888000,
+      "equity": 100098.79
     }
   ],
   "decisions": {
-    "considered": 10,
-    "traded": 1,
-    "dropped": 9,
-    "lines": [
-      "\u2705 XAR \u2014 Chitra Productions LLC \u2014 $450,000,000",
-      "\u2715 5\u00d7 unresolved company",
-      "\u2715 3\u00d7 duplicate",
-      "\u2715 1\u00d7 below threshold"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -111,42 +110,20 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 64077.12,
-      "unrealized_pct": 0.844
+      "current": 64709.9,
+      "unrealized_pct": 1.8399999999999999
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1874.1,
-      "unrealized_pct": 4.8660000000000005
-    },
-    {
-      "ticker": "QQQ",
-      "qty": 1,
-      "entry": 717.44,
-      "current": 724.11,
-      "unrealized_pct": 0.9299999999999999
+      "current": 1911.934,
+      "unrealized_pct": 6.9830000000000005
     }
   ],
   "positions_unavailable": false,
   "analyst": [],
   "sw_trades": [
-    {
-      "id": 7,
-      "symbol": "SPY",
-      "qty": 1.0,
-      "entry_price": 766.02,
-      "tp_price": 777.51,
-      "stop_price": 758.36,
-      "entered_at": "2026-08-04 11:14:35",
-      "status": "closed",
-      "exit_price": 0.0,
-      "pnl_usd": 0.0,
-      "exit_reason": "reconciled: no live position",
-      "exited_at": "2026-08-04 13:10:18",
-      "broker_order_id": "3bc8e7f3-c94a-4e0d-8a25-2059cfa9b3b3"
-    },
     {
       "id": 8,
       "symbol": "QQQ",
@@ -155,11 +132,11 @@
       "tp_price": 728.2,
       "stop_price": 710.27,
       "entered_at": "2026-08-04 11:14:35",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
+      "status": "closed",
+      "exit_price": 722.58,
+      "pnl_usd": 5.139999999999986,
+      "exit_reason": "next-session exit",
+      "exited_at": "2026-08-05 11:06:09",
       "broker_order_id": "7543b5c9-b0fe-4ed8-826b-f038f3ae94f1"
     }
   ]
