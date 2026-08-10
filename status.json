@@ -1,21 +1,9 @@
 {
-  "generated_at": "2026-08-07 22:27 ET",
+  "generated_at": "2026-08-10 13:05 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100159.46,
+  "equity": 100082.0,
   "equity_unavailable": false,
   "equity_curve": [
-    {
-      "ts": 1783468800,
-      "equity": 100102.29
-    },
-    {
-      "ts": 1783555200,
-      "equity": 99936.81
-    },
-    {
-      "ts": 1783641600,
-      "equity": 100000.16
-    },
     {
       "ts": 1783728000,
       "equity": 100036.74
@@ -95,22 +83,22 @@
     {
       "ts": 1786060800,
       "equity": 100129.91
+    },
+    {
+      "ts": 1786147200,
+      "equity": 100160.23
     }
   ],
   "decisions": {
-    "considered": 10,
+    "considered": 0,
     "traded": 0,
-    "dropped": 10,
-    "lines": [
-      "\u2715 5\u00d7 priced in",
-      "\u2715 3\u00d7 unresolved company",
-      "\u2715 2\u00d7 below threshold"
-    ]
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
-      "level": "ok",
-      "message": "All clear"
+      "level": "warn",
+      "message": "No trades in 5 days"
     }
   ],
   "positions": [
@@ -118,22 +106,15 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 64893.055,
-      "unrealized_pct": 2.128
+      "current": 63785.572,
+      "unrealized_pct": 0.385
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1910.51,
-      "unrealized_pct": 6.903
-    },
-    {
-      "ticker": "SPY",
-      "qty": 1,
-      "entry": 773.11,
-      "current": 773.26,
-      "unrealized_pct": 0.019
+      "current": 1871.311,
+      "unrealized_pct": 4.71
     }
   ],
   "positions_unavailable": false,
@@ -147,11 +128,11 @@
       "tp_price": 786.36,
       "stop_price": 766.99,
       "entered_at": "2026-08-07 11:14:49",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
+      "status": "closed",
+      "exit_price": 774.14,
+      "pnl_usd": -0.6000000000000227,
+      "exit_reason": "next-session exit",
+      "exited_at": "2026-08-10 10:10:56",
       "broker_order_id": "1933a026-9592-4170-a11a-7509c8f390da"
     }
   ]
