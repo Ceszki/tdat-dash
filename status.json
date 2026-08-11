@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-11 13:10 ET",
+  "generated_at": "2026-08-11 18:09 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100062.13,
+  "equity": 100091.95,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -90,15 +90,20 @@
     }
   ],
   "decisions": {
-    "considered": 0,
-    "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "considered": 12,
+    "traded": 1,
+    "dropped": 11,
+    "lines": [
+      "\u2705 XAR \u2014 Torch Technologies Inc. \u2014 $992,350,357",
+      "\u2715 5\u00d7 unresolved company",
+      "\u2715 4\u00d7 duplicate",
+      "\u2715 2\u00d7 below threshold"
+    ]
   },
   "alerts": [
     {
-      "level": "warn",
-      "message": "No trades in 5 days"
+      "level": "ok",
+      "message": "All clear"
     }
   ],
   "positions": [
@@ -106,15 +111,15 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 63440.8,
-      "unrealized_pct": -0.158
+      "current": 63661.55,
+      "unrealized_pct": 0.19
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1863.2,
-      "unrealized_pct": 4.256
+      "current": 1883.8,
+      "unrealized_pct": 5.409
     }
   ],
   "positions_unavailable": false,
