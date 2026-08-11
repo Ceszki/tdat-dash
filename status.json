@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-08-10 22:33 ET",
+  "generated_at": "2026-08-11 13:10 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100090.53,
+  "equity": 100062.13,
   "equity_unavailable": false,
   "equity_curve": [
-    {
-      "ts": 1783728000,
-      "equity": 100036.74
-    },
     {
       "ts": 1783987200,
       "equity": 99929.05
@@ -87,18 +83,17 @@
     {
       "ts": 1786147200,
       "equity": 100160.23
+    },
+    {
+      "ts": 1786406400,
+      "equity": 100096.67
     }
   ],
   "decisions": {
-    "considered": 20,
+    "considered": 0,
     "traded": 0,
-    "dropped": 20,
-    "lines": [
-      "\u2715 13\u00d7 unresolved company",
-      "\u2715 4\u00d7 priced in",
-      "\u2715 2\u00d7 below threshold",
-      "\u2715 1\u00d7 negative sentiment"
-    ]
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -111,34 +106,18 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 63949.38,
-      "unrealized_pct": 0.643
+      "current": 63440.8,
+      "unrealized_pct": -0.158
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1874.355,
-      "unrealized_pct": 4.88
+      "current": 1863.2,
+      "unrealized_pct": 4.256
     }
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [
-    {
-      "id": 9,
-      "symbol": "SPY",
-      "qty": 1.0,
-      "entry_price": 774.74,
-      "tp_price": 786.36,
-      "stop_price": 766.99,
-      "entered_at": "2026-08-07 11:14:49",
-      "status": "closed",
-      "exit_price": 774.14,
-      "pnl_usd": -0.6000000000000227,
-      "exit_reason": "next-session exit",
-      "exited_at": "2026-08-10 10:10:56",
-      "broker_order_id": "1933a026-9592-4170-a11a-7509c8f390da"
-    }
-  ]
+  "sw_trades": []
 }
