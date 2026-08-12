@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-11 23:01 ET",
+  "generated_at": "2026-08-12 13:09 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100091.2,
+  "equity": 100092.45,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -87,18 +87,17 @@
     {
       "ts": 1786406400,
       "equity": 100096.67
+    },
+    {
+      "ts": 1786492800,
+      "equity": 100097.42
     }
   ],
   "decisions": {
-    "considered": 12,
-    "traded": 1,
-    "dropped": 11,
-    "lines": [
-      "\u2705 XAR \u2014 Torch Technologies Inc. \u2014 $992,350,357",
-      "\u2715 5\u00d7 unresolved company",
-      "\u2715 4\u00d7 duplicate",
-      "\u2715 2\u00d7 below threshold"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -111,18 +110,63 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 63701.6,
-      "unrealized_pct": 0.253
+      "current": 63458.26,
+      "unrealized_pct": -0.13
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1882.0,
-      "unrealized_pct": 5.308
+      "current": 1889.7,
+      "unrealized_pct": 5.739
+    },
+    {
+      "ticker": "QQQ",
+      "qty": 1,
+      "entry": 725.37,
+      "current": 725.15,
+      "unrealized_pct": -0.03
+    },
+    {
+      "ticker": "SPY",
+      "qty": 1,
+      "entry": 772.52,
+      "current": 773.07,
+      "unrealized_pct": 0.07100000000000001
     }
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": []
+  "sw_trades": [
+    {
+      "id": 10,
+      "symbol": "SPY",
+      "qty": 1.0,
+      "entry_price": 776.25,
+      "tp_price": 787.89,
+      "stop_price": 768.49,
+      "entered_at": "2026-08-12 10:11:55",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "4a88596a-d45e-45ff-88b2-e77b4e3e28aa"
+    },
+    {
+      "id": 11,
+      "symbol": "QQQ",
+      "qty": 1.0,
+      "entry_price": 728.53,
+      "tp_price": 739.46,
+      "stop_price": 721.24,
+      "entered_at": "2026-08-12 10:11:58",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "89cab87c-60e0-4b7a-a4aa-c4b31c490f3b"
+    }
+  ]
 }
