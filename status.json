@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-12 13:09 ET",
+  "generated_at": "2026-08-12 18:07 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100092.45,
+  "equity": 100074.42,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -94,10 +94,15 @@
     }
   ],
   "decisions": {
-    "considered": 0,
-    "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "considered": 13,
+    "traded": 1,
+    "dropped": 12,
+    "lines": [
+      "\u2705 XAR \u2014 Cayuse Native Hawaiian Veterans LLC \u2014 $249,000,000",
+      "\u2715 7\u00d7 unresolved company",
+      "\u2715 4\u00d7 duplicate",
+      "\u2715 1\u00d7 priced in"
+    ]
   },
   "alerts": [
     {
@@ -110,29 +115,29 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 63458.26,
-      "unrealized_pct": -0.13
+      "current": 63440.2,
+      "unrealized_pct": -0.159
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1889.7,
-      "unrealized_pct": 5.739
+      "current": 1876.4,
+      "unrealized_pct": 4.995
     },
     {
       "ticker": "QQQ",
       "qty": 1,
       "entry": 725.37,
-      "current": 725.15,
-      "unrealized_pct": -0.03
+      "current": 722.9,
+      "unrealized_pct": -0.34099999999999997
     },
     {
       "ticker": "SPY",
       "qty": 1,
       "entry": 772.52,
-      "current": 773.07,
-      "unrealized_pct": 0.07100000000000001
+      "current": 772.63,
+      "unrealized_pct": 0.013999999999999999
     }
   ],
   "positions_unavailable": false,
