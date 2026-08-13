@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-12 23:05 ET",
+  "generated_at": "2026-08-13 13:10 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100078.21,
+  "equity": 100072.02,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -91,18 +91,17 @@
     {
       "ts": 1786492800,
       "equity": 100097.42
+    },
+    {
+      "ts": 1786579200,
+      "equity": 100078.75
     }
   ],
   "decisions": {
-    "considered": 13,
-    "traded": 1,
-    "dropped": 12,
-    "lines": [
-      "\u2705 XAR \u2014 Cayuse Native Hawaiian Veterans LLC \u2014 $249,000,000",
-      "\u2715 7\u00d7 unresolved company",
-      "\u2715 4\u00d7 duplicate",
-      "\u2715 1\u00d7 priced in"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -115,29 +114,15 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 63455.349,
-      "unrealized_pct": -0.135
+      "current": 63000.254,
+      "unrealized_pct": -0.851
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1879.5,
-      "unrealized_pct": 5.167999999999999
-    },
-    {
-      "ticker": "QQQ",
-      "qty": 1,
-      "entry": 725.37,
-      "current": 722.58,
-      "unrealized_pct": -0.385
-    },
-    {
-      "ticker": "SPY",
-      "qty": 1,
-      "entry": 772.52,
-      "current": 772.82,
-      "unrealized_pct": 0.039
+      "current": 1872.96,
+      "unrealized_pct": 4.802
     }
   ],
   "positions_unavailable": false,
@@ -151,11 +136,11 @@
       "tp_price": 787.89,
       "stop_price": 768.49,
       "entered_at": "2026-08-12 10:11:55",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
+      "status": "closed",
+      "exit_price": 778.44,
+      "pnl_usd": 2.1900000000000546,
+      "exit_reason": "next-session exit",
+      "exited_at": "2026-08-13 10:13:16",
       "broker_order_id": "4a88596a-d45e-45ff-88b2-e77b4e3e28aa"
     },
     {
@@ -166,11 +151,11 @@
       "tp_price": 739.46,
       "stop_price": 721.24,
       "entered_at": "2026-08-12 10:11:58",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
+      "status": "closed",
+      "exit_price": 732.27,
+      "pnl_usd": 3.740000000000009,
+      "exit_reason": "next-session exit",
+      "exited_at": "2026-08-13 10:13:16",
       "broker_order_id": "89cab87c-60e0-4b7a-a4aa-c4b31c490f3b"
     }
   ]
