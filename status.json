@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13 13:10 ET",
+  "generated_at": "2026-08-13 18:07 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100072.02,
+  "equity": 100101.49,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -98,10 +98,15 @@
     }
   ],
   "decisions": {
-    "considered": 0,
-    "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "considered": 9,
+    "traded": 1,
+    "dropped": 8,
+    "lines": [
+      "\u2705 XAR \u2014 Integrity Technologies Corp. \u2014 $65,000,000,000",
+      "\u2715 4\u00d7 duplicate",
+      "\u2715 3\u00d7 unresolved company",
+      "\u2715 1\u00d7 below threshold"
+    ]
   },
   "alerts": [
     {
@@ -114,15 +119,15 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 63000.254,
-      "unrealized_pct": -0.851
+      "current": 63417.1,
+      "unrealized_pct": -0.19499999999999998
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1872.96,
-      "unrealized_pct": 4.802
+      "current": 1887.7,
+      "unrealized_pct": 5.627
     }
   ],
   "positions_unavailable": false,
