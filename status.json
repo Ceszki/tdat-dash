@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-08-13 23:04 ET",
+  "generated_at": "2026-08-14 13:07 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100095.22,
+  "equity": 100083.55,
   "equity_unavailable": false,
   "equity_curve": [
-    {
-      "ts": 1783987200,
-      "equity": 99929.05
-    },
     {
       "ts": 1784073600,
       "equity": 100041.71
@@ -95,18 +91,17 @@
     {
       "ts": 1786579200,
       "equity": 100078.75
+    },
+    {
+      "ts": 1786665600,
+      "equity": 100103.16
     }
   ],
   "decisions": {
-    "considered": 9,
-    "traded": 1,
-    "dropped": 8,
-    "lines": [
-      "\u2705 XAR \u2014 Integrity Technologies Corp. \u2014 $65,000,000,000",
-      "\u2715 4\u00d7 duplicate",
-      "\u2715 3\u00d7 unresolved company",
-      "\u2715 1\u00d7 below threshold"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -119,49 +114,18 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 63401.6,
-      "unrealized_pct": -0.219
+      "current": 63069.77,
+      "unrealized_pct": -0.742
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1882.5,
-      "unrealized_pct": 5.335999999999999
+      "current": 1881.42,
+      "unrealized_pct": 5.2749999999999995
     }
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [
-    {
-      "id": 10,
-      "symbol": "SPY",
-      "qty": 1.0,
-      "entry_price": 776.25,
-      "tp_price": 787.89,
-      "stop_price": 768.49,
-      "entered_at": "2026-08-12 10:11:55",
-      "status": "closed",
-      "exit_price": 778.44,
-      "pnl_usd": 2.1900000000000546,
-      "exit_reason": "next-session exit",
-      "exited_at": "2026-08-13 10:13:16",
-      "broker_order_id": "4a88596a-d45e-45ff-88b2-e77b4e3e28aa"
-    },
-    {
-      "id": 11,
-      "symbol": "QQQ",
-      "qty": 1.0,
-      "entry_price": 728.53,
-      "tp_price": 739.46,
-      "stop_price": 721.24,
-      "entered_at": "2026-08-12 10:11:58",
-      "status": "closed",
-      "exit_price": 732.27,
-      "pnl_usd": 3.740000000000009,
-      "exit_reason": "next-session exit",
-      "exited_at": "2026-08-13 10:13:16",
-      "broker_order_id": "89cab87c-60e0-4b7a-a4aa-c4b31c490f3b"
-    }
-  ]
+  "sw_trades": []
 }
