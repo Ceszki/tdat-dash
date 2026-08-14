@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14 13:07 ET",
+  "generated_at": "2026-08-14 17:45 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100083.55,
+  "equity": 100069.78,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -98,10 +98,16 @@
     }
   ],
   "decisions": {
-    "considered": 0,
-    "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "considered": 13,
+    "traded": 2,
+    "dropped": 11,
+    "lines": [
+      "\u2705 XAR \u2014 M1 Support Services L.P. \u2014 $10,000,000,000",
+      "\u2705 BA \u2014 The Boeing Co. \u2014 $1,128,815,031",
+      "\u2715 5\u00d7 duplicate",
+      "\u2715 4\u00d7 unresolved company",
+      "\u2715 2\u00d7 below threshold"
+    ]
   },
   "alerts": [
     {
@@ -111,18 +117,32 @@
   ],
   "positions": [
     {
+      "ticker": "BA",
+      "qty": 8,
+      "entry": 231.88,
+      "current": 231.5,
+      "unrealized_pct": -0.164
+    },
+    {
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 63069.77,
-      "unrealized_pct": -0.742
+      "current": 62822.34,
+      "unrealized_pct": -1.131
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1881.42,
-      "unrealized_pct": 5.2749999999999995
+      "current": 1878.76,
+      "unrealized_pct": 5.127000000000001
+    },
+    {
+      "ticker": "XAR",
+      "qty": 6,
+      "entry": 296.7,
+      "current": 296.7,
+      "unrealized_pct": 0.0
     }
   ],
   "positions_unavailable": false,
