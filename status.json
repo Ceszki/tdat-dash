@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17 17:45 ET",
+  "generated_at": "2026-08-17 21:56 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100130.81,
+  "equity": 100116.63,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -112,15 +112,15 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 64328.6,
-      "unrealized_pct": 1.239
+      "current": 64155.357,
+      "unrealized_pct": 0.967
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1905.27,
-      "unrealized_pct": 6.61
+      "current": 1897.4,
+      "unrealized_pct": 6.17
     }
   ],
   "positions_unavailable": false,
