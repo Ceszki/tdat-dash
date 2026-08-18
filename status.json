@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-08-17 21:56 ET",
+  "generated_at": "2026-08-18 12:46 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100116.63,
+  "equity": 100154.57,
   "equity_unavailable": false,
   "equity_curve": [
-    {
-      "ts": 1784332800,
-      "equity": 99972.69
-    },
     {
       "ts": 1784592000,
       "equity": 100109.18
@@ -87,19 +83,17 @@
     {
       "ts": 1786752000,
       "equity": 100081.66
+    },
+    {
+      "ts": 1787011200,
+      "equity": 100115.2
     }
   ],
   "decisions": {
-    "considered": 19,
-    "traded": 1,
-    "dropped": 18,
-    "lines": [
-      "\u2705 XAR \u2014 Aero Specialties \u2014 $920,000,000",
-      "\u2715 10\u00d7 unresolved company",
-      "\u2715 4\u00d7 duplicate",
-      "\u2715 3\u00d7 below threshold",
-      "\u2715 1\u00d7 negative sentiment"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -112,15 +106,15 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 64155.357,
-      "unrealized_pct": 0.967
+      "current": 64797.748,
+      "unrealized_pct": 1.978
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1897.4,
-      "unrealized_pct": 6.17
+      "current": 1913.493,
+      "unrealized_pct": 7.07
     }
   ],
   "positions_unavailable": false,
