@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-19 12:44 ET",
+  "generated_at": "2026-08-19 17:45 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100455.23,
+  "equity": 100693.04,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -94,10 +94,16 @@
     }
   ],
   "decisions": {
-    "considered": 0,
-    "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "considered": 20,
+    "traded": 1,
+    "dropped": 19,
+    "lines": [
+      "\u2705 XAR \u2014 Amee Bay LLC \u2014 $112,833,317",
+      "\u2715 11\u00d7 unresolved company",
+      "\u2715 5\u00d7 duplicate",
+      "\u2715 2\u00d7 negative sentiment",
+      "\u2715 1\u00d7 below threshold"
+    ]
   },
   "alerts": [
     {
@@ -110,29 +116,29 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 68555.6,
-      "unrealized_pct": 7.892
+      "current": 69637.8,
+      "unrealized_pct": 9.594999999999999
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 2089.825,
-      "unrealized_pct": 16.936999999999998
+      "current": 2278.32,
+      "unrealized_pct": 27.483999999999998
     },
     {
       "ticker": "QQQ",
       "qty": 2,
       "entry": 719.83,
-      "current": 718.33,
-      "unrealized_pct": -0.208
+      "current": 716.97,
+      "unrealized_pct": -0.39699999999999996
     },
     {
       "ticker": "SPY",
       "qty": 2,
       "entry": 770.04,
-      "current": 770.49,
-      "unrealized_pct": 0.058
+      "current": 769.06,
+      "unrealized_pct": -0.127
     }
   ],
   "positions_unavailable": false,
