@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18 21:58 ET",
+  "generated_at": "2026-08-19 12:44 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100142.47,
+  "equity": 100455.23,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -87,18 +87,17 @@
     {
       "ts": 1787011200,
       "equity": 100115.2
+    },
+    {
+      "ts": 1787097600,
+      "equity": 100139.54
     }
   ],
   "decisions": {
-    "considered": 10,
-    "traded": 1,
-    "dropped": 9,
-    "lines": [
-      "\u2705 XAR \u2014 ADRS LLC \u2014 $249,000,000",
-      "\u2715 4\u00d7 duplicate",
-      "\u2715 3\u00d7 unresolved company",
-      "\u2715 2\u00d7 below threshold"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -111,26 +110,64 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 64400.34,
-      "unrealized_pct": 1.352
+      "current": 68555.6,
+      "unrealized_pct": 7.892
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 1913.827,
-      "unrealized_pct": 7.0889999999999995
+      "current": 2089.825,
+      "unrealized_pct": 16.936999999999998
     },
     {
-      "ticker": "XAR",
-      "qty": 6,
-      "entry": 290.43,
-      "current": 290.43,
-      "unrealized_pct": 0.0
+      "ticker": "QQQ",
+      "qty": 2,
+      "entry": 719.83,
+      "current": 718.33,
+      "unrealized_pct": -0.208
+    },
+    {
+      "ticker": "SPY",
+      "qty": 2,
+      "entry": 770.04,
+      "current": 770.49,
+      "unrealized_pct": 0.058
     }
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [],
+  "sw_trades": [
+    {
+      "id": 12,
+      "symbol": "SPY",
+      "qty": 2.0,
+      "entry_price": 772.4,
+      "tp_price": 783.99,
+      "stop_price": 764.68,
+      "entered_at": "2026-08-19 09:35:19",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "88455dde-9937-487f-9661-cb195a1b5faa"
+    },
+    {
+      "id": 13,
+      "symbol": "QQQ",
+      "qty": 2.0,
+      "entry_price": 722.98,
+      "tp_price": 733.82,
+      "stop_price": 715.75,
+      "entered_at": "2026-08-19 09:35:20",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "4b8e18c0-6a13-473a-99b0-b4c33cef4f65"
+    }
+  ],
   "kalshi_trades": []
 }
