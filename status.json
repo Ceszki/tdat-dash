@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20 12:49 ET",
+  "generated_at": "2026-08-20 17:48 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100847.94,
+  "equity": 100824.94,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -98,10 +98,15 @@
     }
   ],
   "decisions": {
-    "considered": 0,
-    "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "considered": 28,
+    "traded": 1,
+    "dropped": 27,
+    "lines": [
+      "\u2705 XAR \u2014 Federal Express Corp. (FedEx) \u2014 $5,722,431,343",
+      "\u2715 12\u00d7 unresolved company",
+      "\u2715 11\u00d7 duplicate",
+      "\u2715 4\u00d7 below threshold"
+    ]
   },
   "alerts": [
     {
@@ -114,15 +119,15 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 72510.536,
-      "unrealized_pct": 14.116000000000001
+      "current": 72688.465,
+      "unrealized_pct": 14.396
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 2344.27,
-      "unrealized_pct": 31.174000000000003
+      "current": 2318.544,
+      "unrealized_pct": 29.735
     }
   ],
   "positions_unavailable": false,
