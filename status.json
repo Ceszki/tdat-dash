@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-08-20 22:04 ET",
+  "generated_at": "2026-08-21 12:49 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100926.37,
+  "equity": 101062.88,
   "equity_unavailable": false,
   "equity_curve": [
-    {
-      "ts": 1784592000,
-      "equity": 100109.18
-    },
     {
       "ts": 1784678400,
       "equity": 100174.34
@@ -95,18 +91,17 @@
     {
       "ts": 1787184000,
       "equity": 100676.92
+    },
+    {
+      "ts": 1787270400,
+      "equity": 100945.6
     }
   ],
   "decisions": {
-    "considered": 28,
-    "traded": 1,
-    "dropped": 27,
-    "lines": [
-      "\u2705 XAR \u2014 Federal Express Corp. (FedEx) \u2014 $5,722,431,343",
-      "\u2715 12\u00d7 unresolved company",
-      "\u2715 11\u00d7 duplicate",
-      "\u2715 4\u00d7 below threshold"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -119,49 +114,41 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 74993.2,
-      "unrealized_pct": 18.023
+      "current": 77366.463,
+      "unrealized_pct": 21.758
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 2344.72,
-      "unrealized_pct": 31.2
+      "current": 2400.69,
+      "unrealized_pct": 34.331
+    },
+    {
+      "ticker": "SPY",
+      "qty": 2,
+      "entry": 766.26,
+      "current": 766.22,
+      "unrealized_pct": -0.005
     }
   ],
   "positions_unavailable": false,
   "analyst": [],
   "sw_trades": [
     {
-      "id": 12,
+      "id": 14,
       "symbol": "SPY",
       "qty": 2.0,
-      "entry_price": 772.4,
-      "tp_price": 783.99,
-      "stop_price": 764.68,
-      "entered_at": "2026-08-19 09:35:19",
-      "status": "closed",
-      "exit_price": 767.41,
-      "pnl_usd": -9.980000000000018,
-      "exit_reason": "next-session exit",
-      "exited_at": "2026-08-20 09:37:12",
-      "broker_order_id": "88455dde-9937-487f-9661-cb195a1b5faa"
-    },
-    {
-      "id": 13,
-      "symbol": "QQQ",
-      "qty": 2.0,
-      "entry_price": 722.98,
-      "tp_price": 733.82,
-      "stop_price": 715.75,
-      "entered_at": "2026-08-19 09:35:20",
-      "status": "closed",
-      "exit_price": 714.29,
-      "pnl_usd": -17.38000000000011,
-      "exit_reason": "next-session exit",
-      "exited_at": "2026-08-20 09:37:12",
-      "broker_order_id": "4b8e18c0-6a13-473a-99b0-b4c33cef4f65"
+      "entry_price": 768.73,
+      "tp_price": 780.26,
+      "stop_price": 761.04,
+      "entered_at": "2026-08-21 12:18:29",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "f8f795f2-6d9f-42b4-a998-36d9ce5e8886"
     }
   ],
   "kalshi_trades": []
