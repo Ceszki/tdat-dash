@@ -1,21 +1,9 @@
 {
-  "generated_at": "2026-08-21 21:56 ET",
+  "generated_at": "2026-08-24 12:53 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 101203.61,
+  "equity": 101214.76,
   "equity_unavailable": false,
   "equity_curve": [
-    {
-      "ts": 1784678400,
-      "equity": 100174.34
-    },
-    {
-      "ts": 1784764800,
-      "equity": 100148.61
-    },
-    {
-      "ts": 1784851200,
-      "equity": 100055.5
-    },
     {
       "ts": 1784937600,
       "equity": 100003.76
@@ -95,18 +83,17 @@
     {
       "ts": 1787270400,
       "equity": 100945.6
+    },
+    {
+      "ts": 1787356800,
+      "equity": 101210.45
     }
   ],
   "decisions": {
-    "considered": 13,
-    "traded": 1,
-    "dropped": 12,
-    "lines": [
-      "\u2705 XAR \u2014 American Roll-On Roll-Off Carrier LLC \u2014 $2,700,000,000",
-      "\u2715 8\u00d7 unresolved company",
-      "\u2715 3\u00d7 duplicate",
-      "\u2715 1\u00d7 below threshold"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -119,22 +106,15 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 77847.8,
-      "unrealized_pct": 22.516
+      "current": 79162.797,
+      "unrealized_pct": 24.585
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 2514.663,
-      "unrealized_pct": 40.709
-    },
-    {
-      "ticker": "SPY",
-      "qty": 2,
-      "entry": 766.26,
-      "current": 765.72,
-      "unrealized_pct": -0.06999999999999999
+      "current": 2491.58,
+      "unrealized_pct": 39.417
     }
   ],
   "positions_unavailable": false,
@@ -148,11 +128,11 @@
       "tp_price": 780.26,
       "stop_price": 761.04,
       "entered_at": "2026-08-21 12:18:29",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
+      "status": "closed",
+      "exit_price": 763.52,
+      "pnl_usd": -10.420000000000073,
+      "exit_reason": "next-session exit",
+      "exited_at": "2026-08-24 09:40:51",
       "broker_order_id": "f8f795f2-6d9f-42b4-a998-36d9ce5e8886"
     }
   ],
