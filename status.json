@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24 12:53 ET",
+  "generated_at": "2026-08-24 17:48 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 101214.76,
+  "equity": 101200.56,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -90,10 +90,16 @@
     }
   ],
   "decisions": {
-    "considered": 0,
-    "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "considered": 12,
+    "traded": 2,
+    "dropped": 10,
+    "lines": [
+      "\u2705 BA \u2014 The Boeing Co. \u2014 $131,230,000,000",
+      "\u2705 XAR \u2014 Hardwire LLC \u2014 $99,000,000",
+      "\u2715 5\u00d7 unresolved company",
+      "\u2715 4\u00d7 duplicate",
+      "\u2715 1\u00d7 below threshold"
+    ]
   },
   "alerts": [
     {
@@ -106,15 +112,15 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 79162.797,
-      "unrealized_pct": 24.585
+      "current": 78980.9,
+      "unrealized_pct": 24.299
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 2491.58,
-      "unrealized_pct": 39.417
+      "current": 2483.94,
+      "unrealized_pct": 38.99
     }
   ],
   "positions_unavailable": false,
