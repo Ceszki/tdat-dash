@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25 12:52 ET",
+  "generated_at": "2026-08-25 17:48 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 101201.91,
+  "equity": 101132.67,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -90,10 +90,15 @@
     }
   ],
   "decisions": {
-    "considered": 0,
-    "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "considered": 17,
+    "traded": 2,
+    "dropped": 15,
+    "lines": [
+      "\u2705 RTX \u2014 Raytheon \u2014 $603,000,000",
+      "\u2705 XAR \u2014 Northrop Grumman Systems Corp. \u2014 $495,375,991",
+      "\u2715 8\u00d7 duplicate",
+      "\u2715 7\u00d7 unresolved company"
+    ]
   },
   "alerts": [
     {
@@ -106,15 +111,22 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 79289.0,
-      "unrealized_pct": 24.784
+      "current": 78528.87,
+      "unrealized_pct": 23.588
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 2476.505,
-      "unrealized_pct": 38.574000000000005
+      "current": 2440.954,
+      "unrealized_pct": 36.584
+    },
+    {
+      "ticker": "RTX",
+      "qty": 14,
+      "entry": 210.7,
+      "current": 210.28,
+      "unrealized_pct": -0.199
     }
   ],
   "positions_unavailable": false,
