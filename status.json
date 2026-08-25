@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-08-24 21:58 ET",
+  "generated_at": "2026-08-25 12:52 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 101234.65,
+  "equity": 101201.91,
   "equity_unavailable": false,
   "equity_curve": [
-    {
-      "ts": 1784937600,
-      "equity": 100003.76
-    },
     {
       "ts": 1785196800,
       "equity": 100019.49
@@ -87,19 +83,17 @@
     {
       "ts": 1787356800,
       "equity": 101210.45
+    },
+    {
+      "ts": 1787616000,
+      "equity": 101236.48
     }
   ],
   "decisions": {
-    "considered": 12,
-    "traded": 2,
-    "dropped": 10,
-    "lines": [
-      "\u2705 BA \u2014 The Boeing Co. \u2014 $131,230,000,000",
-      "\u2705 XAR \u2014 Hardwire LLC \u2014 $99,000,000",
-      "\u2715 5\u00d7 unresolved company",
-      "\u2715 4\u00d7 duplicate",
-      "\u2715 1\u00d7 below threshold"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -112,35 +106,19 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 79707.364,
-      "unrealized_pct": 25.441999999999997
+      "current": 79289.0,
+      "unrealized_pct": 24.784
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 2494.1,
-      "unrealized_pct": 39.558
+      "current": 2476.505,
+      "unrealized_pct": 38.574000000000005
     }
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [
-    {
-      "id": 14,
-      "symbol": "SPY",
-      "qty": 2.0,
-      "entry_price": 768.73,
-      "tp_price": 780.26,
-      "stop_price": 761.04,
-      "entered_at": "2026-08-21 12:18:29",
-      "status": "closed",
-      "exit_price": 763.52,
-      "pnl_usd": -10.420000000000073,
-      "exit_reason": "next-session exit",
-      "exited_at": "2026-08-24 09:40:51",
-      "broker_order_id": "f8f795f2-6d9f-42b4-a998-36d9ce5e8886"
-    }
-  ],
+  "sw_trades": [],
   "kalshi_trades": []
 }
