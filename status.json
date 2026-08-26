@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25 22:04 ET",
+  "generated_at": "2026-08-26 12:57 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 101163.68,
+  "equity": 101158.76,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -87,18 +87,17 @@
     {
       "ts": 1787616000,
       "equity": 101236.48
+    },
+    {
+      "ts": 1787702400,
+      "equity": 101154.49
     }
   ],
   "decisions": {
-    "considered": 17,
-    "traded": 2,
-    "dropped": 15,
-    "lines": [
-      "\u2705 RTX \u2014 Raytheon \u2014 $603,000,000",
-      "\u2705 XAR \u2014 Northrop Grumman Systems Corp. \u2014 $495,375,991",
-      "\u2715 8\u00d7 duplicate",
-      "\u2715 7\u00d7 unresolved company"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -111,33 +110,42 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 78878.0,
-      "unrealized_pct": 24.137
+      "current": 77985.13,
+      "unrealized_pct": 22.732
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 2459.2,
-      "unrealized_pct": 37.605
+      "current": 2449.0,
+      "unrealized_pct": 37.035000000000004
     },
     {
-      "ticker": "RTX",
-      "qty": 14,
-      "entry": 210.7,
-      "current": 210.5,
-      "unrealized_pct": -0.095
-    },
-    {
-      "ticker": "XAR",
-      "qty": 11,
-      "entry": 265.15,
-      "current": 264.85,
-      "unrealized_pct": -0.11299999999999999
+      "ticker": "SPY",
+      "qty": 2,
+      "entry": 765.08,
+      "current": 764.62,
+      "unrealized_pct": -0.06
     }
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [],
+  "sw_trades": [
+    {
+      "id": 15,
+      "symbol": "SPY",
+      "qty": 2.0,
+      "entry_price": 768.42,
+      "tp_price": 779.95,
+      "stop_price": 760.74,
+      "entered_at": "2026-08-26 10:33:10",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "945c8e81-ba23-4f43-93b8-a28b484fe54a"
+    }
+  ],
   "kalshi_trades": []
 }
