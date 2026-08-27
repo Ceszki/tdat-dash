@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26 12:57 ET",
+  "generated_at": "2026-08-26 20:52 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 101158.76,
+  "equity": 101246.45,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -94,10 +94,15 @@
     }
   ],
   "decisions": {
-    "considered": 0,
-    "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "considered": 11,
+    "traded": 1,
+    "dropped": 10,
+    "lines": [
+      "\u2705 XAR \u2014 DATAMINR \u2014 $317,806,746",
+      "\u2715 8\u00d7 unresolved company",
+      "\u2715 1\u00d7 duplicate",
+      "\u2715 1\u00d7 below threshold"
+    ]
   },
   "alerts": [
     {
@@ -110,22 +115,22 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 77985.13,
-      "unrealized_pct": 22.732
+      "current": 78831.941,
+      "unrealized_pct": 24.065
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 2449.0,
-      "unrealized_pct": 37.035000000000004
+      "current": 2496.98,
+      "unrealized_pct": 39.719
     },
     {
       "ticker": "SPY",
       "qty": 2,
       "entry": 765.08,
-      "current": 764.62,
-      "unrealized_pct": -0.06
+      "current": 768.52,
+      "unrealized_pct": 0.44999999999999996
     }
   ],
   "positions_unavailable": false,
