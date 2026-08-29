@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-08-28 07:33 ET",
+  "generated_at": "2026-08-28 20:35 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 101311.91,
+  "equity": 101136.25,
   "equity_unavailable": false,
   "equity_curve": [
-    {
-      "ts": 1785196800,
-      "equity": 100019.49
-    },
     {
       "ts": 1785283200,
       "equity": 100066.35
@@ -102,10 +98,15 @@
     }
   ],
   "decisions": {
-    "considered": 0,
-    "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "considered": 17,
+    "traded": 1,
+    "dropped": 16,
+    "lines": [
+      "\u2705 XAR \u2014 Symetrics Industries LLC \u2014 $147,310,777",
+      "\u2715 12\u00d7 unresolved company",
+      "\u2715 2\u00d7 below threshold",
+      "\u2715 2\u00d7 duplicate"
+    ]
   },
   "alerts": [
     {
@@ -118,22 +119,15 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 79682.24,
-      "unrealized_pct": 25.403
+      "current": 77795.649,
+      "unrealized_pct": 22.434
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 2505.525,
-      "unrealized_pct": 40.197
-    },
-    {
-      "ticker": "XAR",
-      "qty": 11,
-      "entry": 267.13,
-      "current": 269.49,
-      "unrealized_pct": 0.8829999999999999
+      "current": 2442.7,
+      "unrealized_pct": 36.681999999999995
     }
   ],
   "positions_unavailable": false,
