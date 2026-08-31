@@ -1,21 +1,9 @@
 {
-  "generated_at": "2026-08-29 03:12 ET",
+  "generated_at": "2026-08-31 17:29 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 101117.43,
+  "equity": 101144.3,
   "equity_unavailable": false,
   "equity_curve": [
-    {
-      "ts": 1785283200,
-      "equity": 100066.35
-    },
-    {
-      "ts": 1785369600,
-      "equity": 100199.88
-    },
-    {
-      "ts": 1785456000,
-      "equity": 100096.75
-    },
     {
       "ts": 1785542400,
       "equity": 100013.97
@@ -95,13 +83,22 @@
     {
       "ts": 1787875200,
       "equity": 101305.5
+    },
+    {
+      "ts": 1787961600,
+      "equity": 101138.42
     }
   ],
   "decisions": {
-    "considered": 0,
-    "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "considered": 20,
+    "traded": 1,
+    "dropped": 19,
+    "lines": [
+      "\u2705 XAR \u2014 Action Manufacturing Co. \u2014 $712,480,000",
+      "\u2715 8\u00d7 duplicate",
+      "\u2715 6\u00d7 below threshold",
+      "\u2715 5\u00d7 unresolved company"
+    ]
   },
   "alerts": [
     {
@@ -114,15 +111,15 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 77451.2,
-      "unrealized_pct": 21.892
+      "current": 78947.43,
+      "unrealized_pct": 24.246000000000002
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 2435.5,
-      "unrealized_pct": 36.279
+      "current": 2476.1,
+      "unrealized_pct": 38.551
     }
   ],
   "positions_unavailable": false,
