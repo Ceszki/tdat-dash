@@ -1,38 +1,215 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
-<title>TDAT status</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TDAT · Kalshi Terminal</title>
 <style>
- body{background:#0e1016;color:#e6e6e6;font-family:ui-monospace,Menlo,monospace;margin:0;padding:22px}
- .wrap{max-width:780px;margin:0 auto}
- .head-strip{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid #232834;padding-bottom:12px;margin-bottom:16px}
- .title{font-size:20px;font-weight:700} .title span{color:#7aa2f7}
- .meta{font-size:11px;color:#8b95a5}
- .card{background:#151922;border:1px solid #232834;border-radius:8px;padding:13px;margin-bottom:12px}
- .card h3{font-size:12px;margin:0 0 9px;color:#c0caf5}
- .row{font-size:12px;margin-bottom:4px}
- .muted{font-size:12px;color:#8b95a5}
- .eqval{font-size:22px;font-weight:700}
- .grid{display:grid;grid-template-columns:1.3fr 1fr;gap:12px}
- .prow{display:grid;grid-template-columns:repeat(5,1fr);font-size:12px;margin-bottom:4px}
- .prow.head{color:#8b95a5}
+ :root{
+   --bg:#05070a; --panel:#0a0f0c; --line:#123018; --dim:#2f6b3f;
+   --fg:#c8f7d4; --phos:#39ff88; --phos-dim:#1f7a44; --up:#39ff88; --down:#ff5c6c;
+ }
+ *{box-sizing:border-box}
+ body{background:var(--bg);color:var(--fg);
+   font:12px/1.45 ui-monospace,"SF Mono",Menlo,Consolas,monospace;margin:0}
+ .strip{display:flex;justify-content:space-between;align-items:center;
+   gap:16px;padding:8px 14px;border-bottom:2px solid var(--line);
+   background:linear-gradient(#0a140d,#05070a);position:sticky;top:0;z-index:5}
+ .brand{color:var(--phos);font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+ .brand b{color:var(--fg)}
+ .strip .meta{color:var(--phos-dim);text-transform:uppercase;letter-spacing:.08em}
+ .live{display:inline-flex;align-items:center;gap:6px;text-transform:uppercase;
+   letter-spacing:.1em}
+ .dot{width:8px;height:8px;border-radius:50%;background:var(--phos);
+   box-shadow:0 0 8px var(--phos)}
+ .dot.stale{background:#e0af68;box-shadow:0 0 8px #e0af68}
+ .eq{color:var(--phos);font-weight:700;font-size:14px}
+ main{display:grid;grid-template-columns:1.6fr 1fr;gap:1px;background:var(--line);
+   border-bottom:1px solid var(--line)}
+ .col{display:flex;flex-direction:column;gap:1px;background:var(--line)}
+ .panel{background:var(--panel);padding:11px 13px}
+ .panel.full{grid-column:1/3}
+ h3{margin:0 0 8px;font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+   color:var(--phos);border-bottom:1px solid var(--line);padding-bottom:5px}
+ .muted{color:var(--dim)}
+ .unavail{color:#e0af68}
+ .row{margin-bottom:3px;white-space:pre-wrap}
+ .up{color:var(--up)} .down{color:var(--down)}
+ /* kalshi ladder */
+ .evt{border:1px solid var(--line);margin-bottom:10px}
+ .evt-head{display:flex;justify-content:space-between;padding:5px 8px;
+   background:#0c1710;color:var(--phos);text-transform:uppercase;letter-spacing:.08em}
+ .evt-head .cd{color:var(--fg)}
+ table.ladder{width:100%;border-collapse:collapse}
+ .ladder td,.ladder th{padding:3px 8px;font-size:11px}
+ .ladder th{color:var(--phos-dim);text-align:left;text-transform:uppercase;
+   letter-spacing:.08em;font-weight:400}
+ .ladder td.num{text-align:right;font-variant-numeric:tabular-nums}
+ .ladder tr.held{background:#0e2417}
+ .ladder tr.held td:first-child::after{content:" ◄ HELD";color:var(--phos)}
+ .bar{height:9px;background:var(--phos-dim);position:relative}
+ .bar>span{position:absolute;inset:0 auto 0 0;background:var(--phos);
+   box-shadow:0 0 6px var(--phos)}
+ /* positions/ladder grid rows */
+ .prow{display:grid;grid-template-columns:1.2fr .6fr .8fr .8fr .7fr;
+   font-variant-numeric:tabular-nums}
+ .prow.head{color:var(--phos-dim);text-transform:uppercase;letter-spacing:.06em}
+ svg{display:block}
 </style></head>
-<body><div class="wrap">
- <div class="head-strip">
-   <div class="title">TDAT <span>status</span></div>
-   <div class="meta">Alpaca PAPER · updated 2026-09-01 01:22 ET</div>
+<body>
+ <div class="strip">
+   <div class="brand"><b>TDAT</b> · KALSHI TERMINAL</div>
+   <div class="live"><span class="meta" id="mode"></span>
+     <span class="meta" id="updated"></span>
+     <span class="live"><span class="dot" id="dot"></span><span id="livetxt">LIVE</span></span>
+     <span class="eq" id="equity"></span></div>
  </div>
- <div class="card">
-   <div style="display:flex;justify-content:space-between;margin-bottom:8px">
-     <span class="meta">EQUITY (30d)</span><span class="eqval">$101,140</span>
+ <main>
+   <div class="col">
+     <div class="panel"><h3>Kalshi · Open Markets</h3><div id="kmarkets"></div></div>
+     <div class="panel"><h3>Kalshi · Book</h3><div id="ktrades"></div></div>
+     <div class="panel"><h3>Short-Window</h3><div id="sw"></div></div>
    </div>
-   <svg viewBox="0 0 600 110" width="100%" height="110" preserveAspectRatio="none"><polyline fill="none" stroke="#7aa2f7" stroke-width="2" points="0.0,100.0 30.0,96.0 60.0,94.1 90.0,91.2 120.0,91.9 150.0,89.8 180.0,94.2 210.0,94.2 240.0,95.5 270.0,93.8 300.0,95.3 330.0,92.9 360.0,91.2 390.0,53.8 420.0,35.1 450.0,16.6 480.0,14.8 510.0,20.5 540.0,13.8 570.0,10.0 600.0,21.6"/></svg>
- </div>
- <div class="grid">
-   <div class="card"><h3>Today's decisions</h3><div class="muted">no decisions today</div></div>
-   <div class="card"><h3>Alerts</h3><div class="row" style="color:#9ece6a">● All clear</div></div>
-   <div class="card" style="grid-column:1/3"><h3>Open positions</h3><div class="prow head"><span>TICKER</span><span>QTY</span><span>ENTRY</span><span>CURRENT</span><span>P/L%</span></div><div class="prow"><span><b>BTCUSD</b></span><span>0</span><span>63541.04</span><span>78820.46</span><span>+24.05%</span></div><div class="prow"><span><b>ETHUSD</b></span><span>1</span><span>1787.14</span><span>2475.43</span><span>+38.51%</span></div></div>
-   <div class="card" style="grid-column:1/3"><h3>Analyst (TradingAgents)</h3><div class="muted">no analyst activity</div></div>
-   <div class="card" style="grid-column:1/3"><h3>Short-window</h3><div class="muted">no short-window trades today</div></div>
-   <div class="card" style="grid-column:1/3"><h3>Kalshi</h3><div class="muted">no Kalshi trades today</div></div>
- </div>
-</div></body></html>
+   <div class="col">
+     <div class="panel"><h3>Alerts</h3><div id="alerts"></div></div>
+     <div class="panel"><h3>Gov · Decisions</h3><div id="decisions"></div></div>
+     <div class="panel"><h3>Analyst</h3><div id="analyst"></div></div>
+   </div>
+   <div class="panel full"><h3>Equity</h3><div id="equity_curve"></div></div>
+   <div class="panel full"><h3>Open Positions</h3><div id="positions"></div></div>
+ </main>
+
+ <script id="snapshot" type="application/json">{"generated_at": "2026-09-01 15:23 ET", "broker_mode": "Alpaca PAPER", "equity": 101024.48, "equity_unavailable": false, "equity_curve": [{"ts": 1785801600, "equity": 100071.4}, {"ts": 1785888000, "equity": 100098.79}, {"ts": 1785974400, "equity": 100139.82}, {"ts": 1786060800, "equity": 100129.91}, {"ts": 1786147200, "equity": 100160.23}, {"ts": 1786406400, "equity": 100096.67}, {"ts": 1786492800, "equity": 100097.42}, {"ts": 1786579200, "equity": 100078.75}, {"ts": 1786665600, "equity": 100103.16}, {"ts": 1786752000, "equity": 100081.66}, {"ts": 1787011200, "equity": 100115.2}, {"ts": 1787097600, "equity": 100139.54}, {"ts": 1787184000, "equity": 100676.92}, {"ts": 1787270400, "equity": 100945.6}, {"ts": 1787356800, "equity": 101210.45}, {"ts": 1787616000, "equity": 101236.48}, {"ts": 1787702400, "equity": 101154.49}, {"ts": 1787788800, "equity": 101251.25}, {"ts": 1787875200, "equity": 101305.5}, {"ts": 1787961600, "equity": 101138.42}, {"ts": 1788220800, "equity": 101113.62}], "decisions": {"considered": 0, "traded": 0, "dropped": 0, "lines": []}, "alerts": [{"level": "ok", "message": "All clear"}], "positions": [{"ticker": "BTCUSD", "qty": 0, "entry": 63541.035, "current": 77228.85, "unrealized_pct": 21.542}, {"ticker": "ETHUSD", "qty": 1, "entry": 1787.14, "current": 2416.885, "unrealized_pct": 35.238}], "positions_unavailable": false, "analyst": [], "sw_trades": [], "kalshi_trades": [], "kalshi_markets": [], "kalshi_markets_unavailable": false}</script>
+ <script>
+ const POLL_MS = 45000;
+ const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+ const el = id => document.getElementById(id);
+ let lastGood = null, lastFetch = Date.now();
+
+ function fmtCountdown(iso){
+   const t = Date.parse(iso); if(isNaN(t)) return '';
+   let s = Math.max(0, Math.floor((t - Date.now())/1000));
+   const h = Math.floor(s/3600); s -= h*3600;
+   const m = Math.floor(s/60); s -= m*60;
+   const p = n => String(n).padStart(2,'0');
+   return (h? h+':' : '') + p(m)+':'+p(s);
+ }
+
+ function svgCurve(points){
+   if(!points || points.length < 2) return '<div class="muted">equity curve unavailable</div>';
+   const eqs = points.map(p=>p.equity), lo=Math.min(...eqs), hi=Math.max(...eqs);
+   const span=(hi-lo)||1, n=points.length;
+   const pts = points.map((p,i)=>`${(i*(600/(n-1))).toFixed(1)},${(100-(p.equity-lo)/span*90).toFixed(1)}`).join(' ');
+   return `<svg viewBox="0 0 600 110" width="100%" height="90" preserveAspectRatio="none">`+
+     `<polyline fill="none" stroke="var(--phos)" stroke-width="2" points="${pts}"/></svg>`;
+ }
+
+ function renderKalshiMarkets(s){
+   const t = el('kmarkets');
+   if(s.kalshi_markets_unavailable){ t.innerHTML='<div class="unavail">UNAVAILABLE</div>'; return; }
+   const ms = s.kalshi_markets || [];
+   if(!ms.length){ t.innerHTML='<div class="muted">no open events</div>'; return; }
+   t.innerHTML = ms.map(m=>{
+     const spot = m.spot==null? '—' : esc(Number(m.spot).toLocaleString());
+     const rows = m.ladder.map(r=>{
+       const held = (m.held_strike!=null && r.strike===m.held_strike) ? ' class="held"' : '';
+       const pct = Math.round(r.depth_norm*100);
+       return `<tr${held}><td class="num">${Number(r.strike).toLocaleString()}</td>`+
+         `<td class="num">${r.yes_cents}¢</td>`+
+         `<td class="num">${Math.round(r.implied_prob*100)}%</td>`+
+         `<td><div class="bar"><span style="width:${pct}%"></span></div></td></tr>`;
+     }).join('');
+     return `<div class="evt"><div class="evt-head"><span>${esc(m.underlying)} · ${esc(m.event_key)}</span>`+
+       `<span class="cd" data-exp="${esc(m.expires_at)}">⏱ ${fmtCountdown(m.expires_at)} · spot ${spot}</span></div>`+
+       `<table class="ladder"><tr><th>Strike</th><th>Yes¢</th><th>Prob</th><th>Depth</th></tr>${rows}</table></div>`;
+   }).join('');
+ }
+
+ function renderKalshiTrades(s){
+   const t = el('ktrades'), ts = s.kalshi_trades || [];
+   if(!ts.length){ t.innerHTML='<div class="muted">no Kalshi trades today</div>'; return; }
+   t.innerHTML = ts.map(x=>{
+     if(x.status==='open')
+       return `<div class="row">OPEN <b>${esc(x.underlying)}</b> ${x.contracts} YES @ ${x.entry_cents}¢ (strike ${x.strike})</div>`;
+     const pnl=x.pnl_usd||0, cls=pnl>=0?'up':'down';
+     const won=(x.settle_cents||0)>=100?'YES won':'YES lost';
+     return `<div class="row">CLOSED <b>${esc(x.underlying)}</b> P&L <span class="${cls}">$${pnl.toFixed(2)}</span> (${won})</div>`;
+   }).join('');
+ }
+
+ function renderSW(s){
+   const t = el('sw'), ts = s.sw_trades || [];
+   if(!ts.length){ t.innerHTML='<div class="muted">no short-window trades today</div>'; return; }
+   t.innerHTML = ts.map(x=>{
+     if(x.status==='open')
+       return `<div class="row">OPEN <b>${esc(x.symbol)}</b> ${x.qty} @ ${x.entry_price.toFixed(2)} (tp ${x.tp_price.toFixed(2)} / stop ${x.stop_price.toFixed(2)})</div>`;
+     const pnl=x.pnl_usd||0, cls=pnl>=0?'up':'down';
+     return `<div class="row">CLOSED <b>${esc(x.symbol)}</b> P&L <span class="${cls}">$${pnl.toFixed(2)}</span> (${esc(x.exit_reason||'')})</div>`;
+   }).join('');
+ }
+
+ function renderAlerts(s){
+   const c={ok:'var(--up)',warn:'#e0af68',crit:'var(--down)'};
+   el('alerts').innerHTML = (s.alerts||[]).map(a=>
+     `<div class="row" style="color:${c[a.level]||'var(--fg)'}">● ${esc(a.message)}</div>`).join('')
+     || '<div class="muted">—</div>';
+ }
+
+ function renderDecisions(s){
+   const lines=(s.decisions&&s.decisions.lines)||[];
+   el('decisions').innerHTML = lines.map(l=>`<div class="row">${esc(l)}</div>`).join('')
+     || '<div class="muted">no decisions today</div>';
+ }
+
+ function renderAnalyst(s){
+   const a=s.analyst||[];
+   el('analyst').innerHTML = a.map(x=>
+     `<div class="row"><b>${esc(x.ticker)}</b> <span class="${x.action==='BUY'?'up':''}">${esc(x.action)}</span> — ${esc((x.reasoning||'').slice(0,160))}</div>`).join('')
+     || '<div class="muted">no analyst activity</div>';
+ }
+
+ function renderPositions(s){
+   const t=el('positions');
+   if(s.positions_unavailable){ t.innerHTML='<div class="unavail">UNAVAILABLE</div>'; return; }
+   const ps=s.positions||[];
+   if(!ps.length){ t.innerHTML='<div class="muted">no open positions</div>'; return; }
+   const head='<div class="prow head"><span>Ticker</span><span>Qty</span><span>Entry</span><span>Current</span><span>P/L%</span></div>';
+   t.innerHTML = head + ps.map(p=>{
+     const cls=p.unrealized_pct>=0?'up':'down';
+     return `<div class="prow"><span><b>${esc(p.ticker)}</b></span><span>${p.qty}</span>`+
+       `<span>${p.entry.toFixed(2)}</span><span>${p.current.toFixed(2)}</span>`+
+       `<span class="${cls}">${p.unrealized_pct>=0?'+':''}${p.unrealized_pct.toFixed(2)}%</span></div>`;
+   }).join('');
+ }
+
+ function render(s){
+   lastGood = s;
+   el('mode').textContent = s.broker_mode || '';
+   el('updated').textContent = '· ' + (s.generated_at || '');
+   el('equity').textContent = s.equity==null? '—' : '$'+Number(s.equity).toLocaleString(undefined,{maximumFractionDigits:0});
+   el('equity_curve').innerHTML = svgCurve(s.equity_curve);
+   renderKalshiMarkets(s); renderKalshiTrades(s); renderSW(s);
+   renderAlerts(s); renderDecisions(s); renderAnalyst(s); renderPositions(s);
+ }
+
+ function tickCountdowns(){
+   document.querySelectorAll('.cd[data-exp]').forEach(n=>{
+     const cd=fmtCountdown(n.getAttribute('data-exp'));
+     if(cd) n.textContent = n.textContent.replace(/^⏱[^·]*/, '⏱ '+cd+' ');
+   });
+   const stale = (Date.now()-lastFetch) > 2*POLL_MS;
+   el('dot').classList.toggle('stale', stale);
+   el('livetxt').textContent = stale? 'STALE' : 'LIVE';
+ }
+
+ async function poll(){
+   try{
+     const r = await fetch('./status.json', {cache:'no-store'});
+     if(r.ok){ render(await r.json()); lastFetch = Date.now(); }
+     else if(lastGood){ render(lastGood); }
+   }catch(e){ /* keep lastGood; STALE dot handles it */ }
+ }
+
+ render(JSON.parse(el('snapshot').textContent));
+ setInterval(poll, POLL_MS);
+ setInterval(tickCountdowns, 1000);
+ </script>
+</body></html>
