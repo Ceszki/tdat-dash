@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03 15:18 ET",
+  "generated_at": "2026-09-03 19:30 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 101263.97,
+  "equity": 101245.32,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -98,10 +98,16 @@
     }
   ],
   "decisions": {
-    "considered": 0,
-    "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "considered": 15,
+    "traded": 2,
+    "dropped": 13,
+    "lines": [
+      "\u2705 NOC \u2014 Northrop Grumman Systems Corp. \u2014 $862,848,000",
+      "\u2705 XAR \u2014 Research Innovations Inc. \u2014 $99,529,577",
+      "\u2715 7\u00d7 unresolved company",
+      "\u2715 4\u00d7 duplicate",
+      "\u2715 2\u00d7 below threshold"
+    ]
   },
   "alerts": [
     {
@@ -114,22 +120,22 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 81323.08,
-      "unrealized_pct": 27.985
+      "current": 81180.89,
+      "unrealized_pct": 27.761000000000003
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 2509.333,
-      "unrealized_pct": 40.411
+      "current": 2497.8,
+      "unrealized_pct": 39.765
     },
     {
       "ticker": "SPY",
       "qty": 2,
       "entry": 769.24,
-      "current": 773.38,
-      "unrealized_pct": 0.538
+      "current": 772.6799,
+      "unrealized_pct": 0.447
     }
   ],
   "positions_unavailable": false,
