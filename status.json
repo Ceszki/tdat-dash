@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04 19:06 ET",
+  "generated_at": "2026-09-05 00:40 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 101145.3,
+  "equity": 101136.13,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -98,16 +98,10 @@
     }
   ],
   "decisions": {
-    "considered": 20,
-    "traded": 2,
-    "dropped": 18,
-    "lines": [
-      "\u2705 NOC \u2014 Northrop Grumman Systems Corp. \u2014 $508,490,719",
-      "\u2705 XAR \u2014 Pentaq Manufacturing Corp. \u2014 $763,082,470",
-      "\u2715 12\u00d7 duplicate",
-      "\u2715 5\u00d7 unresolved company",
-      "\u2715 1\u00d7 below threshold"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -120,36 +114,27 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 63541.035,
-      "current": 79646.43,
-      "unrealized_pct": 25.346000000000004
+      "current": 79538.38,
+      "unrealized_pct": 25.176
     },
     {
       "ticker": "ETHUSD",
       "qty": 1,
       "entry": 1787.14,
-      "current": 2452.0,
-      "unrealized_pct": 37.202
+      "current": 2451.39,
+      "unrealized_pct": 37.168
+    },
+    {
+      "ticker": "NOC",
+      "qty": 5,
+      "entry": 516.0,
+      "current": 514.98,
+      "unrealized_pct": -0.198
     }
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [
-    {
-      "id": 16,
-      "symbol": "SPY",
-      "qty": 2.0,
-      "entry_price": 769.4,
-      "tp_price": 780.94,
-      "stop_price": 761.71,
-      "entered_at": "2026-09-03 10:00:41",
-      "status": "closed",
-      "exit_price": 772.195,
-      "pnl_usd": 5.5900000000001455,
-      "exit_reason": "next-session exit",
-      "exited_at": "2026-09-04 09:53:42",
-      "broker_order_id": "2d926dd1-d69d-44af-9f8c-080b11922a0d"
-    }
-  ],
+  "sw_trades": [],
   "kalshi_trades": [],
   "kalshi_markets": [],
   "kalshi_markets_unavailable": false
