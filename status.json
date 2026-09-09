@@ -1,25 +1,9 @@
 {
-  "generated_at": "2026-09-08 00:51 ET",
+  "generated_at": "2026-09-09 11:27 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 101142.59,
+  "equity": 101128.91,
   "equity_unavailable": false,
   "equity_curve": [
-    {
-      "ts": 1785888000,
-      "equity": 100098.79
-    },
-    {
-      "ts": 1785974400,
-      "equity": 100139.82
-    },
-    {
-      "ts": 1786060800,
-      "equity": 100129.91
-    },
-    {
-      "ts": 1786147200,
-      "equity": 100160.23
-    },
     {
       "ts": 1786406400,
       "equity": 100096.67
@@ -99,6 +83,10 @@
     {
       "ts": 1788566400,
       "equity": 101140.59
+    },
+    {
+      "ts": 1788912000,
+      "equity": 101187.07
     }
   ],
   "decisions": {
@@ -113,33 +101,39 @@
       "message": "All clear"
     }
   ],
-  "positions": [
-    {
-      "ticker": "BTCUSD",
-      "qty": 0,
-      "entry": 63541.035,
-      "current": 78804.901,
-      "unrealized_pct": 24.022
-    },
-    {
-      "ticker": "ETHUSD",
-      "qty": 1,
-      "entry": 1787.14,
-      "current": 2482.4,
-      "unrealized_pct": 38.903
-    },
-    {
-      "ticker": "NOC",
-      "qty": 5,
-      "entry": 516.0,
-      "current": 514.0,
-      "unrealized_pct": -0.388
-    }
-  ],
+  "positions": [],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [],
-  "kalshi_trades": [],
-  "kalshi_markets": [],
-  "kalshi_markets_unavailable": false
+  "sw_trades": [
+    {
+      "id": 17,
+      "symbol": "BTC/USD",
+      "qty": 0.031390327,
+      "entry_price": 63541.035,
+      "tp_price": 64494.15,
+      "stop_price": 62905.62,
+      "entered_at": "2026-07-07 14:08:25",
+      "status": "closed",
+      "exit_price": 78089.9,
+      "pnl_usd": 456.69362982885474,
+      "exit_reason": "take-profit 78089.90 >= 64494.15",
+      "exited_at": "2026-09-09 11:27:39",
+      "broker_order_id": null
+    },
+    {
+      "id": 18,
+      "symbol": "ETH/USD",
+      "qty": 1.111014502,
+      "entry_price": 1787.14,
+      "tp_price": 1813.95,
+      "stop_price": 1769.27,
+      "entered_at": "2026-07-07 14:08:25",
+      "status": "closed",
+      "exit_price": 2472.4108,
+      "pnl_usd": 761.3457965971415,
+      "exit_reason": "take-profit 2472.41 >= 1813.95",
+      "exited_at": "2026-09-09 11:27:39",
+      "broker_order_id": null
+    }
+  ]
 }
