@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10 00:54 ET",
+  "generated_at": "2026-09-10 01:25 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 101128.71,
+  "equity": 101122.77,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -103,6 +103,13 @@
   ],
   "positions": [
     {
+      "ticker": "ETHUSD",
+      "qty": 0,
+      "entry": 2477.8,
+      "current": 2476.7,
+      "unrealized_pct": -0.044000000000000004
+    },
+    {
       "ticker": "NOC",
       "qty": 5,
       "entry": 516.4,
@@ -112,5 +119,21 @@
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": []
+  "sw_trades": [
+    {
+      "id": 19,
+      "symbol": "ETH/USD",
+      "qty": 0.81389,
+      "entry_price": 2485.07,
+      "tp_price": 2522.35,
+      "stop_price": 2460.22,
+      "entered_at": "2026-09-10 01:25:44",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "1faf1122-1721-4fb5-9591-cb1f3dfae4f6"
+    }
+  ]
 }
