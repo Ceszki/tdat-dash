@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10 05:54 ET",
+  "generated_at": "2026-09-10 07:01 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 101118.58,
+  "equity": 101110.91,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -110,8 +110,8 @@
       "ticker": "ETHUSD",
       "qty": 0,
       "entry": 2477.8,
-      "current": 2471.55,
-      "unrealized_pct": -0.252
+      "current": 2462.1,
+      "unrealized_pct": -0.634
     },
     {
       "ticker": "NOC",
