@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09 19:20 ET",
+  "generated_at": "2026-09-09 20:42 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 101124.76,
+  "equity": 101128.71,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -113,8 +113,8 @@
       "ticker": "NOC",
       "qty": 5,
       "entry": 516.4,
-      "current": 515.57,
-      "unrealized_pct": -0.161
+      "current": 516.36,
+      "unrealized_pct": -0.008
     }
   ],
   "positions_unavailable": false,
