@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09 20:42 ET",
+  "generated_at": "2026-09-10 00:54 ET",
   "broker_mode": "Alpaca PAPER",
   "equity": 101128.71,
   "equity_unavailable": false,
@@ -90,17 +90,10 @@
     }
   ],
   "decisions": {
-    "considered": 33,
-    "traded": 3,
-    "dropped": 30,
-    "lines": [
-      "\u2705 XAR \u2014 Lockheed Martin Missiles and Fire Control \u2014 $10,480,052,550",
-      "\u2705 HII \u2014 Huntington Ingalls Inc. \u2014 $742,848,205",
-      "\u2705 NOC \u2014 Northrop Grumman Systems Corp. \u2014 $4,838,487,318",
-      "\u2715 16\u00d7 unresolved company",
-      "\u2715 9\u00d7 duplicate",
-      "\u2715 5\u00d7 below threshold"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -119,36 +112,5 @@
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [
-    {
-      "id": 17,
-      "symbol": "BTC/USD",
-      "qty": 0.031390327,
-      "entry_price": 63541.035,
-      "tp_price": 64494.15,
-      "stop_price": 62905.62,
-      "entered_at": "2026-07-07 14:08:25",
-      "status": "closed",
-      "exit_price": 78089.9,
-      "pnl_usd": 456.69362982885474,
-      "exit_reason": "take-profit 78089.90 >= 64494.15",
-      "exited_at": "2026-09-09 11:27:39",
-      "broker_order_id": null
-    },
-    {
-      "id": 18,
-      "symbol": "ETH/USD",
-      "qty": 1.111014502,
-      "entry_price": 1787.14,
-      "tp_price": 1813.95,
-      "stop_price": 1769.27,
-      "entered_at": "2026-07-07 14:08:25",
-      "status": "closed",
-      "exit_price": 2472.4108,
-      "pnl_usd": 761.3457965971415,
-      "exit_reason": "take-profit 2472.41 >= 1813.95",
-      "exited_at": "2026-09-09 11:27:39",
-      "broker_order_id": null
-    }
-  ]
+  "sw_trades": []
 }
