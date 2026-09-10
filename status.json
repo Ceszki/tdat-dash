@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10 18:03 ET",
+  "generated_at": "2026-09-10 19:14 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 101120.94,
+  "equity": 101105.42,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -94,10 +94,15 @@
     }
   ],
   "decisions": {
-    "considered": 0,
-    "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "considered": 20,
+    "traded": 1,
+    "dropped": 19,
+    "lines": [
+      "\u2705 XAR \u2014 Ernst & Young LLP \u2014 $989,996,050",
+      "\u2715 11\u00d7 unresolved company",
+      "\u2715 7\u00d7 duplicate",
+      "\u2715 1\u00d7 below threshold"
+    ]
   },
   "alerts": [
     {
@@ -110,8 +115,8 @@
       "ticker": "ETHUSD",
       "qty": 0,
       "entry": 2477.8,
-      "current": 2457.9,
-      "unrealized_pct": -0.803
+      "current": 2438.78,
+      "unrealized_pct": -1.575
     }
   ],
   "positions_unavailable": false,
