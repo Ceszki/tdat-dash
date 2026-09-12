@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-09-12 13:33 EDT",
+  "generated_ts": 1789234418.00355,
+  "live_armed": false,
+  "last_tick_at": null,
+  "funnel": {
+    "scanned": 0,
+    "parsed": 0,
+    "priced": 0,
+    "skips": {}
+  },
+  "shadow_open": [],
+  "live_open": [],
+  "live_realized_usd": 0.0,
+  "live_exposure_usd": 0.0,
+  "predictions": 0,
+  "markets": 0,
+  "resolved": 0,
+  "recent_edges": []
+}
