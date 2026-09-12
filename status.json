@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12 13:57 ET",
+  "generated_at": "2026-09-12 14:01 ET",
   "broker_mode": "Alpaca PAPER",
   "equity": 101173.62,
   "equity_unavailable": false,
@@ -137,5 +137,91 @@
       "broker_order_id": "1faf1122-1721-4fb5-9591-cb1f3dfae4f6"
     }
   ],
-  "generated_ts": 1789235834.624223
+  "orders": [
+    {
+      "ticker": "XAR",
+      "qty": 12,
+      "limit_price": 246.6,
+      "status": "submitted",
+      "created_at": "2026-09-11 19:20:11"
+    },
+    {
+      "ticker": "BA",
+      "qty": 14,
+      "limit_price": 210.9,
+      "status": "submitted",
+      "created_at": "2026-09-11 19:20:10"
+    },
+    {
+      "ticker": "XAR",
+      "qty": 12,
+      "limit_price": 244.87,
+      "status": "submitted",
+      "created_at": "2026-09-10 19:14:38"
+    },
+    {
+      "ticker": "NOC",
+      "qty": 5,
+      "limit_price": 516.58,
+      "status": "submitted",
+      "created_at": "2026-09-09 19:20:15"
+    },
+    {
+      "ticker": "HII",
+      "qty": 10,
+      "limit_price": 281.44,
+      "status": "submitted",
+      "created_at": "2026-09-09 19:20:13"
+    },
+    {
+      "ticker": "XAR",
+      "qty": 12,
+      "limit_price": 247.13,
+      "status": "submitted",
+      "created_at": "2026-09-09 19:20:11"
+    },
+    {
+      "ticker": "XAR",
+      "qty": 11,
+      "limit_price": 253.6,
+      "status": "submitted",
+      "created_at": "2026-09-04 19:06:38"
+    },
+    {
+      "ticker": "NOC",
+      "qty": 5,
+      "limit_price": 516.0,
+      "status": "submitted",
+      "created_at": "2026-09-04 19:06:36"
+    },
+    {
+      "ticker": "XAR",
+      "qty": 11,
+      "limit_price": 254.15,
+      "status": "submitted",
+      "created_at": "2026-09-03 19:30:51"
+    },
+    {
+      "ticker": "NOC",
+      "qty": 5,
+      "limit_price": 529.43,
+      "status": "submitted",
+      "created_at": "2026-09-03 19:30:50"
+    },
+    {
+      "ticker": "XAR",
+      "qty": 12,
+      "limit_price": 250.63,
+      "status": "submitted",
+      "created_at": "2026-09-02 19:23:12"
+    },
+    {
+      "ticker": "XAR",
+      "qty": 12,
+      "limit_price": 252.3,
+      "status": "submitted",
+      "created_at": "2026-09-01 19:23:11"
+    }
+  ],
+  "generated_ts": 1789236066.047696
 }
