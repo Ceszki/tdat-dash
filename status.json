@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11 20:25 ET",
+  "generated_at": "2026-09-12 00:45 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 101165.57,
+  "equity": 101165.54,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -94,17 +94,10 @@
     }
   ],
   "decisions": {
-    "considered": 17,
-    "traded": 2,
-    "dropped": 15,
-    "lines": [
-      "\u2705 BA \u2014 The Boeing Co. \u2014 $19,100,000,000",
-      "\u2705 XAR \u2014 Blue Halo LLC \u2014 $99,832,117",
-      "\u2715 9\u00d7 unresolved company",
-      "\u2715 3\u00d7 below threshold",
-      "\u2715 2\u00d7 duplicate",
-      "\u2715 1\u00d7 negative sentiment"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -117,15 +110,15 @@
       "ticker": "BA",
       "qty": 14,
       "entry": 210.5,
-      "current": 210.4,
-      "unrealized_pct": -0.048
+      "current": 210.45,
+      "unrealized_pct": -0.024
     },
     {
       "ticker": "ETHUSD",
       "qty": 0,
       "entry": 2477.8,
-      "current": 2514.703,
-      "unrealized_pct": 1.489
+      "current": 2513.8,
+      "unrealized_pct": 1.4529999999999998
     }
   ],
   "positions_unavailable": false,
