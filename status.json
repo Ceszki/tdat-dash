@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13 19:21 ET",
+  "generated_at": "2026-09-13 21:17 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 101137.2,
+  "equity": 101136.5,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -114,8 +114,8 @@
       "ticker": "BA",
       "qty": 14,
       "entry": 210.5,
-      "current": 210.45,
-      "unrealized_pct": -0.024
+      "current": 210.4,
+      "unrealized_pct": -0.048
     }
   ],
   "positions_unavailable": false,
@@ -223,5 +223,5 @@
       "created_at": "2026-09-01 19:23:11"
     }
   ],
-  "generated_ts": 1789341711.406949
+  "generated_ts": 1789348662.390227
 }
