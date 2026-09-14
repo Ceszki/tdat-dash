@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13 21:17 ET",
+  "generated_at": "2026-09-14 01:01 ET",
   "broker_mode": "Alpaca PAPER",
   "equity": 101136.5,
   "equity_unavailable": false,
@@ -120,108 +120,92 @@
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [
-    {
-      "id": 20,
-      "symbol": "ETH/USD",
-      "qty": 0.807474,
-      "entry_price": 2505.93,
-      "tp_price": 2543.52,
-      "stop_price": 2480.87,
-      "entered_at": "2026-09-13 12:31:33",
-      "status": "closed",
-      "exit_price": 2479.273,
-      "pnl_usd": -21.524834417999756,
-      "exit_reason": "stop 2479.27 <= 2480.87",
-      "exited_at": "2026-09-13 19:21:50",
-      "broker_order_id": "86a75b94-6db5-494d-8642-8603090afb8f"
-    }
-  ],
+  "sw_trades": [],
   "orders": [
     {
       "ticker": "XAR",
       "qty": 12,
       "limit_price": 246.6,
       "status": "submitted",
-      "created_at": "2026-09-11 19:20:11"
-    },
-    {
-      "ticker": "BA",
-      "qty": 14,
-      "limit_price": 210.9,
-      "status": "submitted",
-      "created_at": "2026-09-11 19:20:10"
+      "created_at": "2026-09-14 01:01:51"
     },
     {
       "ticker": "XAR",
       "qty": 12,
-      "limit_price": 244.87,
+      "limit_price": 246.6,
       "status": "submitted",
-      "created_at": "2026-09-10 19:14:38"
-    },
-    {
-      "ticker": "NOC",
-      "qty": 5,
-      "limit_price": 516.58,
-      "status": "submitted",
-      "created_at": "2026-09-09 19:20:15"
+      "created_at": "2026-09-14 01:01:50"
     },
     {
       "ticker": "HII",
       "qty": 10,
-      "limit_price": 281.44,
+      "limit_price": 280.18,
       "status": "submitted",
-      "created_at": "2026-09-09 19:20:13"
+      "created_at": "2026-09-14 01:01:50"
     },
     {
       "ticker": "XAR",
       "qty": 12,
-      "limit_price": 247.13,
+      "limit_price": 246.6,
       "status": "submitted",
-      "created_at": "2026-09-09 19:20:11"
+      "created_at": "2026-09-14 01:01:49"
     },
     {
       "ticker": "XAR",
       "qty": 11,
-      "limit_price": 253.6,
+      "limit_price": 246.6,
       "status": "submitted",
-      "created_at": "2026-09-04 19:06:38"
-    },
-    {
-      "ticker": "NOC",
-      "qty": 5,
-      "limit_price": 516.0,
-      "status": "submitted",
-      "created_at": "2026-09-04 19:06:36"
+      "created_at": "2026-09-14 01:01:49"
     },
     {
       "ticker": "XAR",
       "qty": 11,
-      "limit_price": 254.15,
+      "limit_price": 246.6,
       "status": "submitted",
-      "created_at": "2026-09-03 19:30:51"
+      "created_at": "2026-09-14 01:01:48"
     },
     {
       "ticker": "NOC",
       "qty": 5,
-      "limit_price": 529.43,
+      "limit_price": 519.84,
       "status": "submitted",
-      "created_at": "2026-09-03 19:30:50"
+      "created_at": "2026-09-14 01:01:48"
     },
     {
       "ticker": "XAR",
       "qty": 12,
-      "limit_price": 250.63,
+      "limit_price": 246.6,
       "status": "submitted",
-      "created_at": "2026-09-02 19:23:12"
+      "created_at": "2026-09-14 01:01:48"
     },
     {
       "ticker": "XAR",
       "qty": 12,
-      "limit_price": 252.3,
+      "limit_price": 246.6,
       "status": "submitted",
-      "created_at": "2026-09-01 19:23:11"
+      "created_at": "2026-09-14 01:01:47"
+    },
+    {
+      "ticker": "XAR",
+      "qty": 11,
+      "limit_price": 246.6,
+      "status": "submitted",
+      "created_at": "2026-09-14 01:01:47"
+    },
+    {
+      "ticker": "XAR",
+      "qty": 11,
+      "limit_price": 246.6,
+      "status": "submitted",
+      "created_at": "2026-09-14 01:01:46"
+    },
+    {
+      "ticker": "XAR",
+      "qty": 11,
+      "limit_price": 246.6,
+      "status": "submitted",
+      "created_at": "2026-09-14 01:01:46"
     }
   ],
-  "generated_ts": 1789348662.390227
+  "generated_ts": 1789362112.254899
 }
