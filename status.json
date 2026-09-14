@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14 18:11 ET",
+  "generated_at": "2026-09-14 19:55 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 101378.43,
+  "equity": 101326.73,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -102,15 +102,8 @@
       "ticker": "BA",
       "qty": 14,
       "entry": 210.5,
-      "current": 210.32,
-      "unrealized_pct": -0.086
-    },
-    {
-      "ticker": "ETHUSD",
-      "qty": 0,
-      "entry": 2570.36,
-      "current": 2547.2,
-      "unrealized_pct": -0.901
+      "current": 210.2573,
+      "unrealized_pct": -0.11499999999999999
     },
     {
       "ticker": "HII",
@@ -123,22 +116,22 @@
       "ticker": "QQQ",
       "qty": 2,
       "entry": 709.905,
-      "current": 709.65,
-      "unrealized_pct": -0.036000000000000004
+      "current": 709.439,
+      "unrealized_pct": -0.066
     },
     {
       "ticker": "SPY",
       "qty": 2,
       "entry": 761.555,
-      "current": 761.17,
-      "unrealized_pct": -0.051000000000000004
+      "current": 760.98,
+      "unrealized_pct": -0.076
     },
     {
       "ticker": "XAR",
       "qty": 12,
       "entry": 242.499225,
-      "current": 245.0,
-      "unrealized_pct": 1.031
+      "current": 242.83,
+      "unrealized_pct": 0.136
     }
   ],
   "positions_unavailable": false,
@@ -184,13 +177,13 @@
       "tp_price": 2608.92,
       "stop_price": 2544.66,
       "entered_at": "2026-09-14 16:18:42",
-      "status": "open",
+      "status": "exit_pending",
       "exit_price": null,
       "pnl_usd": null,
-      "exit_reason": null,
+      "exit_reason": "stop 2516.76 <= 2544.66",
       "exited_at": null,
       "broker_order_id": "2599a424-b3a5-4d63-be02-861652c06b03",
-      "exit_order_id": null
+      "exit_order_id": "4146c869-fab4-490c-9d6c-ecaba5652b6b"
     }
   ],
   "orders": [
@@ -279,5 +272,5 @@
       "created_at": "2026-09-14 01:01:46"
     }
   ],
-  "generated_ts": 1789423899.914834
+  "generated_ts": 1789430120.517456
 }
