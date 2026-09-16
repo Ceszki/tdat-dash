@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-16 17:51 ET",
+  "generated_at": "2026-09-16 19:42 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 101199.42,
+  "equity": 101212.91,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -90,10 +90,14 @@
     }
   ],
   "decisions": {
-    "considered": 0,
+    "considered": 33,
     "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "dropped": 33,
+    "lines": [
+      "\u2715 20\u00d7 duplicate",
+      "\u2715 10\u00d7 unresolved company",
+      "\u2715 3\u00d7 below threshold"
+    ]
   },
   "alerts": [
     {
@@ -113,29 +117,29 @@
       "ticker": "LMT",
       "qty": 5,
       "entry": 533.98,
-      "current": 538.0,
-      "unrealized_pct": 0.753
+      "current": 537.25,
+      "unrealized_pct": 0.612
     },
     {
       "ticker": "QQQ",
       "qty": 2,
       "entry": 709.905,
-      "current": 705.35,
-      "unrealized_pct": -0.642
+      "current": 708.6278,
+      "unrealized_pct": -0.18
     },
     {
       "ticker": "SPY",
       "qty": 2,
       "entry": 761.555,
-      "current": 754.25,
-      "unrealized_pct": -0.959
+      "current": 756.65,
+      "unrealized_pct": -0.644
     },
     {
       "ticker": "XAR",
       "qty": 12,
       "entry": 242.695,
-      "current": 241.8,
-      "unrealized_pct": -0.369
+      "current": 242.29,
+      "unrealized_pct": -0.167
     }
   ],
   "positions_unavailable": false,
@@ -227,5 +231,5 @@
       "created_at": "2026-09-14 01:01:47"
     }
   ],
-  "generated_ts": 1789595514.355129
+  "generated_ts": 1789602123.257435
 }
