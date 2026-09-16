@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-15 20:35 ET",
+  "generated_at": "2026-09-16 00:59 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 101288.18,
+  "equity": 101290.5,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -86,15 +86,10 @@
     }
   ],
   "decisions": {
-    "considered": 20,
-    "traded": 1,
-    "dropped": 19,
-    "lines": [
-      "\u2705 LMT \u2014 Lockheed Martin Corp. \u2014 $1,211,234,988",
-      "\u2715 8\u00d7 duplicate",
-      "\u2715 8\u00d7 unresolved company",
-      "\u2715 3\u00d7 below threshold"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -121,15 +116,15 @@
       "ticker": "QQQ",
       "qty": 2,
       "entry": 709.905,
-      "current": 705.5,
-      "unrealized_pct": -0.621
+      "current": 706.23,
+      "unrealized_pct": -0.518
     },
     {
       "ticker": "SPY",
       "qty": 2,
       "entry": 761.555,
-      "current": 758.34,
-      "unrealized_pct": -0.422
+      "current": 758.77,
+      "unrealized_pct": -0.366
     },
     {
       "ticker": "XAR",
@@ -228,5 +223,5 @@
       "created_at": "2026-09-14 01:01:47"
     }
   ],
-  "generated_ts": 1789518906.017615
+  "generated_ts": 1789534746.385435
 }
