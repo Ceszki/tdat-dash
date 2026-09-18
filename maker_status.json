@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-18 19:25 UTC",
-  "generated_ts": 1789759551.848314,
+  "generated_at": "2026-09-18 19:30 UTC",
+  "generated_ts": 1789759854.585659,
   "live": true,
-  "bankroll_usd": 0.33,
-  "exposure_usd": 12.65,
+  "bankroll_usd": 5.97,
+  "exposure_usd": 6.97,
   "exposure_cap_usd": 10.0,
   "realized_pnl_usd": 0.1252,
   "fills_total": 25,
@@ -11,20 +11,20 @@
   "positions": [
     {
       "token_id": "115585852687419329636352544500153298106227433601609418458151593670231122984987",
-      "shares": 10.0,
-      "value_usd": 9.055,
+      "shares": 3.8695,
+      "value_usd": 3.5658,
       "avg_cost": 0.92
     },
     {
       "token_id": "98538206375810159862061132923035693995390362675930989969937177135865291000296",
       "shares": 15.0,
-      "value_usd": 2.5875,
+      "value_usd": 2.355,
       "avg_cost": 0.1733
     },
     {
       "token_id": "96254778913755674461846176568521249939029035914961426191874664460849395204677",
       "shares": 5.0,
-      "value_usd": 0.9275,
+      "value_usd": 0.965,
       "avg_cost": 0.2
     },
     {
