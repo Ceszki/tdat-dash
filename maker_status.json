@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-18 19:03 UTC",
-  "generated_ts": 1789758219.938764,
+  "generated_at": "2026-09-18 19:04 UTC",
+  "generated_ts": 1789758252.922597,
   "live": true,
-  "bankroll_usd": 11.88,
-  "exposure_usd": 1.25,
+  "bankroll_usd": 10.88,
+  "exposure_usd": 2.23,
   "exposure_cap_usd": 10.0,
-  "realized_pnl_usd": -0.0041,
-  "fills_total": 14,
-  "markout_avg": -0.00095,
+  "realized_pnl_usd": 0.0053,
+  "fills_total": 16,
+  "markout_avg": -0.0006,
   "positions": [
     {
       "token_id": "39395377988073708697006993340304971058367364653481168174257446509976607612887",
-      "shares": 5.0,
-      "value_usd": 0.9825,
-      "avg_cost": 0.21
+      "shares": 10.0,
+      "value_usd": 1.965,
+      "avg_cost": 0.205
     },
     {
       "token_id": "114830274262414238497410728549286250584475951111960867542111553086753728412774",
@@ -23,6 +23,22 @@
     }
   ],
   "recent_fills": [
+    {
+      "token_id": "393953779880",
+      "side": "BUY",
+      "shares": 5.0,
+      "price": 0.2,
+      "at": "2026-09-18T19:04:03+00:00",
+      "markout": 0.0018775087812063218
+    },
+    {
+      "token_id": "393953779880",
+      "side": "BUY",
+      "shares": 5.0,
+      "price": 0.2,
+      "at": "2026-09-18T19:03:42+00:00",
+      "markout": null
+    },
     {
       "token_id": "115585852687",
       "side": "BUY",
@@ -69,22 +85,6 @@
       "shares": 5.0,
       "price": 0.21,
       "at": "2026-09-18T18:43:11+00:00",
-      "markout": null
-    },
-    {
-      "token_id": "393953779880",
-      "side": "BUY",
-      "shares": 5.0,
-      "price": 0.22,
-      "at": "2026-09-18T18:39:58+00:00",
-      "markout": 0.0026179672202976956
-    },
-    {
-      "token_id": "393953779880",
-      "side": "BUY",
-      "shares": 5.0,
-      "price": 0.22,
-      "at": "2026-09-18T18:39:38+00:00",
       "markout": null
     }
   ]
