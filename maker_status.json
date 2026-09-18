@@ -1,9 +1,9 @@
 {
   "generated_at": "2026-09-18 19:24 UTC",
-  "generated_ts": 1789759449.738174,
+  "generated_ts": 1789759482.713219,
   "live": true,
   "bankroll_usd": 0.33,
-  "exposure_usd": 12.68,
+  "exposure_usd": 12.65,
   "exposure_cap_usd": 10.0,
   "realized_pnl_usd": 0.1252,
   "fills_total": 25,
@@ -12,7 +12,7 @@
     {
       "token_id": "115585852687419329636352544500153298106227433601609418458151593670231122984987",
       "shares": 10.0,
-      "value_usd": 9.08,
+      "value_usd": 9.055,
       "avg_cost": 0.92
     },
     {
@@ -24,7 +24,7 @@
     {
       "token_id": "96254778913755674461846176568521249939029035914961426191874664460849395204677",
       "shares": 5.0,
-      "value_usd": 0.9325,
+      "value_usd": 0.9275,
       "avg_cost": 0.2
     },
     {
