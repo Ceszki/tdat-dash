@@ -48,6 +48,7 @@
        ><span class="dot" id="dot"></span><span id="livetxt">ALPACA</span></span>
      <span class="live" title="Polymarket book (operator Mac, hourly when awake)"
        ><span class="dot" id="pdot"></span><span id="plivetxt">POLY</span></span>
+     <span class="badge"><span class="dot" id="mdot"></span><span id="mlivetxt">MAKER</span></span>
      <span class="eq" id="equity"></span></div>
  </div>
  <main>
@@ -64,6 +65,8 @@
        <div id="orders"></div></div>
    </div>
    <div class="col">
+     <div class="panel"><h3>Maker · Book <span class="meta">(spread capture)</span></h3>
+       <div id="mk"></div></div>
      <div class="panel"><h3>Polymarket · Funnel</h3><div id="pfunnel"></div></div>
    </div>
    <div class="col">
@@ -73,7 +76,7 @@
    <div class="panel full"><h3>Open Positions</h3><div id="positions"></div></div>
  </main>
 
- <script id="snapshot" type="application/json">{"generated_at": "2026-09-18 14:35 ET", "broker_mode": "Alpaca PAPER", "equity": 101116.1, "equity_unavailable": false, "equity_curve": [{"ts": 1787097600, "equity": 100139.54}, {"ts": 1787184000, "equity": 100676.92}, {"ts": 1787270400, "equity": 100945.6}, {"ts": 1787356800, "equity": 101210.45}, {"ts": 1787616000, "equity": 101236.48}, {"ts": 1787702400, "equity": 101154.49}, {"ts": 1787788800, "equity": 101251.25}, {"ts": 1787875200, "equity": 101305.5}, {"ts": 1787961600, "equity": 101138.42}, {"ts": 1788220800, "equity": 101113.62}, {"ts": 1788307200, "equity": 100987.46}, {"ts": 1788393600, "equity": 100992.86}, {"ts": 1788480000, "equity": 101246.78}, {"ts": 1788566400, "equity": 101140.59}, {"ts": 1788912000, "equity": 101187.07}, {"ts": 1788998400, "equity": 101124.75}, {"ts": 1789084800, "equity": 101116.76}, {"ts": 1789171200, "equity": 101164.61}, {"ts": 1789430400, "equity": 101319.44}, {"ts": 1789516800, "equity": 101273.96}, {"ts": 1789603200, "equity": 101199.89}, {"ts": 1789689600, "equity": 101224.45}], "decisions": {"considered": 0, "traded": 0, "dropped": 0, "lines": []}, "alerts": [{"level": "ok", "message": "All clear"}], "positions": [{"ticker": "LMT", "qty": 5, "entry": 533.98, "current": 533.3, "unrealized_pct": -0.127}, {"ticker": "QQQ", "qty": 2, "entry": 709.905, "current": 718.0, "unrealized_pct": 1.1400000000000001}, {"ticker": "SPY", "qty": 2, "entry": 761.555, "current": 760.43, "unrealized_pct": -0.148}, {"ticker": "XAR", "qty": 12, "entry": 242.695, "current": 239.41, "unrealized_pct": -1.354}], "positions_unavailable": false, "analyst": [], "sw_trades": [], "orders": [{"ticker": "LMT", "qty": 5, "limit_price": 534.39, "status": "filled", "created_at": "2026-09-15 20:35:05"}, {"ticker": "LMT", "qty": 5, "limit_price": 534.39, "status": "expired_retried", "created_at": "2026-09-15 19:34:20"}, {"ticker": "XAR", "qty": 12, "limit_price": 246.6, "status": "filled", "created_at": "2026-09-14 01:01:51"}, {"ticker": "XAR", "qty": 12, "limit_price": 246.6, "status": "filled", "created_at": "2026-09-14 01:01:50"}, {"ticker": "HII", "qty": 10, "limit_price": 280.18, "status": "filled", "created_at": "2026-09-14 01:01:50"}, {"ticker": "XAR", "qty": 12, "limit_price": 246.6, "status": "filled", "created_at": "2026-09-14 01:01:49"}, {"ticker": "XAR", "qty": 11, "limit_price": 246.6, "status": "filled", "created_at": "2026-09-14 01:01:49"}, {"ticker": "XAR", "qty": 11, "limit_price": 246.6, "status": "filled", "created_at": "2026-09-14 01:01:48"}, {"ticker": "NOC", "qty": 5, "limit_price": 519.84, "status": "expired", "created_at": "2026-09-14 01:01:48"}, {"ticker": "XAR", "qty": 12, "limit_price": 246.6, "status": "filled", "created_at": "2026-09-14 01:01:48"}, {"ticker": "XAR", "qty": 12, "limit_price": 246.6, "status": "filled", "created_at": "2026-09-14 01:01:47"}, {"ticker": "XAR", "qty": 11, "limit_price": 246.6, "status": "filled", "created_at": "2026-09-14 01:01:47"}], "generated_ts": 1789756529.754693}</script>
+ <script id="snapshot" type="application/json">{"generated_at": "2026-09-18 15:02 ET", "broker_mode": "Alpaca PAPER", "equity": 101122.07, "equity_unavailable": false, "equity_curve": [{"ts": 1787097600, "equity": 100139.54}, {"ts": 1787184000, "equity": 100676.92}, {"ts": 1787270400, "equity": 100945.6}, {"ts": 1787356800, "equity": 101210.45}, {"ts": 1787616000, "equity": 101236.48}, {"ts": 1787702400, "equity": 101154.49}, {"ts": 1787788800, "equity": 101251.25}, {"ts": 1787875200, "equity": 101305.5}, {"ts": 1787961600, "equity": 101138.42}, {"ts": 1788220800, "equity": 101113.62}, {"ts": 1788307200, "equity": 100987.46}, {"ts": 1788393600, "equity": 100992.86}, {"ts": 1788480000, "equity": 101246.78}, {"ts": 1788566400, "equity": 101140.59}, {"ts": 1788912000, "equity": 101187.07}, {"ts": 1788998400, "equity": 101124.75}, {"ts": 1789084800, "equity": 101116.76}, {"ts": 1789171200, "equity": 101164.61}, {"ts": 1789430400, "equity": 101319.44}, {"ts": 1789516800, "equity": 101273.96}, {"ts": 1789603200, "equity": 101199.89}, {"ts": 1789689600, "equity": 101224.45}], "decisions": {"considered": 0, "traded": 0, "dropped": 0, "lines": []}, "alerts": [{"level": "ok", "message": "All clear"}], "positions": [{"ticker": "LMT", "qty": 5, "entry": 533.98, "current": 533.6699, "unrealized_pct": -0.058}, {"ticker": "QQQ", "qty": 2, "entry": 709.905, "current": 719.21, "unrealized_pct": 1.311}, {"ticker": "SPY", "qty": 2, "entry": 761.555, "current": 761.17, "unrealized_pct": -0.051000000000000004}, {"ticker": "XAR", "qty": 12, "entry": 242.695, "current": 239.43, "unrealized_pct": -1.345}], "positions_unavailable": false, "analyst": [], "sw_trades": [], "orders": [{"ticker": "LMT", "qty": 5, "limit_price": 534.39, "status": "filled", "created_at": "2026-09-15 20:35:05"}, {"ticker": "LMT", "qty": 5, "limit_price": 534.39, "status": "expired_retried", "created_at": "2026-09-15 19:34:20"}, {"ticker": "XAR", "qty": 12, "limit_price": 246.6, "status": "filled", "created_at": "2026-09-14 01:01:51"}, {"ticker": "XAR", "qty": 12, "limit_price": 246.6, "status": "filled", "created_at": "2026-09-14 01:01:50"}, {"ticker": "HII", "qty": 10, "limit_price": 280.18, "status": "filled", "created_at": "2026-09-14 01:01:50"}, {"ticker": "XAR", "qty": 12, "limit_price": 246.6, "status": "filled", "created_at": "2026-09-14 01:01:49"}, {"ticker": "XAR", "qty": 11, "limit_price": 246.6, "status": "filled", "created_at": "2026-09-14 01:01:49"}, {"ticker": "XAR", "qty": 11, "limit_price": 246.6, "status": "filled", "created_at": "2026-09-14 01:01:48"}, {"ticker": "NOC", "qty": 5, "limit_price": 519.84, "status": "expired", "created_at": "2026-09-14 01:01:48"}, {"ticker": "XAR", "qty": 12, "limit_price": 246.6, "status": "filled", "created_at": "2026-09-14 01:01:48"}, {"ticker": "XAR", "qty": 12, "limit_price": 246.6, "status": "filled", "created_at": "2026-09-14 01:01:47"}, {"ticker": "XAR", "qty": 11, "limit_price": 246.6, "status": "filled", "created_at": "2026-09-14 01:01:47"}], "generated_ts": 1789758139.488964}</script>
  <script>
  const POLL_MS = 45000;
  const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
@@ -149,6 +152,35 @@
      `<span class="${cls(o.status)}">${esc(o.status)}</span></div>`).join('');
  }
 
+ let makerGood = null;
+ function renderMaker(m){
+   const cap = m.exposure_cap_usd||0, exp = m.exposure_usd||0;
+   const atCap = cap && exp >= cap;
+   const mk = m.markout_avg;
+   el('mk').innerHTML =
+     `<div class="row"><b>${esc(m.live?'LIVE · real quotes':'shadow')}</b>`+
+     ` · cash $${(m.bankroll_usd||0).toFixed(2)}</div>`+
+     `<div class="row">exposure <span class="${atCap?'down':''}">`+
+     `$${exp.toFixed(2)} / $${cap.toFixed(2)}</span>`+
+     `${atCap?' <span class="down">AT CAP — not quoting</span>':''}</div>`+
+     `<div class="row">fills ${m.fills_total||0} · realized `+
+     `<span class="${(m.realized_pnl_usd||0)>=0?'up':'down'}">`+
+     `$${(m.realized_pnl_usd||0).toFixed(4)}</span></div>`+
+     // Markout is the whole verdict: positive means we earn the spread,
+     // negative means informed flow is picking us off.
+     (mk==null ? `<div class="row muted">markout — no scored fills yet</div>`
+       : `<div class="row">avg markout <span class="${mk>=0?'up':'down'}">`+
+         `${mk>=0?'+':''}${mk.toFixed(5)}</span> `+
+         `<span class="muted">(${mk>=0?'earning the spread':'being picked off'})</span></div>`)+
+     (m.positions||[]).slice(0,4).map(q=>
+       `<div class="row muted">   ${esc(String(q.token_id).slice(0,10))} `+
+       `${Number(q.shares).toFixed(0)} @ ${Number(q.avg_cost).toFixed(3)} `+
+       `= $${Number(q.value_usd).toFixed(2)}</div>`).join('')+
+     (m.recent_fills||[]).slice(0,4).map(f=>
+       `<div class="row">${esc(f.side||'')} ${f.shares} @ ${Number(f.price).toFixed(3)} `+
+       `<span class="muted">${esc(String(f.at||'').slice(11,16))}</span></div>`).join('');
+ }
+
  function renderPoly(p){
    const f = p.funnel || {};
    const skips = Object.entries(f.skips||{}).sort((a,b)=>b[1]-a[1]);
@@ -216,6 +248,8 @@
  function tickStaleness(){
    badge('dot','livetxt','ALPACA', lastGood && lastGood.generated_ts, 2*60*60*1000);
    badge('pdot','plivetxt','POLY', polyGood && polyGood.generated_ts, 3*60*60*1000);
+   // The maker runs every 5 min, so it goes stale far sooner than the others.
+   badge('mdot','mlivetxt','MAKER', makerGood && makerGood.generated_ts, 20*60*1000);
  }
 
  async function poll(){
@@ -230,6 +264,10 @@
      const r = await fetch('./poly_status.json', {cache:'no-store'});
      if(r.ok){ polyGood = await r.json(); renderPoly(polyGood); }
    }catch(e){ /* keep polyGood */ }
+   try{
+     const r = await fetch('./maker_status.json', {cache:'no-store'});
+     if(r.ok){ makerGood = await r.json(); renderMaker(makerGood); }
+   }catch(e){ /* keep makerGood */ }
  }
 
  render(JSON.parse(el('snapshot').textContent));
