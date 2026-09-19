@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18 21:20 ET",
+  "generated_at": "2026-09-19 00:46 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 101138.62,
+  "equity": 101131.32,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -94,16 +94,10 @@
     }
   ],
   "decisions": {
-    "considered": 27,
-    "traded": 1,
-    "dropped": 26,
-    "lines": [
-      "\u2705 GD \u2014 General Dynamics Land Systems \u2014 $1,227,184,830",
-      "\u2715 11\u00d7 duplicate",
-      "\u2715 11\u00d7 unresolved company",
-      "\u2715 3\u00d7 below threshold",
-      "\u2715 1\u00d7 negative sentiment"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -116,15 +110,15 @@
       "ticker": "LMT",
       "qty": 5,
       "entry": 533.98,
-      "current": 534.6,
-      "unrealized_pct": 0.116
+      "current": 533.38,
+      "unrealized_pct": -0.11199999999999999
     },
     {
       "ticker": "QQQ",
       "qty": 2,
       "entry": 709.905,
-      "current": 722.05,
-      "unrealized_pct": 1.711
+      "current": 721.45,
+      "unrealized_pct": 1.6260000000000001
     },
     {
       "ticker": "SPY",
@@ -230,5 +224,5 @@
       "created_at": "2026-09-14 01:01:48"
     }
   ],
-  "generated_ts": 1789780833.671903
+  "generated_ts": 1789793201.634035
 }
