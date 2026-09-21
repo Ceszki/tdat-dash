@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-20 22:06 ET",
+  "generated_at": "2026-09-21 04:04 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 101148.46,
+  "equity": 101171.96,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -114,22 +114,22 @@
       "ticker": "LMT",
       "qty": 5,
       "entry": 533.98,
-      "current": 534.6,
-      "unrealized_pct": 0.116
+      "current": 537.2,
+      "unrealized_pct": 0.603
     },
     {
       "ticker": "QQQ",
       "qty": 2,
       "entry": 709.905,
-      "current": 724.37,
-      "unrealized_pct": 2.038
+      "current": 727.44,
+      "unrealized_pct": 2.4699999999999998
     },
     {
       "ticker": "SPY",
       "qty": 2,
       "entry": 761.555,
-      "current": 764.29,
-      "unrealized_pct": 0.359
+      "current": 766.47,
+      "unrealized_pct": 0.645
     },
     {
       "ticker": "XAR",
@@ -228,5 +228,5 @@
       "created_at": "2026-09-14 01:01:48"
     }
   ],
-  "generated_ts": 1789956407.711293
+  "generated_ts": 1789977894.978863
 }
