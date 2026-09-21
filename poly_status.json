@@ -1,40 +1,17 @@
 {
-  "generated_at": "2026-09-21 12:01 EDT",
-  "generated_ts": 1790006504.300227,
+  "generated_at": "2026-09-21 13:00 EDT",
+  "generated_ts": 1790010011.134436,
   "live_armed": false,
-  "last_tick_at": "2026-09-21 12:00:10",
+  "last_tick_at": "2026-09-21 13:00:10",
   "funnel": {
-    "scanned": 264,
-    "parsed": 264,
-    "priced": 192,
+    "scanned": 0,
+    "parsed": 0,
+    "priced": 0,
     "skips": {
-      "no_fair_probability": 72,
-      "edge_below_min": 80,
-      "ask_unavailable": 7,
-      "price_out_of_band": 105
+      "daily_loss_halt": 1
     }
   },
   "shadow_open": [
-    {
-      "id": 5,
-      "market_id": "4558890",
-      "token_id": "32965299397556133190156747304680573664293346869061544416366410370841290119853",
-      "side": "NO",
-      "underlying": "SOL",
-      "strike": 110.0,
-      "question": "Will the price of Solana be above $110 on September 21?",
-      "shares": 9,
-      "entry_price": 0.507,
-      "fair_p": 0.4023781654305769,
-      "edge": 0.07312526456942307,
-      "resolution_ts": 1790006400.0,
-      "entered_at": "2026-09-18 09:48:04",
-      "status": "shadow_open",
-      "settle_price": null,
-      "pnl_usd": null,
-      "exited_at": null,
-      "is_inferred": 0
-    },
     {
       "id": 6,
       "market_id": "4617569",
@@ -81,8 +58,8 @@
   "live_exposure_usd": 0.0,
   "predictions": 15898,
   "markets": 836,
-  "resolved": 516,
-  "indep_bets": 48,
+  "resolved": 552,
+  "indep_bets": 52,
   "recent_edges": [
     {
       "id": 15898,
