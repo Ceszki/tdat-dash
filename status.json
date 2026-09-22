@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22 19:04 ET",
+  "generated_at": "2026-09-22 19:39 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 101062.81,
+  "equity": 101063.17,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -86,10 +86,15 @@
     }
   ],
   "decisions": {
-    "considered": 0,
-    "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "considered": 30,
+    "traded": 1,
+    "dropped": 29,
+    "lines": [
+      "\u2705 VVX \u2014 V2X Systems LLC \u2014 $594,189,544",
+      "\u2715 13\u00d7 duplicate",
+      "\u2715 12\u00d7 unresolved company",
+      "\u2715 4\u00d7 below threshold"
+    ]
   },
   "alerts": [
     {
@@ -102,15 +107,15 @@
       "ticker": "QQQ",
       "qty": 2,
       "entry": 709.905,
-      "current": 747.95,
-      "unrealized_pct": 5.359
+      "current": 748.09,
+      "unrealized_pct": 5.379
     },
     {
       "ticker": "SPY",
       "qty": 2,
       "entry": 761.555,
-      "current": 773.61,
-      "unrealized_pct": 1.583
+      "current": 773.65,
+      "unrealized_pct": 1.5879999999999999
     },
     {
       "ticker": "XAR",
@@ -124,6 +129,13 @@
   "analyst": [],
   "sw_trades": [],
   "orders": [
+    {
+      "ticker": "VVX",
+      "qty": 41,
+      "limit_price": 73.12,
+      "status": "submitted",
+      "created_at": "2026-09-22 19:39:29"
+    },
     {
       "ticker": "GD",
       "qty": 8,
@@ -200,14 +212,7 @@
       "limit_price": 519.84,
       "status": "expired",
       "created_at": "2026-09-14 01:01:48"
-    },
-    {
-      "ticker": "XAR",
-      "qty": 12,
-      "limit_price": 246.6,
-      "status": "filled",
-      "created_at": "2026-09-14 01:01:48"
     }
   ],
-  "generated_ts": 1790118243.054072
+  "generated_ts": 1790120379.190911
 }
