@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-23 17:30 EDT",
-  "generated_ts": 1790199053.79469,
+  "generated_at": "2026-09-23 18:45 EDT",
+  "generated_ts": 1790203529.834742,
   "live_armed": false,
-  "last_tick_at": "2026-09-23 17:30:52",
+  "last_tick_at": "2026-09-23 18:45:29",
   "funnel": {
     "scanned": 0,
     "parsed": 0,
@@ -17,7 +17,7 @@
   "live_exposure_usd": 0.0,
   "predictions": 20162,
   "markets": 891,
-  "resolved": 644,
+  "resolved": 645,
   "indep_bets": 60,
   "recent_edges": [
     {
