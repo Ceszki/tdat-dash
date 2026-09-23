@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-23 12:30 EDT",
-  "generated_ts": 1790181054.035386,
+  "generated_at": "2026-09-23 13:30 EDT",
+  "generated_ts": 1790184602.772292,
   "live_armed": false,
-  "last_tick_at": "2026-09-23 12:30:53",
+  "last_tick_at": "2026-09-23 13:30:02",
   "funnel": {
     "scanned": 0,
     "parsed": 0,
@@ -11,34 +11,13 @@
       "daily_loss_halt": 1
     }
   },
-  "shadow_open": [
-    {
-      "id": 7,
-      "market_id": "4617546",
-      "token_id": "35690133655789343191304457550454753918085134515983553443936888587894495990352",
-      "side": "NO",
-      "underlying": "BTC",
-      "strike": 84000.0,
-      "question": "Will the price of Bitcoin be above $84,000 on September 23?",
-      "shares": 6,
-      "entry_price": 0.779,
-      "fair_p": 0.15105394953060874,
-      "edge": 0.057894920469391285,
-      "resolution_ts": 1790179200.0,
-      "entered_at": "2026-09-19 13:32:15",
-      "status": "shadow_open",
-      "settle_price": null,
-      "pnl_usd": null,
-      "exited_at": null,
-      "is_inferred": 0
-    }
-  ],
+  "shadow_open": [],
   "live_open": [],
   "live_realized_usd": 0.0,
   "live_exposure_usd": 0.0,
   "predictions": 20162,
   "markets": 891,
-  "resolved": 643,
+  "resolved": 644,
   "indep_bets": 60,
   "recent_edges": [
     {
