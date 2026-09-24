@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-23 23:01 ET",
+  "generated_at": "2026-09-24 01:01 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 101009.23,
+  "equity": 101004.67,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -90,15 +90,10 @@
     }
   ],
   "decisions": {
-    "considered": 28,
-    "traded": 1,
-    "dropped": 27,
-    "lines": [
-      "\u2705 LHX \u2014 L3Harris Technologies Inc. \u2014 $876,440,942",
-      "\u2715 15\u00d7 unresolved company",
-      "\u2715 9\u00d7 duplicate",
-      "\u2715 3\u00d7 below threshold"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -111,15 +106,15 @@
       "ticker": "QQQ",
       "qty": 2,
       "entry": 709.905,
-      "current": 740.51,
-      "unrealized_pct": 4.311
+      "current": 739.4,
+      "unrealized_pct": 4.154999999999999
     },
     {
       "ticker": "SPY",
       "qty": 2,
       "entry": 761.555,
-      "current": 767.1,
-      "unrealized_pct": 0.728
+      "current": 765.93,
+      "unrealized_pct": 0.5740000000000001
     },
     {
       "ticker": "XAR",
@@ -218,5 +213,5 @@
       "created_at": "2026-09-14 01:01:49"
     }
   ],
-  "generated_ts": 1790218864.990844
+  "generated_ts": 1790226077.365335
 }
