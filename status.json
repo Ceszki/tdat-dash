@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24 19:38 ET",
+  "generated_at": "2026-09-24 19:56 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100966.18,
+  "equity": 100958.66,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -94,10 +94,16 @@
     }
   ],
   "decisions": {
-    "considered": 0,
-    "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "considered": 36,
+    "traded": 2,
+    "dropped": 34,
+    "lines": [
+      "\u2705 XAR \u2014 Northrop Grumman Systems Corp. \u2014 $123,781,000",
+      "\u2705 NOC \u2014 Northrop Grumman Systems Corp. \u2014 $1,921,299,231",
+      "\u2715 18\u00d7 unresolved company",
+      "\u2715 11\u00d7 duplicate",
+      "\u2715 5\u00d7 below threshold"
+    ]
   },
   "alerts": [
     {
@@ -110,28 +116,49 @@
       "ticker": "LHX",
       "qty": 12,
       "entry": 239.63,
-      "current": 238.04,
-      "unrealized_pct": -0.664
+      "current": 238.07,
+      "unrealized_pct": -0.651
+    },
+    {
+      "ticker": "NOC",
+      "qty": 5,
+      "entry": 510.0,
+      "current": 508.98,
+      "unrealized_pct": -0.2
     },
     {
       "ticker": "QQQ",
       "qty": 2,
       "entry": 709.905,
-      "current": 740.27,
-      "unrealized_pct": 4.277
+      "current": 739.54,
+      "unrealized_pct": 4.175
     },
     {
       "ticker": "SPY",
       "qty": 2,
       "entry": 761.555,
-      "current": 766.64,
-      "unrealized_pct": 0.668
+      "current": 765.98,
+      "unrealized_pct": 0.581
     }
   ],
   "positions_unavailable": false,
   "analyst": [],
   "sw_trades": [],
   "orders": [
+    {
+      "ticker": "NOC",
+      "qty": 5,
+      "limit_price": 510.02,
+      "status": "filled",
+      "created_at": "2026-09-24 19:55:56"
+    },
+    {
+      "ticker": "XAR",
+      "qty": 12,
+      "limit_price": 240.1,
+      "status": "submitted",
+      "created_at": "2026-09-24 19:55:51"
+    },
     {
       "ticker": "LHX",
       "qty": 12,
@@ -201,21 +228,7 @@
       "limit_price": 246.6,
       "status": "filled",
       "created_at": "2026-09-14 01:01:50"
-    },
-    {
-      "ticker": "HII",
-      "qty": 10,
-      "limit_price": 280.18,
-      "status": "filled",
-      "created_at": "2026-09-14 01:01:50"
-    },
-    {
-      "ticker": "XAR",
-      "qty": 12,
-      "limit_price": 246.6,
-      "status": "filled",
-      "created_at": "2026-09-14 01:01:49"
     }
   ],
-  "generated_ts": 1790293105.381275
+  "generated_ts": 1790294162.300274
 }
