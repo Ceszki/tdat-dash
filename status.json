@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24 22:15 ET",
+  "generated_at": "2026-09-25 01:07 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100966.88,
+  "equity": 100966.5,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -94,16 +94,10 @@
     }
   ],
   "decisions": {
-    "considered": 36,
-    "traded": 2,
-    "dropped": 34,
-    "lines": [
-      "\u2705 XAR \u2014 Northrop Grumman Systems Corp. \u2014 $123,781,000",
-      "\u2705 NOC \u2014 Northrop Grumman Systems Corp. \u2014 $1,921,299,231",
-      "\u2715 18\u00d7 unresolved company",
-      "\u2715 11\u00d7 duplicate",
-      "\u2715 5\u00d7 below threshold"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -130,15 +124,15 @@
       "ticker": "QQQ",
       "qty": 2,
       "entry": 709.905,
-      "current": 742.33,
-      "unrealized_pct": 4.568
+      "current": 742.3,
+      "unrealized_pct": 4.563
     },
     {
       "ticker": "SPY",
       "qty": 2,
       "entry": 761.555,
-      "current": 767.3,
-      "unrealized_pct": 0.754
+      "current": 767.14,
+      "unrealized_pct": 0.733
     }
   ],
   "positions_unavailable": false,
@@ -230,5 +224,5 @@
       "created_at": "2026-09-14 01:01:51"
     }
   ],
-  "generated_ts": 1790302533.891226
+  "generated_ts": 1790312846.301814
 }
