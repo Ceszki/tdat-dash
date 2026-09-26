@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25 23:47 ET",
+  "generated_at": "2026-09-26 01:10 ET",
   "broker_mode": "Alpaca PAPER",
   "equity": 100975.67,
   "equity_unavailable": false,
@@ -94,15 +94,10 @@
     }
   ],
   "decisions": {
-    "considered": 48,
-    "traded": 1,
-    "dropped": 47,
-    "lines": [
-      "\u2705 GD \u2014 General Dynamics Land Systems Inc. \u2014 $1,244,255,484",
-      "\u2715 24\u00d7 unresolved company",
-      "\u2715 14\u00d7 duplicate",
-      "\u2715 9\u00d7 below threshold"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -236,5 +231,5 @@
       "created_at": "2026-09-15 20:35:05"
     }
   ],
-  "generated_ts": 1790394444.911145
+  "generated_ts": 1790399423.842078
 }
