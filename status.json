@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27 01:57 ET",
+  "generated_at": "2026-09-27 07:07 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100938.25,
+  "equity": 100943.82,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -111,18 +111,11 @@
   ],
   "positions": [
     {
-      "ticker": "BTCUSD",
-      "qty": 0,
-      "entry": 84341.474737942,
-      "current": 84460.247,
-      "unrealized_pct": 0.14100000000000001
-    },
-    {
       "ticker": "ETHUSD",
       "qty": 0,
       "entry": 2705.139,
-      "current": 2706.0,
-      "unrealized_pct": 0.032
+      "current": 2708.3,
+      "unrealized_pct": 0.117
     },
     {
       "ticker": "LHX",
@@ -163,6 +156,22 @@
   "positions_unavailable": false,
   "analyst": [],
   "sw_trades": [
+    {
+      "id": 26,
+      "symbol": "BTC/USD",
+      "qty": 0.023894,
+      "entry_price": 84494.21,
+      "tp_price": 85761.62,
+      "stop_price": 83649.27,
+      "entered_at": "2026-09-26 18:24:50",
+      "status": "closed",
+      "exit_price": 84834.685917366,
+      "pnl_usd": 1.6620877831535381,
+      "exit_reason": "time-stop 8h; broker fills, estimated fees",
+      "exited_at": "2026-09-27 07:07:12",
+      "broker_order_id": "c58ff468-e426-45ad-8f1a-393227caca99",
+      "exit_order_id": "6f62d08a-64d1-4399-8daf-669fce2220d6"
+    },
     {
       "id": 27,
       "symbol": "ETH/USD",
@@ -266,5 +275,5 @@
       "created_at": "2026-09-15 20:35:05"
     }
   ],
-  "generated_ts": 1790488630.525598
+  "generated_ts": 1790507234.500803
 }
