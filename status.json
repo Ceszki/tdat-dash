@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28 17:54 ET",
+  "generated_at": "2026-09-28 19:01 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100804.35,
+  "equity": 100807.08,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -116,15 +116,15 @@
       "ticker": "LHX",
       "qty": 12,
       "entry": 239.63,
-      "current": 237.389,
-      "unrealized_pct": -0.935
+      "current": 237.7,
+      "unrealized_pct": -0.8049999999999999
     },
     {
       "ticker": "NOC",
       "qty": 5,
       "entry": 510.0,
-      "current": 506.0,
-      "unrealized_pct": -0.784
+      "current": 505.8,
+      "unrealized_pct": -0.8240000000000001
     },
     {
       "ticker": "XAR",
@@ -256,5 +256,5 @@
       "created_at": "2026-09-18 21:20:32"
     }
   ],
-  "generated_ts": 1790632495.849085
+  "generated_ts": 1790636469.366487
 }
