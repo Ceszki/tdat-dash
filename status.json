@@ -1,21 +1,9 @@
 {
-  "generated_at": "2026-09-28 02:15 ET",
+  "generated_at": "2026-09-28 10:15 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100914.3,
+  "equity": 100900.76,
   "equity_unavailable": false,
   "equity_curve": [
-    {
-      "ts": 1787702400,
-      "equity": 101154.49
-    },
-    {
-      "ts": 1787788800,
-      "equity": 101251.25
-    },
-    {
-      "ts": 1787875200,
-      "equity": 101305.5
-    },
     {
       "ts": 1787961600,
       "equity": 101138.42
@@ -111,39 +99,46 @@
   ],
   "positions": [
     {
+      "ticker": "GD",
+      "qty": 8,
+      "entry": 334.82,
+      "current": 336.605,
+      "unrealized_pct": 0.5329999999999999
+    },
+    {
       "ticker": "LHX",
       "qty": 12,
       "entry": 239.63,
-      "current": 238.27,
-      "unrealized_pct": -0.5680000000000001
+      "current": 238.075,
+      "unrealized_pct": -0.649
     },
     {
       "ticker": "NOC",
       "qty": 5,
       "entry": 510.0,
-      "current": 510.52,
-      "unrealized_pct": 0.10200000000000001
+      "current": 512.9999,
+      "unrealized_pct": 0.588
     },
     {
       "ticker": "QQQ",
       "qty": 2,
       "entry": 709.905,
-      "current": 738.2,
-      "unrealized_pct": 3.9859999999999998
+      "current": 736.15,
+      "unrealized_pct": 3.697
     },
     {
       "ticker": "SPY",
       "qty": 2,
       "entry": 761.555,
-      "current": 768.64,
-      "unrealized_pct": 0.9299999999999999
+      "current": 767.29,
+      "unrealized_pct": 0.753
     },
     {
       "ticker": "XAR",
       "qty": 12,
       "entry": 240.025833,
-      "current": 239.59,
-      "unrealized_pct": -0.182
+      "current": 237.0,
+      "unrealized_pct": -1.261
     }
   ],
   "positions_unavailable": false,
@@ -154,7 +149,7 @@
       "ticker": "GD",
       "qty": 8,
       "limit_price": 337.36,
-      "status": "submitted",
+      "status": "filled",
       "created_at": "2026-09-25 20:00:48"
     },
     {
@@ -235,5 +230,5 @@
       "created_at": "2026-09-15 20:35:05"
     }
   ],
-  "generated_ts": 1790576134.30021
+  "generated_ts": 1790604939.362164
 }
