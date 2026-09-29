@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-29 02:23 ET",
+  "generated_at": "2026-09-29 09:11 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100798.36,
+  "equity": 100886.77,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -83,6 +83,10 @@
     {
       "ts": 1790380800,
       "equity": 100975.67
+    },
+    {
+      "ts": 1790640000,
+      "equity": 100807.08
     }
   ],
   "decisions": {
@@ -102,43 +106,43 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 83868.291930268,
-      "current": 83811.15,
-      "unrealized_pct": -0.068
+      "current": 84406.6,
+      "unrealized_pct": 0.642
     },
     {
       "ticker": "ETHUSD",
       "qty": 0,
       "entry": 2694.256,
-      "current": 2692.4225,
-      "unrealized_pct": -0.068
+      "current": 2734.85,
+      "unrealized_pct": 1.5070000000000001
     },
     {
       "ticker": "GD",
       "qty": 8,
       "entry": 334.82,
-      "current": 334.67,
-      "unrealized_pct": -0.045
+      "current": 337.5,
+      "unrealized_pct": 0.8
     },
     {
       "ticker": "LHX",
       "qty": 12,
       "entry": 239.63,
-      "current": 237.7,
-      "unrealized_pct": -0.8049999999999999
+      "current": 238.38,
+      "unrealized_pct": -0.522
     },
     {
       "ticker": "NOC",
       "qty": 5,
       "entry": 510.0,
-      "current": 505.8,
-      "unrealized_pct": -0.8240000000000001
+      "current": 506.2,
+      "unrealized_pct": -0.745
     },
     {
       "ticker": "XAR",
       "qty": 12,
       "entry": 240.025833,
-      "current": 234.19,
-      "unrealized_pct": -2.431
+      "current": 235.0,
+      "unrealized_pct": -2.094
     }
   ],
   "positions_unavailable": false,
@@ -263,5 +267,5 @@
       "created_at": "2026-09-22 21:02:18"
     }
   ],
-  "generated_ts": 1790662988.080715
+  "generated_ts": 1790687465.083797
 }
