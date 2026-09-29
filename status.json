@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28 21:03 ET",
+  "generated_at": "2026-09-29 01:53 ET",
   "broker_mode": "Alpaca PAPER",
   "equity": 100811.16,
   "equity_unavailable": false,
@@ -86,17 +86,10 @@
     }
   ],
   "decisions": {
-    "considered": 69,
-    "traded": 2,
-    "dropped": 67,
-    "lines": [
-      "\u2705 RTX \u2014 Raytheon Co. \u2014 $20,699,334,581",
-      "\u2705 AMTM \u2014 Amentum Technology Inc. \u2014 $572,358,987",
-      "\u2715 28\u00d7 duplicate",
-      "\u2715 26\u00d7 unresolved company",
-      "\u2715 12\u00d7 below threshold",
-      "\u2715 1\u00d7 negative sentiment"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -136,40 +129,7 @@
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [
-    {
-      "id": 21,
-      "symbol": "SPY",
-      "qty": 2.0,
-      "entry_price": 763.61,
-      "tp_price": 775.06,
-      "stop_price": 755.97,
-      "entered_at": "2026-09-14 11:50:14",
-      "status": "closed",
-      "exit_price": 767.33,
-      "pnl_usd": 11.550000000000182,
-      "exit_reason": "next-session exit; broker fills, estimated fees",
-      "exited_at": "2026-09-28 12:01:21",
-      "broker_order_id": "7dc1128e-189f-4448-aba9-98e43eae6a50",
-      "exit_order_id": "778ae5cf-76cf-41be-b5d8-243c1300e3dc"
-    },
-    {
-      "id": 22,
-      "symbol": "QQQ",
-      "qty": 2.0,
-      "entry_price": 711.87,
-      "tp_price": 722.55,
-      "stop_price": 704.75,
-      "entered_at": "2026-09-14 11:50:15",
-      "status": "closed",
-      "exit_price": 736.16,
-      "pnl_usd": 52.50999999999999,
-      "exit_reason": "next-session exit; broker fills, estimated fees",
-      "exited_at": "2026-09-28 12:01:21",
-      "broker_order_id": "93b95087-5053-46f4-b3bd-f55af88165d1",
-      "exit_order_id": "aa985ef3-15f6-4b07-aa49-5e2d3712243a"
-    }
-  ],
+  "sw_trades": [],
   "orders": [
     {
       "ticker": "AMTM",
@@ -256,5 +216,5 @@
       "created_at": "2026-09-22 21:02:18"
     }
   ],
-  "generated_ts": 1790643791.053423
+  "generated_ts": 1790661227.992853
 }
