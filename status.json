@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-09-29 09:11 ET",
+  "generated_at": "2026-09-29 11:01 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100886.77,
+  "equity": 100708.15,
   "equity_unavailable": false,
   "equity_curve": [
-    {
-      "ts": 1787961600,
-      "equity": 101138.42
-    },
     {
       "ts": 1788220800,
       "equity": 101113.62
@@ -103,46 +99,46 @@
   ],
   "positions": [
     {
-      "ticker": "BTCUSD",
-      "qty": 0,
-      "entry": 83868.291930268,
-      "current": 84406.6,
-      "unrealized_pct": 0.642
-    },
-    {
-      "ticker": "ETHUSD",
-      "qty": 0,
-      "entry": 2694.256,
-      "current": 2734.85,
-      "unrealized_pct": 1.5070000000000001
+      "ticker": "AMTM",
+      "qty": 163,
+      "entry": 18.47,
+      "current": 18.4,
+      "unrealized_pct": -0.379
     },
     {
       "ticker": "GD",
       "qty": 8,
       "entry": 334.82,
-      "current": 337.5,
-      "unrealized_pct": 0.8
+      "current": 331.42,
+      "unrealized_pct": -1.015
     },
     {
       "ticker": "LHX",
       "qty": 12,
       "entry": 239.63,
-      "current": 238.38,
-      "unrealized_pct": -0.522
+      "current": 236.405,
+      "unrealized_pct": -1.346
     },
     {
       "ticker": "NOC",
       "qty": 5,
       "entry": 510.0,
-      "current": 506.2,
-      "unrealized_pct": -0.745
+      "current": 503.98,
+      "unrealized_pct": -1.18
+    },
+    {
+      "ticker": "RTX",
+      "qty": 16,
+      "entry": 187.665,
+      "current": 186.765,
+      "unrealized_pct": -0.48
     },
     {
       "ticker": "XAR",
       "qty": 12,
       "entry": 240.025833,
-      "current": 235.0,
-      "unrealized_pct": -2.094
+      "current": 233.45,
+      "unrealized_pct": -2.74
     }
   ],
   "positions_unavailable": false,
@@ -156,13 +152,13 @@
       "tp_price": 85286.51,
       "stop_price": 83185.86,
       "entered_at": "2026-09-29 02:23:07",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
+      "status": "closed",
+      "exit_price": 83622.535,
+      "pnl_usd": -15.917135507294688,
+      "exit_reason": "time-stop 8h; broker fills, estimated fees",
+      "exited_at": "2026-09-29 11:01:05",
       "broker_order_id": "a9b0fdf2-d483-4e3a-8bcd-11852b63540a",
-      "exit_order_id": null
+      "exit_order_id": "c22eef5a-985a-48d1-a3a0-90f79dcbde44"
     },
     {
       "id": 29,
@@ -172,13 +168,13 @@
       "tp_price": 2737.5,
       "stop_price": 2670.07,
       "entered_at": "2026-09-29 02:23:07",
-      "status": "open",
+      "status": "exit_pending",
       "exit_price": null,
       "pnl_usd": null,
-      "exit_reason": null,
+      "exit_reason": "time-stop 8h",
       "exited_at": null,
       "broker_order_id": "7ccf0655-590f-4c7a-9120-6c1f362b3e48",
-      "exit_order_id": null
+      "exit_order_id": "9765ed4a-ff3a-4203-ae79-676b51f4929d"
     }
   ],
   "orders": [
@@ -186,14 +182,14 @@
       "ticker": "AMTM",
       "qty": 163,
       "limit_price": 18.55,
-      "status": "submitted",
+      "status": "filled",
       "created_at": "2026-09-28 20:43:33"
     },
     {
       "ticker": "RTX",
       "qty": 16,
       "limit_price": 188.01,
-      "status": "submitted",
+      "status": "filled",
       "created_at": "2026-09-28 20:43:32"
     },
     {
@@ -267,5 +263,5 @@
       "created_at": "2026-09-22 21:02:18"
     }
   ],
-  "generated_ts": 1790687465.083797
+  "generated_ts": 1790694066.167682
 }
