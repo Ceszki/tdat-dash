@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-29 13:01 ET",
+  "generated_at": "2026-09-29 14:00 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100666.63,
+  "equity": 100658.57,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -99,39 +99,32 @@
   ],
   "positions": [
     {
-      "ticker": "AMTM",
-      "qty": 163,
-      "entry": 18.47,
-      "current": 17.98,
-      "unrealized_pct": -2.653
-    },
-    {
       "ticker": "GD",
       "qty": 8,
       "entry": 334.82,
-      "current": 331.94,
-      "unrealized_pct": -0.86
+      "current": 332.715,
+      "unrealized_pct": -0.629
     },
     {
       "ticker": "LHX",
       "qty": 12,
       "entry": 239.63,
-      "current": 236.41,
-      "unrealized_pct": -1.344
+      "current": 236.22,
+      "unrealized_pct": -1.423
     },
     {
       "ticker": "NOC",
       "qty": 5,
       "entry": 510.0,
-      "current": 506.14,
-      "unrealized_pct": -0.757
+      "current": 506.34,
+      "unrealized_pct": -0.718
     },
     {
       "ticker": "RTX",
       "qty": 16,
       "entry": 187.665,
-      "current": 188.02,
-      "unrealized_pct": 0.189
+      "current": 187.82,
+      "unrealized_pct": 0.083
     }
   ],
   "positions_unavailable": false,
@@ -256,5 +249,5 @@
       "created_at": "2026-09-22 21:02:18"
     }
   ],
-  "generated_ts": 1790701280.56517
+  "generated_ts": 1790704858.369033
 }
