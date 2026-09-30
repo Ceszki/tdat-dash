@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-30 18:01 ET",
+  "generated_at": "2026-09-30 19:18 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100502.08,
+  "equity": 100489.15,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -106,22 +106,22 @@
       "ticker": "GD",
       "qty": 8,
       "entry": 334.82,
-      "current": 332.0,
-      "unrealized_pct": -0.8420000000000001
+      "current": 331.83,
+      "unrealized_pct": -0.893
     },
     {
       "ticker": "LHX",
       "qty": 12,
       "entry": 239.63,
-      "current": 237.9438,
-      "unrealized_pct": -0.7040000000000001
+      "current": 236.78,
+      "unrealized_pct": -1.189
     },
     {
       "ticker": "RTX",
       "qty": 16,
       "entry": 187.665,
-      "current": 185.5,
-      "unrealized_pct": -1.154
+      "current": 185.65,
+      "unrealized_pct": -1.0739999999999998
     },
     {
       "ticker": "XAR",
@@ -220,5 +220,5 @@
       "created_at": "2026-09-23 21:01:05"
     }
   ],
-  "generated_ts": 1790805695.359859
+  "generated_ts": 1790810305.355444
 }
