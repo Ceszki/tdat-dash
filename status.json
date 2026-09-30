@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-29 21:43 ET",
+  "generated_at": "2026-09-30 01:44 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100601.41,
+  "equity": 100588.91,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -86,16 +86,10 @@
     }
   ],
   "decisions": {
-    "considered": 128,
-    "traded": 2,
-    "dropped": 126,
-    "lines": [
-      "\u2705 HII \u2014 Huntington Ingalls Inc. \u2014 $5,183,380,744",
-      "\u2705 XAR \u2014 The Haskell Co. \u2014 $975,000,000",
-      "\u2715 66\u00d7 duplicate",
-      "\u2715 44\u00d7 unresolved company",
-      "\u2715 16\u00d7 below threshold"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -122,8 +116,8 @@
       "ticker": "NOC",
       "qty": 5,
       "entry": 510.0,
-      "current": 497.5,
-      "unrealized_pct": -2.451
+      "current": 495.0,
+      "unrealized_pct": -2.941
     },
     {
       "ticker": "RTX",
@@ -135,40 +129,7 @@
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [
-    {
-      "id": 28,
-      "symbol": "BTC/USD",
-      "qty": 0.023995,
-      "entry_price": 84026.12,
-      "tp_price": 85286.51,
-      "stop_price": 83185.86,
-      "entered_at": "2026-09-29 02:23:07",
-      "status": "closed",
-      "exit_price": 83622.535,
-      "pnl_usd": -15.917135507294688,
-      "exit_reason": "time-stop 8h; broker fills, estimated fees",
-      "exited_at": "2026-09-29 11:01:05",
-      "broker_order_id": "a9b0fdf2-d483-4e3a-8bcd-11852b63540a",
-      "exit_order_id": "c22eef5a-985a-48d1-a3a0-90f79dcbde44"
-    },
-    {
-      "id": 29,
-      "symbol": "ETH/USD",
-      "qty": 0.747569,
-      "entry_price": 2697.04,
-      "tp_price": 2737.5,
-      "stop_price": 2670.07,
-      "entered_at": "2026-09-29 02:23:07",
-      "status": "closed",
-      "exit_price": 2705.416,
-      "pnl_usd": -1.756916445760453,
-      "exit_reason": "time-stop 8h; broker fills, estimated fees",
-      "exited_at": "2026-09-29 12:01:32",
-      "broker_order_id": "7ccf0655-590f-4c7a-9120-6c1f362b3e48",
-      "exit_order_id": "9765ed4a-ff3a-4203-ae79-676b51f4929d"
-    }
-  ],
+  "sw_trades": [],
   "orders": [
     {
       "ticker": "XAR",
@@ -255,5 +216,5 @@
       "created_at": "2026-09-23 21:01:05"
     }
   ],
-  "generated_ts": 1790732627.654595
+  "generated_ts": 1790747051.896096
 }
