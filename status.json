@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-30 22:15 ET",
+  "generated_at": "2026-10-01 02:10 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100494.51,
+  "equity": 100498.27,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -90,17 +90,10 @@
     }
   ],
   "decisions": {
-    "considered": 52,
-    "traded": 2,
-    "dropped": 50,
-    "lines": [
-      "\u2705 BAH \u2014 Booz Allen Hamilton Inc. \u2014 $827,871,777",
-      "\u2705 BA \u2014 The Boeing Co. \u2014 $827,391,197",
-      "\u2715 22\u00d7 duplicate",
-      "\u2715 18\u00d7 unresolved company",
-      "\u2715 9\u00d7 below threshold",
-      "\u2715 1\u00d7 negative sentiment"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -113,8 +106,8 @@
       "ticker": "GD",
       "qty": 8,
       "entry": 334.82,
-      "current": 332.5,
-      "unrealized_pct": -0.6930000000000001
+      "current": 332.97,
+      "unrealized_pct": -0.553
     },
     {
       "ticker": "LHX",
@@ -227,5 +220,5 @@
       "created_at": "2026-09-24 22:15:33"
     }
   ],
-  "generated_ts": 1790820932.7249
+  "generated_ts": 1790835017.020551
 }
