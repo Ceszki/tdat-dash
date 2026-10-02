@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-01 21:01 ET",
+  "generated_at": "2026-10-02 01:53 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100692.43,
+  "equity": 100692.11,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -90,14 +90,10 @@
     }
   ],
   "decisions": {
-    "considered": 25,
+    "considered": 0,
     "traded": 0,
-    "dropped": 25,
-    "lines": [
-      "\u2715 16\u00d7 unresolved company",
-      "\u2715 7\u00d7 duplicate",
-      "\u2715 2\u00d7 below threshold"
-    ]
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -110,8 +106,8 @@
       "ticker": "BA",
       "qty": 16,
       "entry": 186.44,
-      "current": 192.3,
-      "unrealized_pct": 3.143
+      "current": 193.05,
+      "unrealized_pct": 3.5450000000000004
     },
     {
       "ticker": "GD",
@@ -138,8 +134,8 @@
       "ticker": "RTX",
       "qty": 16,
       "entry": 187.665,
-      "current": 186.1197,
-      "unrealized_pct": -0.823
+      "current": 185.35,
+      "unrealized_pct": -1.234
     },
     {
       "ticker": "XAR",
@@ -238,5 +234,5 @@
       "created_at": "2026-09-25 19:59:34"
     }
   ],
-  "generated_ts": 1790902901.360395
+  "generated_ts": 1790920415.7972
 }
