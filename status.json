@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02 01:53 ET",
+  "generated_at": "2026-10-02 03:08 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100692.11,
+  "equity": 100693.71,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -106,8 +106,8 @@
       "ticker": "BA",
       "qty": 16,
       "entry": 186.44,
-      "current": 193.05,
-      "unrealized_pct": 3.5450000000000004
+      "current": 193.15,
+      "unrealized_pct": 3.599
     },
     {
       "ticker": "GD",
@@ -234,5 +234,5 @@
       "created_at": "2026-09-25 19:59:34"
     }
   ],
-  "generated_ts": 1790920415.7972
+  "generated_ts": 1790924922.4879
 }
