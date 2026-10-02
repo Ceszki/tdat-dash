@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-10-02 03:08 ET",
+  "generated_at": "2026-10-02 09:59 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100693.71,
+  "equity": 100598.95,
   "equity_unavailable": false,
   "equity_curve": [
-    {
-      "ts": 1788307200,
-      "equity": 100987.46
-    },
     {
       "ts": 1788393600,
       "equity": 100992.86
@@ -87,6 +83,10 @@
     {
       "ts": 1790812800,
       "equity": 100489.09
+    },
+    {
+      "ts": 1790899200,
+      "equity": 100674.34
     }
   ],
   "decisions": {
@@ -106,43 +106,50 @@
       "ticker": "BA",
       "qty": 16,
       "entry": 186.44,
-      "current": 193.15,
-      "unrealized_pct": 3.599
+      "current": 191.16,
+      "unrealized_pct": 2.532
+    },
+    {
+      "ticker": "BAH",
+      "qty": 42,
+      "entry": 70.460952,
+      "current": 70.35,
+      "unrealized_pct": -0.157
     },
     {
       "ticker": "GD",
       "qty": 8,
       "entry": 334.82,
-      "current": 332.72,
-      "unrealized_pct": -0.627
+      "current": 329.76,
+      "unrealized_pct": -1.5110000000000001
     },
     {
       "ticker": "HII",
       "qty": 11,
       "entry": 267.848182,
-      "current": 274.33,
-      "unrealized_pct": 2.42
+      "current": 273.32,
+      "unrealized_pct": 2.043
     },
     {
       "ticker": "LHX",
       "qty": 12,
       "entry": 239.63,
-      "current": 238.4,
-      "unrealized_pct": -0.513
+      "current": 236.75,
+      "unrealized_pct": -1.202
     },
     {
       "ticker": "RTX",
       "qty": 16,
       "entry": 187.665,
-      "current": 185.35,
-      "unrealized_pct": -1.234
+      "current": 184.555,
+      "unrealized_pct": -1.657
     },
     {
       "ticker": "XAR",
       "qty": 12,
       "entry": 233.539167,
-      "current": 231.6,
-      "unrealized_pct": -0.83
+      "current": 232.3546,
+      "unrealized_pct": -0.507
     }
   ],
   "positions_unavailable": false,
@@ -153,7 +160,7 @@
       "ticker": "BAH",
       "qty": 42,
       "limit_price": 70.61,
-      "status": "submitted",
+      "status": "filled",
       "created_at": "2026-10-01 20:53:37"
     },
     {
@@ -234,5 +241,5 @@
       "created_at": "2026-09-25 19:59:34"
     }
   ],
-  "generated_ts": 1790924922.4879
+  "generated_ts": 1790949560.438955
 }
