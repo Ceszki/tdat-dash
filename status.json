@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-03 12:50 ET",
+  "generated_at": "2026-10-03 15:34 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100503.64,
+  "equity": 100502.73,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -117,8 +117,8 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 84913.026033927,
-      "current": 84845.4,
-      "unrealized_pct": -0.08
+      "current": 84807.0,
+      "unrealized_pct": -0.125
     },
     {
       "ticker": "GD",
@@ -262,5 +262,5 @@
       "created_at": "2026-09-25 20:00:48"
     }
   ],
-  "generated_ts": 1791046248.592789
+  "generated_ts": 1791056095.398406
 }
