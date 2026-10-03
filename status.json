@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-03 03:13 ET",
+  "generated_at": "2026-10-03 08:39 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100510.33,
+  "equity": 100503.56,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -87,6 +87,10 @@
     {
       "ts": 1790899200,
       "equity": 100674.34
+    },
+    {
+      "ts": 1790985600,
+      "equity": 100510.26
     }
   ],
   "decisions": {
@@ -108,6 +112,13 @@
       "entry": 186.44,
       "current": 193.56,
       "unrealized_pct": 3.819
+    },
+    {
+      "ticker": "BTCUSD",
+      "qty": 0,
+      "entry": 84913.026033927,
+      "current": 84842.068,
+      "unrealized_pct": -0.084
     },
     {
       "ticker": "GD",
@@ -147,7 +158,24 @@
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [],
+  "sw_trades": [
+    {
+      "id": 30,
+      "symbol": "BTC/USD",
+      "qty": 0.023646,
+      "entry_price": 85012.85,
+      "tp_price": 86288.04,
+      "stop_price": 84162.72,
+      "entered_at": "2026-10-03 08:39:28",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "425d7e9a-1be7-4c2e-9e3c-e6da8ab040b0",
+      "exit_order_id": null
+    }
+  ],
   "orders": [
     {
       "ticker": "NOC",
@@ -234,5 +262,5 @@
       "created_at": "2026-09-25 20:00:48"
     }
   ],
-  "generated_ts": 1791011614.764639
+  "generated_ts": 1791031168.824402
 }
