@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-03 15:34 ET",
+  "generated_at": "2026-10-03 18:31 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100502.73,
+  "equity": 100496.35,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -114,13 +114,6 @@
       "unrealized_pct": 3.819
     },
     {
-      "ticker": "BTCUSD",
-      "qty": 0,
-      "entry": 84913.026033927,
-      "current": 84807.0,
-      "unrealized_pct": -0.125
-    },
-    {
       "ticker": "GD",
       "qty": 8,
       "entry": 334.82,
@@ -167,13 +160,13 @@
       "tp_price": 86288.04,
       "stop_price": 84162.72,
       "entered_at": "2026-10-03 08:39:28",
-      "status": "open",
+      "status": "exit_pending",
       "exit_price": null,
       "pnl_usd": null,
-      "exit_reason": null,
+      "exit_reason": "time-stop 8h",
       "exited_at": null,
       "broker_order_id": "425d7e9a-1be7-4c2e-9e3c-e6da8ab040b0",
-      "exit_order_id": null
+      "exit_order_id": "2a3703cd-125b-4bad-bf2b-70e94ac3f01d"
     }
   ],
   "orders": [
@@ -262,5 +255,5 @@
       "created_at": "2026-09-25 20:00:48"
     }
   ],
-  "generated_ts": 1791056095.398406
+  "generated_ts": 1791066675.95393
 }
