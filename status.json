@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03 21:53 ET",
+  "generated_at": "2026-10-04 03:32 ET",
   "broker_mode": "Alpaca PAPER",
   "equity": 100496.35,
   "equity_unavailable": false,
@@ -151,24 +151,7 @@
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [
-    {
-      "id": 30,
-      "symbol": "BTC/USD",
-      "qty": 0.023646,
-      "entry_price": 85012.85,
-      "tp_price": 86288.04,
-      "stop_price": 84162.72,
-      "entered_at": "2026-10-03 08:39:28",
-      "status": "closed",
-      "exit_price": 84748.761855898,
-      "pnl_usd": -13.891850109044071,
-      "exit_reason": "time-stop 8h; broker fills, estimated fees",
-      "exited_at": "2026-10-03 21:53:04",
-      "broker_order_id": "425d7e9a-1be7-4c2e-9e3c-e6da8ab040b0",
-      "exit_order_id": "2a3703cd-125b-4bad-bf2b-70e94ac3f01d"
-    }
-  ],
+  "sw_trades": [],
   "orders": [
     {
       "ticker": "NOC",
@@ -255,5 +238,5 @@
       "created_at": "2026-09-25 20:00:48"
     }
   ],
-  "generated_ts": 1791078785.44495
+  "generated_ts": 1791099174.381837
 }
