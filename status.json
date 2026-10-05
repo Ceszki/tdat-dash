@@ -1,21 +1,9 @@
 {
-  "generated_at": "2026-10-05 05:45 ET",
+  "generated_at": "2026-10-05 11:01 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100511.55,
+  "equity": 100498.7,
   "equity_unavailable": false,
   "equity_curve": [
-    {
-      "ts": 1788393600,
-      "equity": 100992.86
-    },
-    {
-      "ts": 1788480000,
-      "equity": 101246.78
-    },
-    {
-      "ts": 1788566400,
-      "equity": 101140.59
-    },
     {
       "ts": 1788912000,
       "equity": 101187.07
@@ -110,55 +98,72 @@
       "ticker": "BA",
       "qty": 16,
       "entry": 186.44,
-      "current": 193.41,
-      "unrealized_pct": 3.7379999999999995
+      "current": 192.76,
+      "unrealized_pct": 3.39
     },
     {
       "ticker": "GD",
       "qty": 8,
       "entry": 334.82,
-      "current": 329.5,
-      "unrealized_pct": -1.5890000000000002
+      "current": 330.925,
+      "unrealized_pct": -1.163
     },
     {
       "ticker": "HII",
       "qty": 11,
       "entry": 267.848182,
-      "current": 268.54,
-      "unrealized_pct": 0.258
-    },
-    {
-      "ticker": "LHX",
-      "qty": 12,
-      "entry": 239.63,
-      "current": 237.79,
-      "unrealized_pct": -0.768
+      "current": 267.82,
+      "unrealized_pct": -0.011000000000000001
     },
     {
       "ticker": "NOC",
       "qty": 6,
       "entry": 477.15,
-      "current": 479.69,
-      "unrealized_pct": 0.532
+      "current": 480.45,
+      "unrealized_pct": 0.692
+    },
+    {
+      "ticker": "QQQ",
+      "qty": 1,
+      "entry": 754.07,
+      "current": 754.03,
+      "unrealized_pct": -0.005
     },
     {
       "ticker": "RTX",
       "qty": 16,
       "entry": 187.665,
-      "current": 184.23,
-      "unrealized_pct": -1.83
+      "current": 184.8,
+      "unrealized_pct": -1.5270000000000001
     },
     {
       "ticker": "XAR",
       "qty": 12,
       "entry": 233.539167,
-      "current": 233.09,
-      "unrealized_pct": -0.192
+      "current": 233.19,
+      "unrealized_pct": -0.15
     }
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [],
+  "sw_trades": [
+    {
+      "id": 31,
+      "symbol": "QQQ",
+      "qty": 2.0,
+      "entry_price": 755.49,
+      "tp_price": 766.82,
+      "stop_price": 747.94,
+      "entered_at": "2026-10-05 11:01:25",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "51090820-de61-4f1f-a649-a46242dd1795",
+      "exit_order_id": null
+    }
+  ],
   "orders": [
     {
       "ticker": "NOC",
@@ -245,5 +250,5 @@
       "created_at": "2026-09-25 20:00:48"
     }
   ],
-  "generated_ts": 1791193527.539154
+  "generated_ts": 1791212486.893877
 }
