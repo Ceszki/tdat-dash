@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-06 11:01 ET",
+  "generated_at": "2026-10-06 12:01 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100278.87,
+  "equity": 100279.35,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -102,50 +102,50 @@
       "ticker": "BA",
       "qty": 16,
       "entry": 186.44,
-      "current": 191.1599,
-      "unrealized_pct": 2.532
-    },
-    {
-      "ticker": "BTCUSD",
-      "qty": 0,
-      "entry": 86647.597303577,
-      "current": 86681.3,
-      "unrealized_pct": 0.039
+      "current": 191.17,
+      "unrealized_pct": 2.537
     },
     {
       "ticker": "ETHUSD",
       "qty": 0,
       "entry": 2722.024,
-      "current": 2723.172030457,
-      "unrealized_pct": 0.042
+      "current": 2703.0,
+      "unrealized_pct": -0.699
     },
     {
       "ticker": "LMT",
       "qty": 5,
       "entry": 507.5,
-      "current": 507.9901,
-      "unrealized_pct": 0.097
+      "current": 509.18,
+      "unrealized_pct": 0.331
     },
     {
       "ticker": "NOC",
       "qty": 6,
       "entry": 477.15,
-      "current": 480.21,
-      "unrealized_pct": 0.641
+      "current": 483.6,
+      "unrealized_pct": 1.352
+    },
+    {
+      "ticker": "QQQ",
+      "qty": 2,
+      "entry": 762.205,
+      "current": 761.85,
+      "unrealized_pct": -0.047
     },
     {
       "ticker": "RTX",
       "qty": 16,
       "entry": 187.665,
-      "current": 183.95,
-      "unrealized_pct": -1.9800000000000002
+      "current": 184.39,
+      "unrealized_pct": -1.745
     },
     {
       "ticker": "XAR",
       "qty": 12,
       "entry": 233.539167,
-      "current": 232.93,
-      "unrealized_pct": -0.261
+      "current": 233.65,
+      "unrealized_pct": 0.047
     }
   ],
   "positions_unavailable": false,
@@ -207,13 +207,13 @@
       "tp_price": 88064.89,
       "stop_price": 85895.81,
       "entered_at": "2026-10-06 11:01:23",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
+      "status": "closed",
+      "exit_price": 85762.06,
+      "pnl_usd": -30.371596347846662,
+      "exit_reason": "stop 85764.20 <= 85895.81; broker fills, estimated fees",
+      "exited_at": "2026-10-06 12:01:17",
       "broker_order_id": "fd0692c8-5f70-40d0-95ae-a7febb9039d6",
-      "exit_order_id": null
+      "exit_order_id": "1a243fe9-2f8a-44a6-8953-0bbd6b946b67"
     },
     {
       "id": 35,
@@ -334,5 +334,5 @@
       "created_at": "2026-09-28 17:54:37"
     }
   ],
-  "generated_ts": 1791298884.853908
+  "generated_ts": 1791302478.531382
 }
