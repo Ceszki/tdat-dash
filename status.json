@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-06 09:44 ET",
+  "generated_at": "2026-10-06 11:01 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100224.18,
+  "equity": 100278.87,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -102,55 +102,71 @@
       "ticker": "BA",
       "qty": 16,
       "entry": 186.44,
-      "current": 190.85,
-      "unrealized_pct": 2.365
+      "current": 191.1599,
+      "unrealized_pct": 2.532
     },
     {
-      "ticker": "GD",
-      "qty": 8,
-      "entry": 334.82,
-      "current": 329.345,
-      "unrealized_pct": -1.635
+      "ticker": "BTCUSD",
+      "qty": 0,
+      "entry": 86647.597303577,
+      "current": 86681.3,
+      "unrealized_pct": 0.039
+    },
+    {
+      "ticker": "ETHUSD",
+      "qty": 0,
+      "entry": 2722.024,
+      "current": 2723.172030457,
+      "unrealized_pct": 0.042
     },
     {
       "ticker": "LMT",
       "qty": 5,
       "entry": 507.5,
-      "current": 506.05,
-      "unrealized_pct": -0.28600000000000003
+      "current": 507.9901,
+      "unrealized_pct": 0.097
     },
     {
       "ticker": "NOC",
       "qty": 6,
       "entry": 477.15,
-      "current": 474.575,
-      "unrealized_pct": -0.54
-    },
-    {
-      "ticker": "QQQ",
-      "qty": 2,
-      "entry": 754.06,
-      "current": 760.35,
-      "unrealized_pct": 0.8340000000000001
+      "current": 480.21,
+      "unrealized_pct": 0.641
     },
     {
       "ticker": "RTX",
       "qty": 16,
       "entry": 187.665,
-      "current": 183.425,
-      "unrealized_pct": -2.259
+      "current": 183.95,
+      "unrealized_pct": -1.9800000000000002
     },
     {
       "ticker": "XAR",
       "qty": 12,
       "entry": 233.539167,
-      "current": 232.2,
-      "unrealized_pct": -0.573
+      "current": 232.93,
+      "unrealized_pct": -0.261
     }
   ],
   "positions_unavailable": false,
   "analyst": [],
   "sw_trades": [
+    {
+      "id": 31,
+      "symbol": "QQQ",
+      "qty": 2.0,
+      "entry_price": 755.49,
+      "tp_price": 766.82,
+      "stop_price": 747.94,
+      "entered_at": "2026-10-05 11:01:25",
+      "status": "closed",
+      "exit_price": 760.295,
+      "pnl_usd": 12.470000000000027,
+      "exit_reason": "next-session exit; broker fills, estimated fees",
+      "exited_at": "2026-10-06 11:01:21",
+      "broker_order_id": "51090820-de61-4f1f-a649-a46242dd1795",
+      "exit_order_id": "94494cfa-0cbe-46e7-82c4-cd35b0e8139f"
+    },
     {
       "id": 32,
       "symbol": "BTC/USD",
@@ -182,6 +198,54 @@
       "exited_at": "2026-10-06 02:33:38",
       "broker_order_id": "e5c4031a-66f7-4d25-b91c-86d524aa707e",
       "exit_order_id": "107fc9bf-a13f-491c-be79-23da4ff4a098"
+    },
+    {
+      "id": 34,
+      "symbol": "BTC/USD",
+      "qty": 0.023117,
+      "entry_price": 86763.44,
+      "tp_price": 88064.89,
+      "stop_price": 85895.81,
+      "entered_at": "2026-10-06 11:01:23",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "fd0692c8-5f70-40d0-95ae-a7febb9039d6",
+      "exit_order_id": null
+    },
+    {
+      "id": 35,
+      "symbol": "ETH/USD",
+      "qty": 0.735322,
+      "entry_price": 2727.7,
+      "tp_price": 2768.62,
+      "stop_price": 2700.42,
+      "entered_at": "2026-10-06 11:01:23",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "9c7347de-51f0-4b94-a5b9-b6422c3c7ed9",
+      "exit_order_id": null
+    },
+    {
+      "id": 36,
+      "symbol": "QQQ",
+      "qty": 2.0,
+      "entry_price": 763.63,
+      "tp_price": 775.08,
+      "stop_price": 755.99,
+      "entered_at": "2026-10-06 11:01:24",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "209e73a1-8db3-465e-adff-da377c486505",
+      "exit_order_id": null
     }
   ],
   "orders": [
@@ -270,5 +334,5 @@
       "created_at": "2026-09-28 17:54:37"
     }
   ],
-  "generated_ts": 1791294269.671994
+  "generated_ts": 1791298884.853908
 }
