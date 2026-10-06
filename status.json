@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-05 21:49 ET",
+  "generated_at": "2026-10-06 02:33 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100428.97,
+  "equity": 100454.12,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -82,14 +82,10 @@
     }
   ],
   "decisions": {
-    "considered": 5,
-    "traded": 1,
-    "dropped": 4,
-    "lines": [
-      "\u2705 LMT \u2014 Lockheed Martin Corp. \u2014 $1,708,478,799",
-      "\u2715 3\u00d7 duplicate",
-      "\u2715 1\u00d7 below threshold"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -102,22 +98,8 @@
       "ticker": "BA",
       "qty": 16,
       "entry": 186.44,
-      "current": 193.3,
-      "unrealized_pct": 3.6790000000000003
-    },
-    {
-      "ticker": "BTCUSD",
-      "qty": 0,
-      "entry": 86034.187,
-      "current": 85671.7,
-      "unrealized_pct": -0.42100000000000004
-    },
-    {
-      "ticker": "ETHUSD",
-      "qty": 0,
-      "entry": 2721.1,
-      "current": 2709.07,
-      "unrealized_pct": -0.44200000000000006
+      "current": 193.15,
+      "unrealized_pct": 3.599
     },
     {
       "ticker": "GD",
@@ -137,22 +119,22 @@
       "ticker": "LMT",
       "qty": 5,
       "entry": 507.5,
-      "current": 509.3,
-      "unrealized_pct": 0.35500000000000004
+      "current": 508.14,
+      "unrealized_pct": 0.126
     },
     {
       "ticker": "NOC",
       "qty": 6,
       "entry": 477.15,
-      "current": 476.05,
-      "unrealized_pct": -0.231
+      "current": 478.24,
+      "unrealized_pct": 0.22799999999999998
     },
     {
       "ticker": "QQQ",
       "qty": 2,
       "entry": 754.06,
-      "current": 756.17,
-      "unrealized_pct": 0.27999999999999997
+      "current": 757.36,
+      "unrealized_pct": 0.438
     },
     {
       "ticker": "RTX",
@@ -165,29 +147,13 @@
       "ticker": "XAR",
       "qty": 12,
       "entry": 233.539167,
-      "current": 231.28,
-      "unrealized_pct": -0.967
+      "current": 235.45,
+      "unrealized_pct": 0.818
     }
   ],
   "positions_unavailable": false,
   "analyst": [],
   "sw_trades": [
-    {
-      "id": 31,
-      "symbol": "QQQ",
-      "qty": 2.0,
-      "entry_price": 755.49,
-      "tp_price": 766.82,
-      "stop_price": 747.94,
-      "entered_at": "2026-10-05 11:01:25",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
-      "broker_order_id": "51090820-de61-4f1f-a649-a46242dd1795",
-      "exit_order_id": null
-    },
     {
       "id": 32,
       "symbol": "BTC/USD",
@@ -196,13 +162,13 @@
       "tp_price": 87415.5,
       "stop_price": 85262.41,
       "entered_at": "2026-10-05 18:01:15",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
+      "status": "closed",
+      "exit_price": 85227.415821236,
+      "pnl_usd": -28.752597316301944,
+      "exit_reason": "stop 85249.10 <= 85262.41; broker fills, estimated fees",
+      "exited_at": "2026-10-06 02:33:38",
       "broker_order_id": "290e513d-39cd-416b-be0e-3cd8bdf2d046",
-      "exit_order_id": null
+      "exit_order_id": "c2c3b1e1-7a59-4523-996e-a5068d2d253c"
     },
     {
       "id": 33,
@@ -212,13 +178,13 @@
       "tp_price": 2764.21,
       "stop_price": 2696.13,
       "entered_at": "2026-10-05 18:01:16",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
+      "status": "closed",
+      "exit_price": 2692.862,
+      "pnl_usd": -30.756923821994405,
+      "exit_reason": "stop 2692.10 <= 2696.13; broker fills, estimated fees",
+      "exited_at": "2026-10-06 02:33:38",
       "broker_order_id": "e5c4031a-66f7-4d25-b91c-86d524aa707e",
-      "exit_order_id": null
+      "exit_order_id": "107fc9bf-a13f-491c-be79-23da4ff4a098"
     }
   ],
   "orders": [
@@ -307,5 +273,5 @@
       "created_at": "2026-09-28 17:54:37"
     }
   ],
-  "generated_ts": 1791251356.704382
+  "generated_ts": 1791268421.460791
 }
