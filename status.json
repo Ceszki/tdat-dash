@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-06 02:43 ET",
+  "generated_at": "2026-10-06 09:44 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100457.76,
+  "equity": 100224.18,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -79,6 +79,10 @@
     {
       "ts": 1790985600,
       "equity": 100510.26
+    },
+    {
+      "ts": 1791244800,
+      "equity": 100404.03
     }
   ],
   "decisions": {
@@ -98,57 +102,50 @@
       "ticker": "BA",
       "qty": 16,
       "entry": 186.44,
-      "current": 193.38,
-      "unrealized_pct": 3.7220000000000004
+      "current": 190.85,
+      "unrealized_pct": 2.365
     },
     {
       "ticker": "GD",
       "qty": 8,
       "entry": 334.82,
-      "current": 331.72,
-      "unrealized_pct": -0.9259999999999999
-    },
-    {
-      "ticker": "HII",
-      "qty": 11,
-      "entry": 267.848182,
-      "current": 266.48,
-      "unrealized_pct": -0.511
+      "current": 329.345,
+      "unrealized_pct": -1.635
     },
     {
       "ticker": "LMT",
       "qty": 5,
       "entry": 507.5,
-      "current": 508.14,
-      "unrealized_pct": 0.126
+      "current": 506.05,
+      "unrealized_pct": -0.28600000000000003
     },
     {
       "ticker": "NOC",
       "qty": 6,
       "entry": 477.15,
-      "current": 478.24,
-      "unrealized_pct": 0.22799999999999998
+      "current": 474.575,
+      "unrealized_pct": -0.54
     },
     {
       "ticker": "QQQ",
       "qty": 2,
       "entry": 754.06,
-      "current": 757.34,
-      "unrealized_pct": 0.43499999999999994
+      "current": 760.35,
+      "unrealized_pct": 0.8340000000000001
     },
     {
       "ticker": "RTX",
       "qty": 16,
       "entry": 187.665,
-      "current": 184.39,
-      "unrealized_pct": -1.745
+      "current": 183.425,
+      "unrealized_pct": -2.259
     },
     {
       "ticker": "XAR",
       "qty": 12,
       "entry": 233.539167,
-      "current": 235.45,
-      "unrealized_pct": 0.818
+      "current": 232.2,
+      "unrealized_pct": -0.573
     }
   ],
   "positions_unavailable": false,
@@ -273,5 +270,5 @@
       "created_at": "2026-09-28 17:54:37"
     }
   ],
-  "generated_ts": 1791268988.926036
+  "generated_ts": 1791294269.671994
 }
