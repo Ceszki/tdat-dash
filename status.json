@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-07 02:12 ET",
+  "generated_at": "2026-10-07 05:29 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100221.0,
+  "equity": 100224.78,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -83,6 +83,10 @@
     {
       "ts": 1791244800,
       "equity": 100404.03
+    },
+    {
+      "ts": 1791331200,
+      "equity": 100225.82
     }
   ],
   "decisions": {
@@ -102,36 +106,36 @@
       "ticker": "BA",
       "qty": 16,
       "entry": 186.44,
-      "current": 189.57,
-      "unrealized_pct": 1.6789999999999998
+      "current": 189.27,
+      "unrealized_pct": 1.518
     },
     {
       "ticker": "LMT",
       "qty": 5,
       "entry": 507.5,
-      "current": 510.0,
-      "unrealized_pct": 0.49300000000000005
+      "current": 510.48,
+      "unrealized_pct": 0.587
     },
     {
       "ticker": "NOC",
       "qty": 6,
       "entry": 477.15,
-      "current": 483.11,
-      "unrealized_pct": 1.2489999999999999
+      "current": 484.0,
+      "unrealized_pct": 1.436
     },
     {
       "ticker": "QQQ",
       "qty": 2,
       "entry": 762.205,
-      "current": 759.47,
-      "unrealized_pct": -0.359
+      "current": 757.17,
+      "unrealized_pct": -0.661
     },
     {
       "ticker": "RTX",
       "qty": 16,
       "entry": 187.665,
-      "current": 183.29,
-      "unrealized_pct": -2.331
+      "current": 183.64,
+      "unrealized_pct": -2.145
     },
     {
       "ticker": "XAR",
@@ -230,5 +234,5 @@
       "created_at": "2026-09-28 17:54:37"
     }
   ],
-  "generated_ts": 1791353535.278088
+  "generated_ts": 1791365346.898314
 }
