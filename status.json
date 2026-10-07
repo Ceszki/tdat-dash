@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-07 12:45 ET",
+  "generated_at": "2026-10-07 17:16 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100017.64,
+  "equity": 99982.96,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -106,34 +106,44 @@
       "ticker": "BA",
       "qty": 16,
       "entry": 186.44,
-      "current": 188.44,
-      "unrealized_pct": 1.073
+      "current": 188.35,
+      "unrealized_pct": 1.024
     },
     {
       "ticker": "LMT",
       "qty": 5,
       "entry": 507.5,
-      "current": 502.5,
-      "unrealized_pct": -0.985
+      "current": 500.5,
+      "unrealized_pct": -1.379
     },
     {
       "ticker": "NOC",
       "qty": 6,
       "entry": 477.15,
-      "current": 477.34,
-      "unrealized_pct": 0.04
-    },
-    {
-      "ticker": "QQQ",
-      "qty": 2,
-      "entry": 762.205,
-      "current": 756.43,
-      "unrealized_pct": -0.758
+      "current": 473.46,
+      "unrealized_pct": -0.773
     }
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [],
+  "sw_trades": [
+    {
+      "id": 36,
+      "symbol": "QQQ",
+      "qty": 2.0,
+      "entry_price": 763.63,
+      "tp_price": 775.08,
+      "stop_price": 755.99,
+      "entered_at": "2026-10-06 11:01:24",
+      "status": "closed",
+      "exit_price": 756.45,
+      "pnl_usd": -11.509999999999991,
+      "exit_reason": "next-session exit; broker fills, estimated fees",
+      "exited_at": "2026-10-07 17:16:51",
+      "broker_order_id": "209e73a1-8db3-465e-adff-da377c486505",
+      "exit_order_id": "607d20d9-dbb2-4bca-a89a-e06b95ce5852"
+    }
+  ],
   "orders": [
     {
       "ticker": "LMT",
@@ -220,5 +230,5 @@
       "created_at": "2026-09-28 17:54:37"
     }
   ],
-  "generated_ts": 1791391555.967735
+  "generated_ts": 1791407812.677573
 }
