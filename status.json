@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-08 03:37 ET",
+  "generated_at": "2026-10-08 11:01 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 99944.18,
+  "equity": 99949.17,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -87,6 +87,10 @@
     {
       "ts": 1791331200,
       "equity": 100225.82
+    },
+    {
+      "ts": 1791417600,
+      "equity": 99975.92
     }
   ],
   "decisions": {
@@ -106,29 +110,22 @@
       "ticker": "BA",
       "qty": 16,
       "entry": 186.44,
-      "current": 187.26,
-      "unrealized_pct": 0.44
-    },
-    {
-      "ticker": "ETHUSD",
-      "qty": 0,
-      "entry": 2578.144,
-      "current": 2570.2,
-      "unrealized_pct": -0.308
+      "current": 185.73,
+      "unrealized_pct": -0.381
     },
     {
       "ticker": "LMT",
       "qty": 5,
       "entry": 507.5,
-      "current": 499.69,
-      "unrealized_pct": -1.539
+      "current": 504.0699,
+      "unrealized_pct": -0.676
     },
     {
       "ticker": "NOC",
       "qty": 6,
       "entry": 477.15,
-      "current": 472.43,
-      "unrealized_pct": -0.989
+      "current": 480.06,
+      "unrealized_pct": 0.61
     }
   ],
   "positions_unavailable": false,
@@ -220,5 +217,5 @@
       "created_at": "2026-09-28 17:54:37"
     }
   ],
-  "generated_ts": 1791445066.333784
+  "generated_ts": 1791471694.862116
 }
