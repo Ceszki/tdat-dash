@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10 04:47 ET",
+  "generated_at": "2026-10-10 10:53 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100094.93,
+  "equity": 100086.29,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -120,16 +120,16 @@
     {
       "ticker": "BTCUSD",
       "qty": 0,
-      "entry": 82735.96,
-      "current": 82691.3,
-      "unrealized_pct": -0.054
+      "entry": 82982.368475139,
+      "current": 82899.539,
+      "unrealized_pct": -0.1
     },
     {
       "ticker": "ETHUSD",
       "qty": 0,
-      "entry": 2492.0,
-      "current": 2492.4,
-      "unrealized_pct": 0.016
+      "entry": 2510.12,
+      "current": 2505.435,
+      "unrealized_pct": -0.187
     },
     {
       "ticker": "LMT",
@@ -171,6 +171,22 @@
   "analyst": [],
   "sw_trades": [
     {
+      "id": 39,
+      "symbol": "ETH/USD",
+      "qty": 0.80141,
+      "entry_price": 2498.24,
+      "tp_price": 2535.71,
+      "stop_price": 2473.26,
+      "entered_at": "2026-10-09 22:28:57",
+      "status": "closed",
+      "exit_price": 2506.4,
+      "pnl_usd": 1.5095879676503046,
+      "exit_reason": "time-stop 8h; broker fills, estimated fees",
+      "exited_at": "2026-10-10 10:53:22",
+      "broker_order_id": "53c1aaf1-b520-4c56-aaf6-b7eaa018fa91",
+      "exit_order_id": "f110efc4-3f3a-4342-9e36-92e36d760c27"
+    },
+    {
       "id": 40,
       "symbol": "BTC/USD",
       "qty": 0.024138,
@@ -178,12 +194,44 @@
       "tp_price": 84186.24,
       "stop_price": 82112.69,
       "entered_at": "2026-10-10 02:03:56",
+      "status": "closed",
+      "exit_price": 82936.040794716,
+      "pnl_usd": -5.16748860220514,
+      "exit_reason": "time-stop 8h; broker fills, estimated fees",
+      "exited_at": "2026-10-10 10:53:22",
+      "broker_order_id": "4927cfca-a4c6-49be-8be8-5ad393b34027",
+      "exit_order_id": "7dd24e75-7dce-44a9-b98b-1e3615e6bc0a"
+    },
+    {
+      "id": 41,
+      "symbol": "BTC/USD",
+      "qty": 0.024084,
+      "entry_price": 83126.35,
+      "tp_price": 84373.25,
+      "stop_price": 82295.09,
+      "entered_at": "2026-10-10 10:53:24",
       "status": "open",
       "exit_price": null,
       "pnl_usd": null,
       "exit_reason": null,
       "exited_at": null,
-      "broker_order_id": "4927cfca-a4c6-49be-8be8-5ad393b34027",
+      "broker_order_id": "f4541fc5-7844-4819-9654-2b84405fdce3",
+      "exit_order_id": null
+    },
+    {
+      "id": 42,
+      "symbol": "ETH/USD",
+      "qty": 0.796451,
+      "entry_price": 2513.7,
+      "tp_price": 2551.41,
+      "stop_price": 2488.56,
+      "entered_at": "2026-10-10 10:53:24",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "13185b0e-f27a-42cd-bcec-2e5e79fb17af",
       "exit_order_id": null
     }
   ],
@@ -273,5 +321,5 @@
       "created_at": "2026-09-29 20:34:15"
     }
   ],
-  "generated_ts": 1791622052.564482
+  "generated_ts": 1791644005.227722
 }
