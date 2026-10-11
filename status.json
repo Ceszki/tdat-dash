@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10 21:23 ET",
+  "generated_at": "2026-10-11 00:04 ET",
   "broker_mode": "Alpaca PAPER",
   "equity": 100075.67,
   "equity_unavailable": false,
@@ -155,72 +155,7 @@
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [
-    {
-      "id": 39,
-      "symbol": "ETH/USD",
-      "qty": 0.80141,
-      "entry_price": 2498.24,
-      "tp_price": 2535.71,
-      "stop_price": 2473.26,
-      "entered_at": "2026-10-09 22:28:57",
-      "status": "closed",
-      "exit_price": 2506.4,
-      "pnl_usd": 1.5095879676503046,
-      "exit_reason": "time-stop 8h; broker fills, estimated fees",
-      "exited_at": "2026-10-10 10:53:22",
-      "broker_order_id": "53c1aaf1-b520-4c56-aaf6-b7eaa018fa91",
-      "exit_order_id": "f110efc4-3f3a-4342-9e36-92e36d760c27"
-    },
-    {
-      "id": 40,
-      "symbol": "BTC/USD",
-      "qty": 0.024138,
-      "entry_price": 82942.11,
-      "tp_price": 84186.24,
-      "stop_price": 82112.69,
-      "entered_at": "2026-10-10 02:03:56",
-      "status": "closed",
-      "exit_price": 82936.040794716,
-      "pnl_usd": -5.16748860220514,
-      "exit_reason": "time-stop 8h; broker fills, estimated fees",
-      "exited_at": "2026-10-10 10:53:22",
-      "broker_order_id": "4927cfca-a4c6-49be-8be8-5ad393b34027",
-      "exit_order_id": "7dd24e75-7dce-44a9-b98b-1e3615e6bc0a"
-    },
-    {
-      "id": 41,
-      "symbol": "BTC/USD",
-      "qty": 0.024084,
-      "entry_price": 83126.35,
-      "tp_price": 84373.25,
-      "stop_price": 82295.09,
-      "entered_at": "2026-10-10 10:53:24",
-      "status": "closed",
-      "exit_price": 82901.390821369,
-      "pnl_usd": -11.920855251140665,
-      "exit_reason": "time-stop 8h; broker fills, estimated fees",
-      "exited_at": "2026-10-10 21:23:46",
-      "broker_order_id": "f4541fc5-7844-4819-9654-2b84405fdce3",
-      "exit_order_id": "50fa5bbb-f1c8-449a-b451-9fa18b213c4e"
-    },
-    {
-      "id": 42,
-      "symbol": "ETH/USD",
-      "qty": 0.796451,
-      "entry_price": 2513.7,
-      "tp_price": 2551.41,
-      "stop_price": 2488.56,
-      "entered_at": "2026-10-10 10:53:24",
-      "status": "closed",
-      "exit_price": 2504.571,
-      "pnl_usd": -14.380880935275172,
-      "exit_reason": "time-stop 8h; broker fills, estimated fees",
-      "exited_at": "2026-10-10 21:23:46",
-      "broker_order_id": "13185b0e-f27a-42cd-bcec-2e5e79fb17af",
-      "exit_order_id": "5fa040d4-0eed-4f82-a6e7-01b45b0acba2"
-    }
-  ],
+  "sw_trades": [],
   "orders": [
     {
       "ticker": "XAR",
@@ -307,5 +242,5 @@
       "created_at": "2026-09-29 20:34:15"
     }
   ],
-  "generated_ts": 1791681828.773453
+  "generated_ts": 1791691446.788685
 }
