@@ -1,21 +1,9 @@
 {
-  "generated_at": "2026-10-12 05:55 ET",
+  "generated_at": "2026-10-12 12:00 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100107.98,
+  "equity": 100094.76,
   "equity_unavailable": false,
   "equity_curve": [
-    {
-      "ts": 1788998400,
-      "equity": 101124.75
-    },
-    {
-      "ts": 1789084800,
-      "equity": 101116.76
-    },
-    {
-      "ts": 1789171200,
-      "equity": 101164.61
-    },
     {
       "ts": 1789430400,
       "equity": 101319.44
@@ -111,58 +99,54 @@
   ],
   "positions": [
     {
-      "ticker": "BA",
-      "qty": 16,
-      "entry": 186.44,
-      "current": 190.5,
-      "unrealized_pct": 2.178
-    },
-    {
-      "ticker": "ETHUSD",
-      "qty": 0,
-      "entry": 2552.58,
-      "current": 2553.1,
-      "unrealized_pct": 0.02
-    },
-    {
       "ticker": "LMT",
       "qty": 5,
       "entry": 507.5,
-      "current": 511.11,
-      "unrealized_pct": 0.711
+      "current": 513.68,
+      "unrealized_pct": 1.218
     },
     {
       "ticker": "NOC",
       "qty": 6,
       "entry": 477.15,
-      "current": 484.1937,
-      "unrealized_pct": 1.476
+      "current": 483.855,
+      "unrealized_pct": 1.405
     },
     {
       "ticker": "RTX",
       "qty": 16,
       "entry": 183.8075,
-      "current": 186.3,
-      "unrealized_pct": 1.3559999999999999
-    },
-    {
-      "ticker": "SPY",
-      "qty": 2,
-      "entry": 777.34,
-      "current": 779.12,
-      "unrealized_pct": 0.22899999999999998
+      "current": 186.97,
+      "unrealized_pct": 1.7209999999999999
     },
     {
       "ticker": "XAR",
       "qty": 13,
       "entry": 227.31,
-      "current": 228.36,
-      "unrealized_pct": 0.462
+      "current": 227.18,
+      "unrealized_pct": -0.056999999999999995
     }
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [],
+  "sw_trades": [
+    {
+      "id": 43,
+      "symbol": "ETH/USD",
+      "qty": 0.783713,
+      "entry_price": 2554.55,
+      "tp_price": 2592.87,
+      "stop_price": 2529.0,
+      "entered_at": "2026-10-11 22:31:11",
+      "status": "closed",
+      "exit_price": 2527.795313022,
+      "pnl_usd": -29.31703122429849,
+      "exit_reason": "stop 2527.47 <= 2529.00; broker fills, estimated fees",
+      "exited_at": "2026-10-12 12:00:32",
+      "broker_order_id": "580702d8-2795-4e1b-9cb4-ed86a526559a",
+      "exit_order_id": "52af6cc0-33a5-4449-8287-483375626d83"
+    }
+  ],
   "orders": [
     {
       "ticker": "XAR",
@@ -249,5 +233,5 @@
       "created_at": "2026-09-29 20:34:15"
     }
   ],
-  "generated_ts": 1791798952.971733
+  "generated_ts": 1791820834.175604
 }
