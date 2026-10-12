@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-11 19:00 ET",
+  "generated_at": "2026-10-11 22:31 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100075.67,
+  "equity": 100095.44,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -114,15 +114,22 @@
       "ticker": "BA",
       "qty": 16,
       "entry": 186.44,
-      "current": 190.37,
-      "unrealized_pct": 2.108
+      "current": 191.07,
+      "unrealized_pct": 2.483
+    },
+    {
+      "ticker": "ETHUSD",
+      "qty": 0,
+      "entry": 2552.58,
+      "current": 2551.01,
+      "unrealized_pct": -0.062
     },
     {
       "ticker": "LMT",
       "qty": 5,
       "entry": 507.5,
-      "current": 509.59,
-      "unrealized_pct": 0.41200000000000003
+      "current": 510.63,
+      "unrealized_pct": 0.617
     },
     {
       "ticker": "NOC",
@@ -135,15 +142,15 @@
       "ticker": "RTX",
       "qty": 16,
       "entry": 183.8075,
-      "current": 185.97,
-      "unrealized_pct": 1.1769999999999998
+      "current": 186.3,
+      "unrealized_pct": 1.3559999999999999
     },
     {
       "ticker": "SPY",
       "qty": 2,
       "entry": 777.34,
-      "current": 778.57,
-      "unrealized_pct": 0.158
+      "current": 780.73,
+      "unrealized_pct": 0.436
     },
     {
       "ticker": "XAR",
@@ -155,7 +162,24 @@
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [],
+  "sw_trades": [
+    {
+      "id": 43,
+      "symbol": "ETH/USD",
+      "qty": 0.783713,
+      "entry_price": 2554.55,
+      "tp_price": 2592.87,
+      "stop_price": 2529.0,
+      "entered_at": "2026-10-11 22:31:11",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "580702d8-2795-4e1b-9cb4-ed86a526559a",
+      "exit_order_id": null
+    }
+  ],
   "orders": [
     {
       "ticker": "XAR",
@@ -242,5 +266,5 @@
       "created_at": "2026-09-29 20:34:15"
     }
   ],
-  "generated_ts": 1791759630.613809
+  "generated_ts": 1791772271.638679
 }
