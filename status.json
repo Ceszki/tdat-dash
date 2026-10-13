@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12 18:55 ET",
+  "generated_at": "2026-10-12 20:00 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100068.91,
+  "equity": 100071.99,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -102,8 +102,8 @@
       "ticker": "LMT",
       "qty": 5,
       "entry": 507.5,
-      "current": 512.26,
-      "unrealized_pct": 0.938
+      "current": 512.876,
+      "unrealized_pct": 1.059
     },
     {
       "ticker": "NOC",
@@ -249,5 +249,5 @@
       "created_at": "2026-09-29 20:34:15"
     }
   ],
-  "generated_ts": 1791845757.644819
+  "generated_ts": 1791849632.266671
 }
