@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-15 02:00 ET",
+  "generated_at": "2026-10-15 07:00 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 97865.64,
+  "equity": 97892.7,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -91,6 +91,10 @@
     {
       "ts": 1791936000,
       "equity": 97733.52
+    },
+    {
+      "ts": 1792022400,
+      "equity": 97847.98
     }
   ],
   "decisions": {
@@ -110,15 +114,15 @@
       "ticker": "LMT",
       "qty": 5,
       "entry": 507.5,
-      "current": 522.58,
-      "unrealized_pct": 2.971
+      "current": 525.062,
+      "unrealized_pct": 3.46
     },
     {
       "ticker": "RTX",
       "qty": 16,
       "entry": 183.8075,
-      "current": 187.46,
-      "unrealized_pct": 1.9869999999999999
+      "current": 188.38,
+      "unrealized_pct": 2.488
     }
   ],
   "positions_unavailable": false,
@@ -210,5 +214,5 @@
       "created_at": "2026-09-30 20:38:01"
     }
   ],
-  "generated_ts": 1792044018.632974
+  "generated_ts": 1792062032.607075
 }
