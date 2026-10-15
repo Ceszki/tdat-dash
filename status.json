@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-15 11:00 ET",
+  "generated_at": "2026-10-15 11:39 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 97919.06,
+  "equity": 97965.73,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -110,43 +110,50 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 81815.46888393,
-      "current": 81850.9,
-      "unrealized_pct": 0.043
+      "current": 82240.459,
+      "unrealized_pct": 0.519
     },
     {
       "ticker": "ETHUSD",
       "qty": 0,
       "entry": 2396.6,
-      "current": 2394.95,
-      "unrealized_pct": -0.06899999999999999
+      "current": 2434.647,
+      "unrealized_pct": 1.5879999999999999
     },
     {
       "ticker": "LMT",
       "qty": 5,
       "entry": 507.5,
-      "current": 529.14,
-      "unrealized_pct": 4.263999999999999
+      "current": 529.995,
+      "unrealized_pct": 4.433
+    },
+    {
+      "ticker": "QQQ",
+      "qty": 2,
+      "entry": 723.66,
+      "current": 724.3389,
+      "unrealized_pct": 0.094
     },
     {
       "ticker": "RTX",
       "qty": 16,
       "entry": 183.8075,
-      "current": 187.34,
-      "unrealized_pct": 1.9220000000000002
+      "current": 186.88,
+      "unrealized_pct": 1.672
     },
     {
       "ticker": "SPY",
-      "qty": 1,
+      "qty": 2,
       "entry": 769.54,
-      "current": 769.5399,
-      "unrealized_pct": 0.0
+      "current": 769.91,
+      "unrealized_pct": 0.048
     },
     {
       "ticker": "XAR",
       "qty": 13,
       "entry": 218.92,
-      "current": 221.45,
-      "unrealized_pct": 1.1560000000000001
+      "current": 221.915,
+      "unrealized_pct": 1.3679999999999999
     }
   ],
   "positions_unavailable": false,
@@ -303,5 +310,5 @@
       "created_at": "2026-09-30 20:38:01"
     }
   ],
-  "generated_ts": 1792076433.353008
+  "generated_ts": 1792078758.178003
 }
