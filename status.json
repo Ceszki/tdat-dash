@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-15 18:44 ET",
+  "generated_at": "2026-10-15 19:44 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 98033.02,
+  "equity": 97995.13,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -94,10 +94,13 @@
     }
   ],
   "decisions": {
-    "considered": 0,
+    "considered": 3,
     "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "dropped": 3,
+    "lines": [
+      "\u2715 2\u00d7 unresolved company",
+      "\u2715 1\u00d7 below threshold"
+    ]
   },
   "alerts": [
     {
@@ -107,39 +110,32 @@
   ],
   "positions": [
     {
-      "ticker": "BTCUSD",
-      "qty": 0,
-      "entry": 81815.46888393,
-      "current": 82397.767,
-      "unrealized_pct": 0.712
-    },
-    {
       "ticker": "LMT",
       "qty": 5,
       "entry": 507.5,
-      "current": 532.0,
-      "unrealized_pct": 4.828
+      "current": 529.3038,
+      "unrealized_pct": 4.295999999999999
     },
     {
       "ticker": "QQQ",
       "qty": 2,
       "entry": 723.66,
-      "current": 726.6824,
-      "unrealized_pct": 0.418
+      "current": 724.38,
+      "unrealized_pct": 0.099
     },
     {
       "ticker": "RTX",
       "qty": 16,
       "entry": 183.8075,
-      "current": 187.28,
-      "unrealized_pct": 1.889
+      "current": 187.0,
+      "unrealized_pct": 1.737
     },
     {
       "ticker": "SPY",
       "qty": 2,
       "entry": 769.54,
-      "current": 771.66,
-      "unrealized_pct": 0.27499999999999997
+      "current": 770.44,
+      "unrealized_pct": 0.117
     },
     {
       "ticker": "XAR",
@@ -160,13 +156,13 @@
       "tp_price": 83180.33,
       "stop_price": 81131.55,
       "entered_at": "2026-10-15 11:00:30",
-      "status": "open",
+      "status": "exit_pending",
       "exit_price": null,
       "pnl_usd": null,
-      "exit_reason": null,
+      "exit_reason": "time-stop 8h",
       "exited_at": null,
       "broker_order_id": "efe4a94a-5596-4918-a4f4-0ca203f64932",
-      "exit_order_id": null
+      "exit_order_id": "4ae50a53-5a1a-4b07-9064-5afacf729197"
     },
     {
       "id": 46,
@@ -303,5 +299,5 @@
       "created_at": "2026-09-30 20:38:01"
     }
   ],
-  "generated_ts": 1792104293.600025
+  "generated_ts": 1792107888.759638
 }
