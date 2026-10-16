@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-15 19:44 ET",
+  "generated_at": "2026-10-15 20:52 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 97995.13,
+  "equity": 98020.72,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -113,15 +113,15 @@
       "ticker": "LMT",
       "qty": 5,
       "entry": 507.5,
-      "current": 529.3038,
-      "unrealized_pct": 4.295999999999999
+      "current": 533.13,
+      "unrealized_pct": 5.050000000000001
     },
     {
       "ticker": "QQQ",
       "qty": 2,
       "entry": 723.66,
-      "current": 724.38,
-      "unrealized_pct": 0.099
+      "current": 726.3,
+      "unrealized_pct": 0.365
     },
     {
       "ticker": "RTX",
@@ -134,8 +134,8 @@
       "ticker": "SPY",
       "qty": 2,
       "entry": 769.54,
-      "current": 770.44,
-      "unrealized_pct": 0.117
+      "current": 771.75,
+      "unrealized_pct": 0.28700000000000003
     },
     {
       "ticker": "XAR",
@@ -156,11 +156,11 @@
       "tp_price": 83180.33,
       "stop_price": 81131.55,
       "entered_at": "2026-10-15 11:00:30",
-      "status": "exit_pending",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": "time-stop 8h",
-      "exited_at": null,
+      "status": "closed",
+      "exit_price": 82063.40199995,
+      "pnl_usd": -3.868595901248227,
+      "exit_reason": "time-stop 8h; broker fills, estimated fees",
+      "exited_at": "2026-10-15 20:52:40",
       "broker_order_id": "efe4a94a-5596-4918-a4f4-0ca203f64932",
       "exit_order_id": "4ae50a53-5a1a-4b07-9064-5afacf729197"
     },
@@ -299,5 +299,5 @@
       "created_at": "2026-09-30 20:38:01"
     }
   ],
-  "generated_ts": 1792107888.759638
+  "generated_ts": 1792111961.098023
 }
