@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-15 20:52 ET",
+  "generated_at": "2026-10-16 00:43 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 98020.72,
+  "equity": 98030.26,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -94,13 +94,10 @@
     }
   ],
   "decisions": {
-    "considered": 3,
+    "considered": 0,
     "traded": 0,
-    "dropped": 3,
-    "lines": [
-      "\u2715 2\u00d7 unresolved company",
-      "\u2715 1\u00d7 below threshold"
-    ]
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -120,8 +117,8 @@
       "ticker": "QQQ",
       "qty": 2,
       "entry": 723.66,
-      "current": 726.3,
-      "unrealized_pct": 0.365
+      "current": 729.5,
+      "unrealized_pct": 0.807
     },
     {
       "ticker": "RTX",
@@ -134,8 +131,8 @@
       "ticker": "SPY",
       "qty": 2,
       "entry": 769.54,
-      "current": 771.75,
-      "unrealized_pct": 0.28700000000000003
+      "current": 773.32,
+      "unrealized_pct": 0.49100000000000005
     },
     {
       "ticker": "XAR",
@@ -147,72 +144,7 @@
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [
-    {
-      "id": 45,
-      "symbol": "BTC/USD",
-      "qty": 0.023899,
-      "entry_price": 81951.06,
-      "tp_price": 83180.33,
-      "stop_price": 81131.55,
-      "entered_at": "2026-10-15 11:00:30",
-      "status": "closed",
-      "exit_price": 82063.40199995,
-      "pnl_usd": -3.868595901248227,
-      "exit_reason": "time-stop 8h; broker fills, estimated fees",
-      "exited_at": "2026-10-15 20:52:40",
-      "broker_order_id": "efe4a94a-5596-4918-a4f4-0ca203f64932",
-      "exit_order_id": "4ae50a53-5a1a-4b07-9064-5afacf729197"
-    },
-    {
-      "id": 46,
-      "symbol": "ETH/USD",
-      "qty": 0.816493,
-      "entry_price": 2398.77,
-      "tp_price": 2434.75,
-      "stop_price": 2374.78,
-      "entered_at": "2026-10-15 11:00:31",
-      "status": "closed",
-      "exit_price": 2441.3888334,
-      "pnl_usd": 26.615341873456828,
-      "exit_reason": "take-profit 2444.78 >= 2434.75; broker fills, estimated fees",
-      "exited_at": "2026-10-15 14:00:37",
-      "broker_order_id": "164e939e-e673-4b3d-bcbd-bffd48655a82",
-      "exit_order_id": "cf847f15-13df-4ff4-a3c0-172563423b6f"
-    },
-    {
-      "id": 47,
-      "symbol": "SPY",
-      "qty": 2.0,
-      "entry_price": 771.17,
-      "tp_price": 782.74,
-      "stop_price": 763.46,
-      "entered_at": "2026-10-15 11:00:32",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
-      "broker_order_id": "2b5bdf2f-bbb3-40eb-b607-cc479602b4c9",
-      "exit_order_id": null
-    },
-    {
-      "id": 48,
-      "symbol": "QQQ",
-      "qty": 2.0,
-      "entry_price": 725.33,
-      "tp_price": 736.21,
-      "stop_price": 718.08,
-      "entered_at": "2026-10-15 11:00:33",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
-      "broker_order_id": "6a30e56f-3215-4e5e-ae26-e25f044d7b9a",
-      "exit_order_id": null
-    }
-  ],
+  "sw_trades": [],
   "orders": [
     {
       "ticker": "XAR",
@@ -299,5 +231,5 @@
       "created_at": "2026-09-30 20:38:01"
     }
   ],
-  "generated_ts": 1792111961.098023
+  "generated_ts": 1792125809.747304
 }
