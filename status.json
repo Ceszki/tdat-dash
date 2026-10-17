@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-17 17:07 ET",
+  "generated_at": "2026-10-17 19:14 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 98123.46,
+  "equity": 98094.47,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -111,13 +111,6 @@
   ],
   "positions": [
     {
-      "ticker": "ETHUSD",
-      "qty": 0,
-      "entry": 2421.0,
-      "current": 2420.183,
-      "unrealized_pct": -0.034
-    },
-    {
       "ticker": "RTX",
       "qty": 16,
       "entry": 183.8075,
@@ -143,13 +136,13 @@
       "tp_price": 2459.85,
       "stop_price": 2399.26,
       "entered_at": "2026-10-17 17:07:08",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
+      "status": "closed",
+      "exit_price": 2390.279190213,
+      "pnl_usd": -34.54436629333145,
+      "exit_reason": "stop 2392.15 <= 2399.26; broker fills, estimated fees",
+      "exited_at": "2026-10-17 19:14:12",
       "broker_order_id": "ad5c96ec-b8d5-4047-af02-f37fbed4a00a",
-      "exit_order_id": null
+      "exit_order_id": "cb6b5f71-37ed-4183-af55-eb86225dca2a"
     }
   ],
   "orders": [
@@ -238,5 +231,5 @@
       "created_at": "2026-09-30 20:38:01"
     }
   ],
-  "generated_ts": 1792271228.67605
+  "generated_ts": 1792278853.001615
 }
