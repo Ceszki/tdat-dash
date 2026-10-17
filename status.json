@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-17 14:37 ET",
+  "generated_at": "2026-10-17 17:07 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 98129.02,
+  "equity": 98123.46,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -111,6 +111,13 @@
   ],
   "positions": [
     {
+      "ticker": "ETHUSD",
+      "qty": 0,
+      "entry": 2421.0,
+      "current": 2420.183,
+      "unrealized_pct": -0.034
+    },
+    {
       "ticker": "RTX",
       "qty": 16,
       "entry": 183.8075,
@@ -127,7 +134,24 @@
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [],
+  "sw_trades": [
+    {
+      "id": 49,
+      "symbol": "ETH/USD",
+      "qty": 0.809812,
+      "entry_price": 2423.5,
+      "tp_price": 2459.85,
+      "stop_price": 2399.26,
+      "entered_at": "2026-10-17 17:07:08",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "ad5c96ec-b8d5-4047-af02-f37fbed4a00a",
+      "exit_order_id": null
+    }
+  ],
   "orders": [
     {
       "ticker": "XAR",
@@ -214,5 +238,5 @@
       "created_at": "2026-09-30 20:38:01"
     }
   ],
-  "generated_ts": 1792262234.370811
+  "generated_ts": 1792271228.67605
 }
