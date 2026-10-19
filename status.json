@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-19 11:00 ET",
+  "generated_at": "2026-10-19 12:00 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 98045.8,
+  "equity": 98053.07,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -102,13 +102,30 @@
       "ticker": "XAR",
       "qty": 13,
       "entry": 218.92,
-      "current": 223.58,
-      "unrealized_pct": 2.129
+      "current": 224.58,
+      "unrealized_pct": 2.585
     }
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [],
+  "sw_trades": [
+    {
+      "id": 50,
+      "symbol": "BTC/USD",
+      "qty": 0.0237,
+      "entry_price": 82779.75,
+      "tp_price": 84021.45,
+      "stop_price": 81951.95,
+      "entered_at": "2026-10-18 23:06:11",
+      "status": "closed",
+      "exit_price": 82163.833251881,
+      "pnl_usd": -19.768964237652654,
+      "exit_reason": "time-stop 8h; broker fills, estimated fees",
+      "exited_at": "2026-10-19 12:00:30",
+      "broker_order_id": "5665e717-f9e3-4ce3-afab-93550599ad2d",
+      "exit_order_id": "f55c88e9-2b4d-4a96-8853-4f8a341b1f78"
+    }
+  ],
   "orders": [
     {
       "ticker": "XAR",
@@ -195,5 +212,5 @@
       "created_at": "2026-09-30 20:38:01"
     }
   ],
-  "generated_ts": 1792422028.641987
+  "generated_ts": 1792425631.866571
 }
