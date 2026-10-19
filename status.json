@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-18 23:06 ET",
+  "generated_at": "2026-10-19 05:08 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 98087.89,
+  "equity": 98107.36,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -114,44 +114,27 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 82587.654206625,
-      "current": 82529.9,
-      "unrealized_pct": -0.06999999999999999
+      "current": 82704.34,
+      "unrealized_pct": 0.14100000000000001
     },
     {
       "ticker": "RTX",
       "qty": 16,
       "entry": 183.8075,
-      "current": 193.9,
-      "unrealized_pct": 5.491
+      "current": 192.3,
+      "unrealized_pct": 4.62
     },
     {
       "ticker": "XAR",
       "qty": 13,
       "entry": 218.92,
-      "current": 224.53,
-      "unrealized_pct": 2.563
+      "current": 227.68,
+      "unrealized_pct": 4.0009999999999994
     }
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [
-    {
-      "id": 50,
-      "symbol": "BTC/USD",
-      "qty": 0.0237,
-      "entry_price": 82779.75,
-      "tp_price": 84021.45,
-      "stop_price": 81951.95,
-      "entered_at": "2026-10-18 23:06:11",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
-      "broker_order_id": "5665e717-f9e3-4ce3-afab-93550599ad2d",
-      "exit_order_id": null
-    }
-  ],
+  "sw_trades": [],
   "orders": [
     {
       "ticker": "XAR",
@@ -238,5 +221,5 @@
       "created_at": "2026-09-30 20:38:01"
     }
   ],
-  "generated_ts": 1792379171.769547
+  "generated_ts": 1792400912.813771
 }
