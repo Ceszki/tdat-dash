@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-21 11:27 ET",
+  "generated_at": "2026-10-21 13:00 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 97996.26,
+  "equity": 98006.13,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -110,22 +110,29 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 84566.3,
-      "current": 84451.4,
-      "unrealized_pct": -0.136
+      "current": 84484.4,
+      "unrealized_pct": -0.097
     },
     {
       "ticker": "ETHUSD",
       "qty": 0,
       "entry": 2504.78,
-      "current": 2504.304,
-      "unrealized_pct": -0.019
+      "current": 2509.268,
+      "unrealized_pct": 0.179
+    },
+    {
+      "ticker": "QQQ",
+      "qty": 2,
+      "entry": 724.585,
+      "current": 727.01,
+      "unrealized_pct": 0.335
     },
     {
       "ticker": "XAR",
       "qty": 13,
       "entry": 218.92,
-      "current": 223.28,
-      "unrealized_pct": 1.992
+      "current": 223.31,
+      "unrealized_pct": 2.005
     }
   ],
   "positions_unavailable": false,
@@ -298,5 +305,5 @@
       "created_at": "2026-09-30 20:38:01"
     }
   ],
-  "generated_ts": 1792596465.094166
+  "generated_ts": 1792602034.552386
 }
