@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-21 11:00 ET",
+  "generated_at": "2026-10-21 11:27 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 97992.05,
+  "equity": 97996.26,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -110,15 +110,22 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 84566.3,
-      "current": 84528.3,
-      "unrealized_pct": -0.045
+      "current": 84451.4,
+      "unrealized_pct": -0.136
+    },
+    {
+      "ticker": "ETHUSD",
+      "qty": 0,
+      "entry": 2504.78,
+      "current": 2504.304,
+      "unrealized_pct": -0.019
     },
     {
       "ticker": "XAR",
       "qty": 13,
       "entry": 218.92,
-      "current": 222.415,
-      "unrealized_pct": 1.5959999999999999
+      "current": 223.28,
+      "unrealized_pct": 1.992
     }
   ],
   "positions_unavailable": false,
@@ -170,6 +177,38 @@
       "exit_reason": null,
       "exited_at": null,
       "broker_order_id": "f6bf2168-1149-429a-8346-0bb335c86563",
+      "exit_order_id": null
+    },
+    {
+      "id": 55,
+      "symbol": "ETH/USD",
+      "qty": 0.780525,
+      "entry_price": 2511.17,
+      "tp_price": 2548.84,
+      "stop_price": 2486.06,
+      "entered_at": "2026-10-21 11:27:44",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "1285b63d-1ab1-4b31-9efb-21eaad1b1717",
+      "exit_order_id": null
+    },
+    {
+      "id": 56,
+      "symbol": "QQQ",
+      "qty": 2.0,
+      "entry_price": 726.07,
+      "tp_price": 736.96,
+      "stop_price": 718.81,
+      "entered_at": "2026-10-21 11:27:44",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "e15cf3fe-9761-441c-b23a-2cfbff7b1e51",
       "exit_order_id": null
     }
   ],
@@ -259,5 +298,5 @@
       "created_at": "2026-09-30 20:38:01"
     }
   ],
-  "generated_ts": 1792594833.619421
+  "generated_ts": 1792596465.094166
 }
