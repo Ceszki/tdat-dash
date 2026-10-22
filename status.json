@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-21 21:03 ET",
+  "generated_at": "2026-10-22 01:03 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 97921.38,
+  "equity": 97913.83,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -94,13 +94,10 @@
     }
   ],
   "decisions": {
-    "considered": 5,
-    "traded": 1,
-    "dropped": 4,
-    "lines": [
-      "\u2705 RTX \u2014 Raytheon Co. \u2014 $2,999,033,000",
-      "\u2715 4\u00d7 unresolved company"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -113,15 +110,15 @@
       "ticker": "QQQ",
       "qty": 2,
       "entry": 724.585,
-      "current": 719.88,
-      "unrealized_pct": -0.649
+      "current": 716.03,
+      "unrealized_pct": -1.1809999999999998
     },
     {
       "ticker": "RTX",
       "qty": 15,
       "entry": 192.0,
-      "current": 191.29,
-      "unrealized_pct": -0.37
+      "current": 191.3,
+      "unrealized_pct": -0.365
     },
     {
       "ticker": "XAR",
@@ -133,88 +130,7 @@
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [
-    {
-      "id": 52,
-      "symbol": "BTC/USD",
-      "qty": 0.023642,
-      "entry_price": 82917.43,
-      "tp_price": 84161.19,
-      "stop_price": 82088.26,
-      "entered_at": "2026-10-20 17:00:30",
-      "status": "closed",
-      "exit_price": 82700.430987742,
-      "pnl_usd": -11.132882792430792,
-      "exit_reason": "time-stop 8h; broker fills, estimated fees",
-      "exited_at": "2026-10-21 01:01:16",
-      "broker_order_id": "c50d7ff1-33a5-4e28-99fc-090d3e7288d9",
-      "exit_order_id": "d74a7b9f-9ea6-476a-9807-0ef2435766e9"
-    },
-    {
-      "id": 53,
-      "symbol": "ETH/USD",
-      "qty": 0.799791,
-      "entry_price": 2451.08,
-      "tp_price": 2487.85,
-      "stop_price": 2426.57,
-      "entered_at": "2026-10-20 17:00:31",
-      "status": "closed",
-      "exit_price": 2443.826564224,
-      "pnl_usd": -11.954712979145143,
-      "exit_reason": "time-stop 8h; broker fills, estimated fees",
-      "exited_at": "2026-10-21 01:01:16",
-      "broker_order_id": "758e7bf9-41bb-4930-b74a-41d13ba69621",
-      "exit_order_id": "fe9245b7-8fe6-48bb-ac78-b4ac967e4943"
-    },
-    {
-      "id": 54,
-      "symbol": "BTC/USD",
-      "qty": 0.023151,
-      "entry_price": 84659.68,
-      "tp_price": 85929.58,
-      "stop_price": 83813.08,
-      "entered_at": "2026-10-21 11:00:33",
-      "status": "closed",
-      "exit_price": 83983.2,
-      "pnl_usd": -23.208713458475813,
-      "exit_reason": "time-stop 8h; broker fills, estimated fees",
-      "exited_at": "2026-10-21 20:03:44",
-      "broker_order_id": "f6bf2168-1149-429a-8346-0bb335c86563",
-      "exit_order_id": "31176271-a173-44d9-baff-85c5a11d4e4b"
-    },
-    {
-      "id": 55,
-      "symbol": "ETH/USD",
-      "qty": 0.780525,
-      "entry_price": 2511.17,
-      "tp_price": 2548.84,
-      "stop_price": 2486.06,
-      "entered_at": "2026-10-21 11:27:44",
-      "status": "closed",
-      "exit_price": 2470.889078434,
-      "pnl_usd": -36.08361258551963,
-      "exit_reason": "stop 2469.55 <= 2486.06; broker fills, estimated fees",
-      "exited_at": "2026-10-21 20:03:44",
-      "broker_order_id": "1285b63d-1ab1-4b31-9efb-21eaad1b1717",
-      "exit_order_id": "cdbc5f6e-974e-4773-b30b-84a0f48fd2af"
-    },
-    {
-      "id": 56,
-      "symbol": "QQQ",
-      "qty": 2.0,
-      "entry_price": 726.07,
-      "tp_price": 736.96,
-      "stop_price": 718.81,
-      "entered_at": "2026-10-21 11:27:44",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
-      "broker_order_id": "e15cf3fe-9761-441c-b23a-2cfbff7b1e51",
-      "exit_order_id": null
-    }
-  ],
+  "sw_trades": [],
   "orders": [
     {
       "ticker": "RTX",
@@ -301,5 +217,5 @@
       "created_at": "2026-09-30 20:38:12"
     }
   ],
-  "generated_ts": 1792631034.412387
+  "generated_ts": 1792645402.88552
 }
