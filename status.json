@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-22 13:23 ET",
+  "generated_at": "2026-10-22 15:00 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100042.69,
+  "equity": 100075.48,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -110,15 +110,15 @@
       "ticker": "RTX",
       "qty": 15,
       "entry": 192.0,
-      "current": 192.19,
-      "unrealized_pct": 0.099
+      "current": 194.12,
+      "unrealized_pct": 1.1039999999999999
     },
     {
       "ticker": "XAR",
       "qty": 13,
       "entry": 218.92,
-      "current": 216.44,
-      "unrealized_pct": -1.133
+      "current": 216.735,
+      "unrealized_pct": -0.9979999999999999
     }
   ],
   "positions_unavailable": false,
@@ -227,5 +227,5 @@
       "created_at": "2026-09-30 20:38:12"
     }
   ],
-  "generated_ts": 1792689825.510059
+  "generated_ts": 1792695629.888292
 }
