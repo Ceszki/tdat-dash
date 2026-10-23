@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22 22:20 ET",
+  "generated_at": "2026-10-23 01:04 ET",
   "broker_mode": "Alpaca PAPER",
   "equity": 100115.9,
   "equity_unavailable": false,
@@ -94,13 +94,10 @@
     }
   ],
   "decisions": {
-    "considered": 5,
+    "considered": 0,
     "traded": 0,
-    "dropped": 5,
-    "lines": [
-      "\u2715 3\u00d7 duplicate",
-      "\u2715 2\u00d7 unresolved company"
-    ]
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -126,24 +123,7 @@
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [
-    {
-      "id": 56,
-      "symbol": "QQQ",
-      "qty": 2.0,
-      "entry_price": 726.07,
-      "tp_price": 736.96,
-      "stop_price": 718.81,
-      "entered_at": "2026-10-21 11:27:44",
-      "status": "closed",
-      "exit_price": 709.85,
-      "pnl_usd": -29.470000000000027,
-      "exit_reason": "next-session exit; broker fills, estimated fees",
-      "exited_at": "2026-10-22 13:00:31",
-      "broker_order_id": "e15cf3fe-9761-441c-b23a-2cfbff7b1e51",
-      "exit_order_id": "532b8158-5196-4f1d-8d00-9d214d7081ef"
-    }
-  ],
+  "sw_trades": [],
   "orders": [
     {
       "ticker": "RTX",
@@ -230,5 +210,5 @@
       "created_at": "2026-09-30 20:38:12"
     }
   ],
-  "generated_ts": 1792722023.794339
+  "generated_ts": 1792731849.619918
 }
