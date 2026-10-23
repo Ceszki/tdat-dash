@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23 19:37 ET",
+  "generated_at": "2026-10-23 19:54 ET",
   "broker_mode": "Alpaca PAPER",
   "equity": 99967.23,
   "equity_unavailable": false,
@@ -94,10 +94,14 @@
     }
   ],
   "decisions": {
-    "considered": 0,
-    "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "considered": 8,
+    "traded": 1,
+    "dropped": 7,
+    "lines": [
+      "\u2705 XAR \u2014 Fluor Marine Propulsion LLC \u2014 $2,409,077,590",
+      "\u2715 5\u00d7 duplicate",
+      "\u2715 2\u00d7 unresolved company"
+    ]
   },
   "alerts": [
     {
@@ -118,6 +122,13 @@
   "analyst": [],
   "sw_trades": [],
   "orders": [
+    {
+      "ticker": "XAR",
+      "qty": 13,
+      "limit_price": 218.37,
+      "status": "submitted",
+      "created_at": "2026-10-23 19:54:33"
+    },
     {
       "ticker": "RTX",
       "qty": 15,
@@ -194,14 +205,7 @@
       "limit_price": 268.22,
       "status": "filled",
       "created_at": "2026-09-30 20:38:17"
-    },
-    {
-      "ticker": "BA",
-      "qty": 16,
-      "limit_price": 186.44,
-      "status": "filled",
-      "created_at": "2026-09-30 20:38:12"
     }
   ],
-  "generated_ts": 1792798666.524986
+  "generated_ts": 1792799677.540452
 }
