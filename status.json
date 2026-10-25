@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-25 17:05 ET",
+  "generated_at": "2026-10-25 19:23 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 99957.08,
+  "equity": 99930.21,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -111,20 +111,6 @@
   ],
   "positions": [
     {
-      "ticker": "BTCUSD",
-      "qty": 0,
-      "entry": 80631.854184038,
-      "current": 80369.347,
-      "unrealized_pct": -0.326
-    },
-    {
-      "ticker": "ETHUSD",
-      "qty": 0,
-      "entry": 2342.3,
-      "current": 2348.4,
-      "unrealized_pct": 0.26
-    },
-    {
       "ticker": "RTX",
       "qty": 15,
       "entry": 192.0,
@@ -143,13 +129,13 @@
       "tp_price": 81913.34,
       "stop_price": 79895.77,
       "entered_at": "2026-10-25 11:10:56",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
+      "status": "closed",
+      "exit_price": 80157.595901262,
+      "pnl_usd": -21.071742772918014,
+      "exit_reason": "time-stop 8h; broker fills, estimated fees",
+      "exited_at": "2026-10-25 19:23:33",
       "broker_order_id": "a93c0c8c-8083-41a5-923f-c76c1e0e7a44",
-      "exit_order_id": null
+      "exit_order_id": "cb537926-3964-4484-ab3a-142c04c5e522"
     },
     {
       "id": 58,
@@ -159,13 +145,13 @@
       "tp_price": 2380.47,
       "stop_price": 2321.84,
       "entered_at": "2026-10-25 11:10:57",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
+      "status": "closed",
+      "exit_price": 2333.256,
+      "pnl_usd": -17.047704372607086,
+      "exit_reason": "time-stop 8h; broker fills, estimated fees",
+      "exited_at": "2026-10-25 19:23:33",
       "broker_order_id": "f767d34f-e8bf-4019-a65b-f01b6d88c8a5",
-      "exit_order_id": null
+      "exit_order_id": "98bc3a61-1650-421a-95e1-f2c6923881f8"
     }
   ],
   "orders": [
@@ -254,5 +240,5 @@
       "created_at": "2026-10-01 20:53:37"
     }
   ],
-  "generated_ts": 1792962311.990534
+  "generated_ts": 1792970615.99758
 }
