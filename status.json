@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-25 07:50 ET",
+  "generated_at": "2026-10-25 11:10 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 99967.16,
+  "equity": 99947.74,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -111,6 +111,20 @@
   ],
   "positions": [
     {
+      "ticker": "BTCUSD",
+      "qty": 0,
+      "entry": 80631.854184038,
+      "current": 80597.381,
+      "unrealized_pct": -0.043
+    },
+    {
+      "ticker": "ETHUSD",
+      "qty": 0,
+      "entry": 2342.3,
+      "current": 2330.79,
+      "unrealized_pct": -0.49100000000000005
+    },
+    {
       "ticker": "RTX",
       "qty": 15,
       "entry": 192.0,
@@ -120,7 +134,40 @@
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [],
+  "sw_trades": [
+    {
+      "id": 57,
+      "symbol": "BTC/USD",
+      "qty": 0.024774,
+      "entry_price": 80702.8,
+      "tp_price": 81913.34,
+      "stop_price": 79895.77,
+      "entered_at": "2026-10-25 11:10:56",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "a93c0c8c-8083-41a5-923f-c76c1e0e7a44",
+      "exit_order_id": null
+    },
+    {
+      "id": 58,
+      "symbol": "ETH/USD",
+      "qty": 0.852493,
+      "entry_price": 2345.29,
+      "tp_price": 2380.47,
+      "stop_price": 2321.84,
+      "entered_at": "2026-10-25 11:10:57",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "f767d34f-e8bf-4019-a65b-f01b6d88c8a5",
+      "exit_order_id": null
+    }
+  ],
   "orders": [
     {
       "ticker": "XAR",
@@ -207,5 +254,5 @@
       "created_at": "2026-10-01 20:53:37"
     }
   ],
-  "generated_ts": 1792929044.732398
+  "generated_ts": 1792941057.687333
 }
