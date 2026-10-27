@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-26 22:13 ET",
+  "generated_at": "2026-10-27 01:17 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100087.05,
+  "equity": 100083.75,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -86,13 +86,10 @@
     }
   ],
   "decisions": {
-    "considered": 4,
+    "considered": 0,
     "traded": 0,
-    "dropped": 4,
-    "lines": [
-      "\u2715 2\u00d7 duplicate",
-      "\u2715 2\u00d7 unresolved company"
-    ]
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -105,8 +102,8 @@
       "ticker": "QQQ",
       "qty": 2,
       "entry": 714.635,
-      "current": 712.91,
-      "unrealized_pct": -0.241
+      "current": 711.65,
+      "unrealized_pct": -0.418
     },
     {
       "ticker": "RTX",
@@ -119,8 +116,8 @@
       "ticker": "SPY",
       "qty": 2,
       "entry": 767.175,
-      "current": 766.31,
-      "unrealized_pct": -0.11299999999999999
+      "current": 765.92,
+      "unrealized_pct": -0.164
     },
     {
       "ticker": "XAR",
@@ -132,40 +129,7 @@
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [
-    {
-      "id": 59,
-      "symbol": "SPY",
-      "qty": 2.0,
-      "entry_price": 768.56,
-      "tp_price": 780.09,
-      "stop_price": 760.87,
-      "entered_at": "2026-10-26 11:00:33",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
-      "broker_order_id": "a0210f9a-47c2-4154-9ec2-c2b00580bd80",
-      "exit_order_id": null
-    },
-    {
-      "id": 60,
-      "symbol": "QQQ",
-      "qty": 2.0,
-      "entry_price": 715.51,
-      "tp_price": 726.24,
-      "stop_price": 708.35,
-      "entered_at": "2026-10-26 11:00:33",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
-      "broker_order_id": "9ec7d95d-8a42-48bc-b8cc-5aae7995bedb",
-      "exit_order_id": null
-    }
-  ],
+  "sw_trades": [],
   "orders": [
     {
       "ticker": "XAR",
@@ -252,5 +216,5 @@
       "created_at": "2026-10-01 20:53:37"
     }
   ],
-  "generated_ts": 1793067215.660519
+  "generated_ts": 1793078264.155006
 }
