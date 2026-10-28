@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-27 19:18 ET",
+  "generated_at": "2026-10-27 20:35 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100077.38,
+  "equity": 100067.06,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -90,10 +90,14 @@
     }
   ],
   "decisions": {
-    "considered": 0,
+    "considered": 7,
     "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "dropped": 7,
+    "lines": [
+      "\u2715 4\u00d7 duplicate",
+      "\u2715 2\u00d7 below threshold",
+      "\u2715 1\u00d7 unresolved company"
+    ]
   },
   "alerts": [
     {
@@ -106,29 +110,29 @@
       "ticker": "QQQ",
       "qty": 2,
       "entry": 722.34,
-      "current": 721.37,
-      "unrealized_pct": -0.134
+      "current": 721.53,
+      "unrealized_pct": -0.11199999999999999
     },
     {
       "ticker": "RTX",
       "qty": 15,
       "entry": 192.0,
-      "current": 194.79,
-      "unrealized_pct": 1.4529999999999998
+      "current": 194.81,
+      "unrealized_pct": 1.464
     },
     {
       "ticker": "SPY",
       "qty": 2,
       "entry": 770.81,
-      "current": 769.8629,
-      "unrealized_pct": -0.123
+      "current": 769.63,
+      "unrealized_pct": -0.153
     },
     {
       "ticker": "XAR",
       "qty": 13,
       "entry": 218.37,
-      "current": 225.2557,
-      "unrealized_pct": 3.1530000000000005
+      "current": 224.45,
+      "unrealized_pct": 2.784
     }
   ],
   "positions_unavailable": false,
@@ -285,5 +289,5 @@
       "created_at": "2026-10-01 20:53:37"
     }
   ],
-  "generated_ts": 1793143102.748603
+  "generated_ts": 1793147729.631509
 }
