@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-28 01:56 ET",
+  "generated_at": "2026-10-28 04:49 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100066.62,
+  "equity": 100074.8,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -87,6 +87,10 @@
     {
       "ts": 1793059200,
       "equity": 100084.94
+    },
+    {
+      "ts": 1793145600,
+      "equity": 100063.33
     }
   ],
   "decisions": {
@@ -106,29 +110,36 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 80893.799937594,
-      "current": 80878.9,
-      "unrealized_pct": -0.018000000000000002
+      "current": 81464.1,
+      "unrealized_pct": 0.705
+    },
+    {
+      "ticker": "ETHUSD",
+      "qty": 0,
+      "entry": 2374.1,
+      "current": 2373.595,
+      "unrealized_pct": -0.021
     },
     {
       "ticker": "QQQ",
       "qty": 2,
       "entry": 722.34,
-      "current": 723.87,
-      "unrealized_pct": 0.212
+      "current": 724.19,
+      "unrealized_pct": 0.256
     },
     {
       "ticker": "RTX",
       "qty": 15,
       "entry": 192.0,
-      "current": 194.75,
-      "unrealized_pct": 1.432
+      "current": 194.55,
+      "unrealized_pct": 1.328
     },
     {
       "ticker": "SPY",
       "qty": 2,
       "entry": 770.81,
-      "current": 769.9,
-      "unrealized_pct": -0.11800000000000001
+      "current": 770.41,
+      "unrealized_pct": -0.052
     },
     {
       "ticker": "XAR",
@@ -140,7 +151,24 @@
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [],
+  "sw_trades": [
+    {
+      "id": 64,
+      "symbol": "ETH/USD",
+      "qty": 0.840331,
+      "entry_price": 2381.91,
+      "tp_price": 2417.64,
+      "stop_price": 2358.09,
+      "entered_at": "2026-10-28 04:49:18",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "dd4d82f8-0433-4bd9-a5bd-9ab1dcd3fe19",
+      "exit_order_id": null
+    }
+  ],
   "orders": [
     {
       "ticker": "XAR",
@@ -227,5 +255,5 @@
       "created_at": "2026-10-01 20:53:37"
     }
   ],
-  "generated_ts": 1793166993.060354
+  "generated_ts": 1793177358.647303
 }
