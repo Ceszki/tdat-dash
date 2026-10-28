@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-28 15:00 ET",
+  "generated_at": "2026-10-28 16:00 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100025.15,
+  "equity": 100025.26,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -107,25 +107,32 @@
   ],
   "positions": [
     {
+      "ticker": "BTCUSD",
+      "qty": 0,
+      "entry": 81597.138191975,
+      "current": 81465.171,
+      "unrealized_pct": -0.16199999999999998
+    },
+    {
       "ticker": "RTX",
       "qty": 15,
       "entry": 192.0,
-      "current": 197.08,
-      "unrealized_pct": 2.646
+      "current": 195.84,
+      "unrealized_pct": 2.0
     },
     {
       "ticker": "SPY",
       "qty": 2,
       "entry": 771.835,
-      "current": 771.27,
-      "unrealized_pct": -0.073
+      "current": 773.62,
+      "unrealized_pct": 0.231
     },
     {
       "ticker": "XAR",
       "qty": 13,
       "entry": 218.37,
-      "current": 223.455,
-      "unrealized_pct": 2.329
+      "current": 225.12,
+      "unrealized_pct": 3.091
     }
   ],
   "positions_unavailable": false,
@@ -209,6 +216,38 @@
       "exit_reason": null,
       "exited_at": null,
       "broker_order_id": "f963a6ed-cb92-4d75-8b98-a790ed5c205a",
+      "exit_order_id": null
+    },
+    {
+      "id": 66,
+      "symbol": "BTC/USD",
+      "qty": 0.024498,
+      "entry_price": 81665.97,
+      "tp_price": 82890.96,
+      "stop_price": 80849.31,
+      "entered_at": "2026-10-28 16:00:34",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "606d5ff5-5278-4e31-8f18-4ef3f43514ae",
+      "exit_order_id": null
+    },
+    {
+      "id": 67,
+      "symbol": "ETH/USD",
+      "qty": 0.842619,
+      "entry_price": 2374.33,
+      "tp_price": 2409.94,
+      "stop_price": 2350.59,
+      "entered_at": "2026-10-28 16:00:34",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "c2c5699f-0d62-4a3b-931d-b43a503786d6",
       "exit_order_id": null
     }
   ],
@@ -298,5 +337,5 @@
       "created_at": "2026-10-01 20:53:37"
     }
   ],
-  "generated_ts": 1793214031.363056
+  "generated_ts": 1793217635.003244
 }
