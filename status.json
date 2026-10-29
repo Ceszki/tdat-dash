@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-29 12:00 ET",
+  "generated_at": "2026-10-29 13:00 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100168.43,
+  "equity": 100197.56,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -110,27 +110,36 @@
       "ticker": "RTX",
       "qty": 15,
       "entry": 192.0,
-      "current": 200.32,
-      "unrealized_pct": 4.333
-    },
-    {
-      "ticker": "SPY",
-      "qty": 2,
-      "entry": 771.835,
-      "current": 770.04,
-      "unrealized_pct": -0.233
+      "current": 201.33,
+      "unrealized_pct": 4.859
     },
     {
       "ticker": "XAR",
       "qty": 13,
       "entry": 218.37,
-      "current": 236.5,
-      "unrealized_pct": 8.302
+      "current": 237.58,
+      "unrealized_pct": 8.797
     }
   ],
   "positions_unavailable": false,
   "analyst": [],
   "sw_trades": [
+    {
+      "id": 65,
+      "symbol": "SPY",
+      "qty": 2.0,
+      "entry_price": 773.39,
+      "tp_price": 784.99,
+      "stop_price": 765.66,
+      "entered_at": "2026-10-28 13:00:33",
+      "status": "closed",
+      "exit_price": 770.04,
+      "pnl_usd": -3.5900000000001455,
+      "exit_reason": "next-session exit; broker fills, estimated fees",
+      "exited_at": "2026-10-29 13:00:33",
+      "broker_order_id": "f963a6ed-cb92-4d75-8b98-a790ed5c205a",
+      "exit_order_id": "2268064a-d3c6-49b9-bcb5-84e8eff958e5"
+    },
     {
       "id": 66,
       "symbol": "BTC/USD",
@@ -234,5 +243,5 @@
       "created_at": "2026-10-01 20:53:37"
     }
   ],
-  "generated_ts": 1793289633.07759
+  "generated_ts": 1793293238.772722
 }
