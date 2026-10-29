@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-28 20:29 ET",
+  "generated_at": "2026-10-28 21:03 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100012.12,
+  "equity": 100001.26,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -94,10 +94,14 @@
     }
   ],
   "decisions": {
-    "considered": 0,
+    "considered": 12,
     "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "dropped": 12,
+    "lines": [
+      "\u2715 7\u00d7 duplicate",
+      "\u2715 3\u00d7 unresolved company",
+      "\u2715 2\u00d7 below threshold"
+    ]
   },
   "alerts": [
     {
@@ -110,15 +114,8 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 81597.138191975,
-      "current": 81154.318,
-      "unrealized_pct": -0.543
-    },
-    {
-      "ticker": "ETHUSD",
-      "qty": 0,
-      "entry": 2374.33,
-      "current": 2354.9,
-      "unrealized_pct": -0.818
+      "current": 81051.543,
+      "unrealized_pct": -0.6689999999999999
     },
     {
       "ticker": "RTX",
@@ -131,8 +128,8 @@
       "ticker": "SPY",
       "qty": 2,
       "entry": 771.835,
-      "current": 770.1,
-      "unrealized_pct": -0.22499999999999998
+      "current": 770.38,
+      "unrealized_pct": -0.189
     },
     {
       "ticker": "XAR",
@@ -249,13 +246,13 @@
       "tp_price": 2409.94,
       "stop_price": 2350.59,
       "entered_at": "2026-10-28 16:00:34",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
+      "status": "closed",
+      "exit_price": 2349.5,
+      "pnl_usd": -28.24130908580605,
+      "exit_reason": "stop 2349.13 <= 2350.59; broker fills, estimated fees",
+      "exited_at": "2026-10-28 21:03:18",
       "broker_order_id": "c2c5699f-0d62-4a3b-931d-b43a503786d6",
-      "exit_order_id": null
+      "exit_order_id": "86dd223f-b810-400d-907c-e375c40701ad"
     }
   ],
   "orders": [
@@ -344,5 +341,5 @@
       "created_at": "2026-10-01 20:53:37"
     }
   ],
-  "generated_ts": 1793233795.227081
+  "generated_ts": 1793235800.404615
 }
