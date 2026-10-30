@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29 22:44 ET",
+  "generated_at": "2026-10-30 00:00 ET",
   "broker_mode": "Alpaca PAPER",
   "equity": 100155.49,
   "equity_unavailable": false,
@@ -94,15 +94,10 @@
     }
   ],
   "decisions": {
-    "considered": 14,
+    "considered": 0,
     "traded": 0,
-    "dropped": 14,
-    "lines": [
-      "\u2715 6\u00d7 duplicate",
-      "\u2715 5\u00d7 unresolved company",
-      "\u2715 2\u00d7 below threshold",
-      "\u2715 1\u00d7 negative sentiment"
-    ]
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -128,40 +123,7 @@
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [
-    {
-      "id": 65,
-      "symbol": "SPY",
-      "qty": 2.0,
-      "entry_price": 773.39,
-      "tp_price": 784.99,
-      "stop_price": 765.66,
-      "entered_at": "2026-10-28 13:00:33",
-      "status": "closed",
-      "exit_price": 770.04,
-      "pnl_usd": -3.5900000000001455,
-      "exit_reason": "next-session exit; broker fills, estimated fees",
-      "exited_at": "2026-10-29 13:00:33",
-      "broker_order_id": "f963a6ed-cb92-4d75-8b98-a790ed5c205a",
-      "exit_order_id": "2268064a-d3c6-49b9-bcb5-84e8eff958e5"
-    },
-    {
-      "id": 66,
-      "symbol": "BTC/USD",
-      "qty": 0.024498,
-      "entry_price": 81665.97,
-      "tp_price": 82890.96,
-      "stop_price": 80849.31,
-      "entered_at": "2026-10-28 16:00:34",
-      "status": "closed",
-      "exit_price": 80122.52,
-      "pnl_usd": -45.339787825673284,
-      "exit_reason": "stop 80139.00 <= 80849.31; broker fills, estimated fees",
-      "exited_at": "2026-10-29 02:15:00",
-      "broker_order_id": "606d5ff5-5278-4e31-8f18-4ef3f43514ae",
-      "exit_order_id": "bfd6ffee-79d4-40c7-b722-0bc5bb24cb04"
-    }
-  ],
+  "sw_trades": [],
   "orders": [
     {
       "ticker": "XAR",
@@ -248,5 +210,5 @@
       "created_at": "2026-10-01 20:53:37"
     }
   ],
-  "generated_ts": 1793328259.392776
+  "generated_ts": 1793332830.273256
 }
