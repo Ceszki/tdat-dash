@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30 05:00 ET",
+  "generated_at": "2026-10-30 05:12 ET",
   "broker_mode": "Alpaca PAPER",
   "equity": 100167.29,
   "equity_unavailable": false,
@@ -214,5 +214,5 @@
       "created_at": "2026-10-01 20:53:37"
     }
   ],
-  "generated_ts": 1793350832.751461
+  "generated_ts": 1793351555.771018
 }
