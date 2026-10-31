@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-30 20:14 ET",
+  "generated_at": "2026-10-30 20:53 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100003.22,
+  "equity": 99999.54,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -94,18 +94,31 @@
     }
   ],
   "decisions": {
-    "considered": 0,
-    "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "considered": 17,
+    "traded": 2,
+    "dropped": 15,
+    "lines": [
+      "\u2705 VVX \u2014 V2X Systems LLC \u2014 $813,128,030",
+      "\u2705 LMT \u2014 Lockheed Martin Corp. \u2014 $4,728,023,341",
+      "\u2715 6\u00d7 unresolved company",
+      "\u2715 5\u00d7 duplicate",
+      "\u2715 4\u00d7 below threshold"
+    ]
   },
   "alerts": [
     {
-      "level": "warn",
-      "message": "No trades in 5 days"
+      "level": "ok",
+      "message": "All clear"
     }
   ],
   "positions": [
+    {
+      "ticker": "ETHUSD",
+      "qty": 0,
+      "entry": 2245.397,
+      "current": 2246.2,
+      "unrealized_pct": 0.036000000000000004
+    },
     {
       "ticker": "RTX",
       "qty": 15,
@@ -139,9 +152,39 @@
       "exited_at": "2026-10-30 11:00:30",
       "broker_order_id": "359da566-a1ac-4cb0-8e89-dc9e06b5ac4d",
       "exit_order_id": "b24f8a44-a847-429c-824c-f05d34b9edf8"
+    },
+    {
+      "id": 69,
+      "symbol": "ETH/USD",
+      "qty": 0.888819,
+      "entry_price": 2250.25,
+      "tp_price": 2284.0,
+      "stop_price": 2227.75,
+      "entered_at": "2026-10-30 20:53:09",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "98aa06f6-4054-453f-a14f-c5b9c83f55a8",
+      "exit_order_id": null
     }
   ],
   "orders": [
+    {
+      "ticker": "LMT",
+      "qty": 4,
+      "limit_price": 638.39,
+      "status": "submitted",
+      "created_at": "2026-10-30 20:53:05"
+    },
+    {
+      "ticker": "VVX",
+      "qty": 37,
+      "limit_price": 80.62,
+      "status": "submitted",
+      "created_at": "2026-10-30 20:53:01"
+    },
     {
       "ticker": "XAR",
       "qty": 13,
@@ -211,21 +254,7 @@
       "limit_price": 507.57,
       "status": "filled",
       "created_at": "2026-10-05 18:37:28"
-    },
-    {
-      "ticker": "NOC",
-      "qty": 6,
-      "limit_price": 479.08,
-      "status": "filled",
-      "created_at": "2026-10-02 20:35:23"
-    },
-    {
-      "ticker": "BAH",
-      "qty": 42,
-      "limit_price": 70.61,
-      "status": "filled",
-      "created_at": "2026-10-01 20:53:37"
     }
   ],
-  "generated_ts": 1793405696.986316
+  "generated_ts": 1793407990.193589
 }
