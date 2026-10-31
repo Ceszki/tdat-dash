@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-31 12:26 ET",
+  "generated_at": "2026-10-31 16:09 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 99995.98,
+  "equity": 99986.3,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -111,20 +111,6 @@
   ],
   "positions": [
     {
-      "ticker": "BTCUSD",
-      "qty": 0,
-      "entry": 77489.561429644,
-      "current": 77524.715,
-      "unrealized_pct": 0.045
-    },
-    {
-      "ticker": "ETHUSD",
-      "qty": 0,
-      "entry": 2247.49,
-      "current": 2250.3,
-      "unrealized_pct": 0.125
-    },
-    {
       "ticker": "RTX",
       "qty": 15,
       "entry": 192.0,
@@ -166,13 +152,13 @@
       "tp_price": 78761.87,
       "stop_price": 76821.92,
       "entered_at": "2026-10-31 07:48:18",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
+      "status": "closed",
+      "exit_price": 77445.282,
+      "pnl_usd": -10.51200057830124,
+      "exit_reason": "time-stop 8h; broker fills, estimated fees",
+      "exited_at": "2026-10-31 16:09:19",
       "broker_order_id": "76b27cf1-5dec-4c13-9d51-e03915a95e8c",
-      "exit_order_id": null
+      "exit_order_id": "45cb4212-0380-4960-9132-d3c50272752c"
     },
     {
       "id": 71,
@@ -182,13 +168,13 @@
       "tp_price": 2285.91,
       "stop_price": 2229.61,
       "entered_at": "2026-10-31 07:48:18",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
+      "status": "closed",
+      "exit_price": 2251.605210221,
+      "pnl_usd": -5.732383286309414,
+      "exit_reason": "time-stop 8h; broker fills, estimated fees",
+      "exited_at": "2026-10-31 16:09:19",
       "broker_order_id": "3caca9c7-fdeb-435b-93e1-f609586927ec",
-      "exit_order_id": null
+      "exit_order_id": "86dd28ec-f89f-4c8c-9e99-128336a614c6"
     }
   ],
   "orders": [
@@ -277,5 +263,5 @@
       "created_at": "2026-10-05 18:37:28"
     }
   ],
-  "generated_ts": 1793464014.404621
+  "generated_ts": 1793477361.714567
 }
