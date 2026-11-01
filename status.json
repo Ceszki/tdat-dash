@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31 22:56 ET",
+  "generated_at": "2026-11-01 04:55 ET",
   "broker_mode": "Alpaca PAPER",
   "equity": 99986.3,
   "equity_unavailable": false,
@@ -127,56 +127,7 @@
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [
-    {
-      "id": 69,
-      "symbol": "ETH/USD",
-      "qty": 0.888819,
-      "entry_price": 2250.25,
-      "tp_price": 2284.0,
-      "stop_price": 2227.75,
-      "entered_at": "2026-10-30 20:53:09",
-      "status": "closed",
-      "exit_price": 2244.767152589,
-      "pnl_usd": -9.926248209747428,
-      "exit_reason": "time-stop 8h; broker fills, estimated fees",
-      "exited_at": "2026-10-31 07:48:16",
-      "broker_order_id": "98aa06f6-4054-453f-a14f-c5b9c83f55a8",
-      "exit_order_id": "11062696-936a-4c2f-8116-77dd4537595f"
-    },
-    {
-      "id": 70,
-      "symbol": "BTC/USD",
-      "qty": 0.025774,
-      "entry_price": 77597.9,
-      "tp_price": 78761.87,
-      "stop_price": 76821.92,
-      "entered_at": "2026-10-31 07:48:18",
-      "status": "closed",
-      "exit_price": 77445.282,
-      "pnl_usd": -10.51200057830124,
-      "exit_reason": "time-stop 8h; broker fills, estimated fees",
-      "exited_at": "2026-10-31 16:09:19",
-      "broker_order_id": "76b27cf1-5dec-4c13-9d51-e03915a95e8c",
-      "exit_order_id": "45cb4212-0380-4960-9132-d3c50272752c"
-    },
-    {
-      "id": 71,
-      "symbol": "ETH/USD",
-      "qty": 0.88806,
-      "entry_price": 2252.13,
-      "tp_price": 2285.91,
-      "stop_price": 2229.61,
-      "entered_at": "2026-10-31 07:48:18",
-      "status": "closed",
-      "exit_price": 2251.605210221,
-      "pnl_usd": -5.732383286309414,
-      "exit_reason": "time-stop 8h; broker fills, estimated fees",
-      "exited_at": "2026-10-31 16:09:19",
-      "broker_order_id": "3caca9c7-fdeb-435b-93e1-f609586927ec",
-      "exit_order_id": "86dd28ec-f89f-4c8c-9e99-128336a614c6"
-    }
-  ],
+  "sw_trades": [],
   "orders": [
     {
       "ticker": "LMT",
@@ -263,5 +214,5 @@
       "created_at": "2026-10-05 18:37:28"
     }
   ],
-  "generated_ts": 1793501804.235422
+  "generated_ts": 1793526950.180917
 }
