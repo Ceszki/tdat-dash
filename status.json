@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-02 02:00 ET",
+  "generated_at": "2026-11-02 07:56 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 99922.72,
+  "equity": 100011.18,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -114,29 +114,29 @@
       "ticker": "LMT",
       "qty": 4,
       "entry": 638.0,
-      "current": 636.5,
-      "unrealized_pct": -0.23500000000000001
+      "current": 635.1993,
+      "unrealized_pct": -0.439
     },
     {
       "ticker": "RTX",
       "qty": 15,
       "entry": 192.0,
-      "current": 199.3,
-      "unrealized_pct": 3.8019999999999996
+      "current": 200.5462,
+      "unrealized_pct": 4.4510000000000005
     },
     {
       "ticker": "VVX",
       "qty": 37,
       "entry": 80.2,
-      "current": 80.2,
-      "unrealized_pct": 0.0
+      "current": 80.3,
+      "unrealized_pct": 0.125
     },
     {
       "ticker": "XAR",
       "qty": 13,
       "entry": 218.37,
-      "current": 223.5177,
-      "unrealized_pct": 2.357
+      "current": 229.0,
+      "unrealized_pct": 4.868
     }
   ],
   "positions_unavailable": false,
@@ -147,14 +147,14 @@
       "ticker": "LMT",
       "qty": 4,
       "limit_price": 638.39,
-      "status": "submitted",
+      "status": "filled",
       "created_at": "2026-10-30 20:53:05"
     },
     {
       "ticker": "VVX",
       "qty": 37,
       "limit_price": 80.62,
-      "status": "submitted",
+      "status": "filled",
       "created_at": "2026-10-30 20:53:01"
     },
     {
@@ -228,5 +228,5 @@
       "created_at": "2026-10-05 18:37:28"
     }
   ],
-  "generated_ts": 1793602828.533924
+  "generated_ts": 1793624205.32701
 }
