@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-02 16:00 ET",
+  "generated_at": "2026-11-02 17:00 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100179.94,
+  "equity": 100123.61,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -106,15 +106,15 @@
       "ticker": "LMT",
       "qty": 4,
       "entry": 638.0,
-      "current": 643.15,
-      "unrealized_pct": 0.807
+      "current": 641.0,
+      "unrealized_pct": 0.47000000000000003
     },
     {
       "ticker": "VVX",
       "qty": 37,
       "entry": 80.2,
-      "current": 83.4,
-      "unrealized_pct": 3.9899999999999998
+      "current": 82.11,
+      "unrealized_pct": 2.382
     },
     {
       "ticker": "XAR",
@@ -213,5 +213,5 @@
       "created_at": "2026-10-05 18:37:28"
     }
   ],
-  "generated_ts": 1793653232.52558
+  "generated_ts": 1793656833.601116
 }
