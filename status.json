@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-03 13:32 ET",
+  "generated_at": "2026-11-03 15:00 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100194.72,
+  "equity": 100109.19,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -103,32 +103,18 @@
   ],
   "positions": [
     {
-      "ticker": "BTCUSD",
-      "qty": 0,
-      "entry": 77032.128169314,
-      "current": 77659.89,
-      "unrealized_pct": 0.815
-    },
-    {
-      "ticker": "ETHUSD",
-      "qty": 0,
-      "entry": 2270.227946193,
-      "current": 2292.41,
-      "unrealized_pct": 0.9769999999999999
-    },
-    {
       "ticker": "LMT",
       "qty": 4,
       "entry": 638.0,
-      "current": 642.98,
-      "unrealized_pct": 0.781
+      "current": 642.13,
+      "unrealized_pct": 0.647
     },
     {
       "ticker": "VVX",
       "qty": 37,
       "entry": 80.2,
-      "current": 82.75,
-      "unrealized_pct": 3.18
+      "current": 81.08,
+      "unrealized_pct": 1.097
     }
   ],
   "positions_unavailable": false,
@@ -142,13 +128,13 @@
       "tp_price": 78310.95,
       "stop_price": 76382.11,
       "entered_at": "2026-11-03 06:04:15",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
+      "status": "closed",
+      "exit_price": 77496.792921752,
+      "pnl_usd": 2.618572960246638,
+      "exit_reason": "time-stop 8h; broker fills, estimated fees",
+      "exited_at": "2026-11-03 15:00:31",
       "broker_order_id": "bedf53f5-1525-4921-bceb-350e4b7bbbae",
-      "exit_order_id": null
+      "exit_order_id": "f9debd48-b282-4258-a194-340cadf37be7"
     },
     {
       "id": 73,
@@ -158,13 +144,13 @@
       "tp_price": 2307.22,
       "stop_price": 2250.39,
       "entered_at": "2026-11-03 06:04:16",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
+      "status": "closed",
+      "exit_price": 2284.157,
+      "pnl_usd": 2.825502573369249,
+      "exit_reason": "time-stop 8h; broker fills, estimated fees",
+      "exited_at": "2026-11-03 15:00:31",
       "broker_order_id": "d4ba9348-f932-481e-8a72-e7e576ae1085",
-      "exit_order_id": null
+      "exit_order_id": "170ff21c-f47e-4f88-b97b-68f01c685295"
     }
   ],
   "orders": [
@@ -253,5 +239,5 @@
       "created_at": "2026-10-05 18:37:28"
     }
   ],
-  "generated_ts": 1793730739.734763
+  "generated_ts": 1793736035.69838
 }
