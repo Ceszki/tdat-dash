@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-11-03 06:26 ET",
+  "generated_at": "2026-11-03 12:00 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100152.51,
+  "equity": 100209.71,
   "equity_unavailable": false,
   "equity_curve": [
-    {
-      "ts": 1790985600,
-      "equity": 100510.26
-    },
     {
       "ts": 1791244800,
       "equity": 100404.03
@@ -110,36 +106,29 @@
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 77032.128169314,
-      "current": 77100.3,
-      "unrealized_pct": 0.08800000000000001
+      "current": 77686.4,
+      "unrealized_pct": 0.849
     },
     {
       "ticker": "ETHUSD",
       "qty": 0,
       "entry": 2270.227946193,
-      "current": 2264.5,
-      "unrealized_pct": -0.252
+      "current": 2295.07,
+      "unrealized_pct": 1.094
     },
     {
       "ticker": "LMT",
       "qty": 4,
       "entry": 638.0,
-      "current": 641.18,
-      "unrealized_pct": 0.498
+      "current": 645.3,
+      "unrealized_pct": 1.1440000000000001
     },
     {
       "ticker": "VVX",
       "qty": 37,
       "entry": 80.2,
-      "current": 83.2,
-      "unrealized_pct": 3.7409999999999997
-    },
-    {
-      "ticker": "XAR",
-      "qty": 13,
-      "entry": 218.37,
-      "current": 231.09,
-      "unrealized_pct": 5.825
+      "current": 82.8225,
+      "unrealized_pct": 3.27
     }
   ],
   "positions_unavailable": false,
@@ -264,5 +253,5 @@
       "created_at": "2026-10-05 18:37:28"
     }
   ],
-  "generated_ts": 1793705208.261516
+  "generated_ts": 1793725233.835646
 }
