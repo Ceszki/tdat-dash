@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-04 01:41 ET",
+  "generated_at": "2026-11-04 06:41 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100075.05,
+  "equity": 100013.38,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -87,6 +87,10 @@
     {
       "ts": 1793667600,
       "equity": 100172.46
+    },
+    {
+      "ts": 1793754000,
+      "equity": 100086.97
     }
   ],
   "decisions": {
@@ -103,11 +107,18 @@
   ],
   "positions": [
     {
+      "ticker": "ETHUSD",
+      "qty": 0,
+      "entry": 2333.21448571,
+      "current": 2331.36,
+      "unrealized_pct": -0.079
+    },
+    {
       "ticker": "LMT",
       "qty": 4,
       "entry": 638.0,
-      "current": 636.0,
-      "unrealized_pct": -0.313
+      "current": 622.1,
+      "unrealized_pct": -2.492
     },
     {
       "ticker": "VVX",
@@ -119,7 +130,24 @@
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [],
+  "sw_trades": [
+    {
+      "id": 74,
+      "symbol": "ETH/USD",
+      "qty": 0.856206,
+      "entry_price": 2336.34,
+      "tp_price": 2371.39,
+      "stop_price": 2312.98,
+      "entered_at": "2026-11-04 06:41:15",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "5b4431bc-79a0-408d-927c-732ab072ad55",
+      "exit_order_id": null
+    }
+  ],
   "orders": [
     {
       "ticker": "XAR",
@@ -206,5 +234,5 @@
       "created_at": "2026-10-08 17:17:49"
     }
   ],
-  "generated_ts": 1793774515.850159
+  "generated_ts": 1793792476.231524
 }
