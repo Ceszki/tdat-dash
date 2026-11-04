@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-03 22:41 ET",
+  "generated_at": "2026-11-04 01:41 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100073.65,
+  "equity": 100075.05,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -90,15 +90,10 @@
     }
   ],
   "decisions": {
-    "considered": 7,
-    "traded": 1,
-    "dropped": 6,
-    "lines": [
-      "\u2705 XAR \u2014 Balfour Beatty Construction LLC \u2014 $3,043,000,000",
-      "\u2715 3\u00d7 unresolved company",
-      "\u2715 2\u00d7 below threshold",
-      "\u2715 1\u00d7 duplicate"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -111,8 +106,8 @@
       "ticker": "LMT",
       "qty": 4,
       "entry": 638.0,
-      "current": 635.65,
-      "unrealized_pct": -0.368
+      "current": 636.0,
+      "unrealized_pct": -0.313
     },
     {
       "ticker": "VVX",
@@ -124,40 +119,7 @@
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [
-    {
-      "id": 72,
-      "symbol": "BTC/USD",
-      "qty": 0.025965,
-      "entry_price": 77153.65,
-      "tp_price": 78310.95,
-      "stop_price": 76382.11,
-      "entered_at": "2026-11-03 06:04:15",
-      "status": "closed",
-      "exit_price": 77496.792921752,
-      "pnl_usd": 2.618572960246638,
-      "exit_reason": "time-stop 8h; broker fills, estimated fees",
-      "exited_at": "2026-11-03 15:00:31",
-      "broker_order_id": "bedf53f5-1525-4921-bceb-350e4b7bbbae",
-      "exit_order_id": "f9debd48-b282-4258-a194-340cadf37be7"
-    },
-    {
-      "id": 73,
-      "symbol": "ETH/USD",
-      "qty": 0.881296,
-      "entry_price": 2273.12,
-      "tp_price": 2307.22,
-      "stop_price": 2250.39,
-      "entered_at": "2026-11-03 06:04:16",
-      "status": "closed",
-      "exit_price": 2284.157,
-      "pnl_usd": 2.825502573369249,
-      "exit_reason": "time-stop 8h; broker fills, estimated fees",
-      "exited_at": "2026-11-03 15:00:31",
-      "broker_order_id": "d4ba9348-f932-481e-8a72-e7e576ae1085",
-      "exit_order_id": "170ff21c-f47e-4f88-b97b-68f01c685295"
-    }
-  ],
+  "sw_trades": [],
   "orders": [
     {
       "ticker": "XAR",
@@ -244,5 +206,5 @@
       "created_at": "2026-10-08 17:17:49"
     }
   ],
-  "generated_ts": 1793763697.438629
+  "generated_ts": 1793774515.850159
 }
