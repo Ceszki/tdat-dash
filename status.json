@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-04 06:41 ET",
+  "generated_at": "2026-11-04 13:58 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100013.38,
+  "equity": 99819.66,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -107,25 +107,11 @@
   ],
   "positions": [
     {
-      "ticker": "ETHUSD",
-      "qty": 0,
-      "entry": 2333.21448571,
-      "current": 2331.36,
-      "unrealized_pct": -0.079
-    },
-    {
-      "ticker": "LMT",
-      "qty": 4,
-      "entry": 638.0,
-      "current": 622.1,
-      "unrealized_pct": -2.492
-    },
-    {
-      "ticker": "VVX",
-      "qty": 37,
-      "entry": 80.2,
-      "current": 80.82,
-      "unrealized_pct": 0.773
+      "ticker": "XAR",
+      "qty": 12,
+      "entry": 234.35,
+      "current": 225.75,
+      "unrealized_pct": -3.6700000000000004
     }
   ],
   "positions_unavailable": false,
@@ -139,13 +125,13 @@
       "tp_price": 2371.39,
       "stop_price": 2312.98,
       "entered_at": "2026-11-04 06:41:15",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
+      "status": "closed",
+      "exit_price": 2420.2,
+      "pnl_usd": 64.74962007047338,
+      "exit_reason": "take-profit 2421.62 >= 2371.39; broker fills, estimated fees",
+      "exited_at": "2026-11-04 13:58:54",
       "broker_order_id": "5b4431bc-79a0-408d-927c-732ab072ad55",
-      "exit_order_id": null
+      "exit_order_id": "81b68599-766a-492f-a6de-1c40e2b15477"
     }
   ],
   "orders": [
@@ -234,5 +220,5 @@
       "created_at": "2026-10-08 17:17:49"
     }
   ],
-  "generated_ts": 1793792476.231524
+  "generated_ts": 1793818736.193802
 }
