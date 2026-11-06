@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05 20:52 ET",
+  "generated_at": "2026-11-06 02:00 ET",
   "broker_mode": "Alpaca PAPER",
   "equity": 99816.45,
   "equity_unavailable": false,
@@ -98,15 +98,10 @@
     }
   ],
   "decisions": {
-    "considered": 10,
-    "traded": 2,
-    "dropped": 8,
-    "lines": [
-      "\u2705 AMTM \u2014 Amentum Service Inc. \u2014 $608,999,219",
-      "\u2705 XAR \u2014 Sikorsky Aircraft Corp. \u2014 $70,130,735",
-      "\u2715 7\u00d7 unresolved company",
-      "\u2715 1\u00d7 duplicate"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -204,5 +199,5 @@
       "created_at": "2026-10-08 20:00:25"
     }
   ],
-  "generated_ts": 1793929972.321557
+  "generated_ts": 1793948446.048125
 }
