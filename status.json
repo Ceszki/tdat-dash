@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-09 12:00 ET",
+  "generated_at": "2026-11-09 13:00 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100234.17,
+  "equity": 100204.14,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -106,43 +106,29 @@
       "ticker": "AMTM",
       "qty": 139,
       "entry": 21.1,
-      "current": 22.406,
-      "unrealized_pct": 6.1899999999999995
-    },
-    {
-      "ticker": "BTCUSD",
-      "qty": 0,
-      "entry": 75436.563,
-      "current": 74982.0,
-      "unrealized_pct": -0.603
-    },
-    {
-      "ticker": "ETHUSD",
-      "qty": 0,
-      "entry": 2145.68,
-      "current": 2131.2,
-      "unrealized_pct": -0.675
+      "current": 22.375,
+      "unrealized_pct": 6.043
     },
     {
       "ticker": "QQQ",
       "qty": 2,
       "entry": 672.62,
-      "current": 676.47,
-      "unrealized_pct": 0.5720000000000001
+      "current": 677.2728,
+      "unrealized_pct": 0.692
     },
     {
       "ticker": "SPY",
       "qty": 2,
       "entry": 747.475,
-      "current": 750.8701,
-      "unrealized_pct": 0.45399999999999996
+      "current": 752.61,
+      "unrealized_pct": 0.687
     },
     {
       "ticker": "XAR",
       "qty": 13,
       "entry": 214.23,
-      "current": 235.8725,
-      "unrealized_pct": 10.102
+      "current": 235.47,
+      "unrealized_pct": 9.915000000000001
     }
   ],
   "positions_unavailable": false,
@@ -188,13 +174,13 @@
       "tp_price": 76721.71,
       "stop_price": 74832.01,
       "entered_at": "2026-11-09 11:00:37",
-      "status": "open",
+      "status": "exit_pending",
       "exit_price": null,
       "pnl_usd": null,
-      "exit_reason": null,
+      "exit_reason": "SW retired (wind-down)",
       "exited_at": null,
       "broker_order_id": "8ca75a26-f7b2-42cb-a71c-631dc0ef5d75",
-      "exit_order_id": null
+      "exit_order_id": "d614bfda-3bf9-478e-b476-e4762999a574"
     },
     {
       "id": 81,
@@ -204,13 +190,13 @@
       "tp_price": 2181.52,
       "stop_price": 2127.79,
       "entered_at": "2026-11-09 11:00:38",
-      "status": "open",
-      "exit_price": null,
-      "pnl_usd": null,
-      "exit_reason": null,
-      "exited_at": null,
+      "status": "closed",
+      "exit_price": 2122.5,
+      "pnl_usd": -30.91653044370605,
+      "exit_reason": "SW retired (wind-down); broker fills, estimated fees",
+      "exited_at": "2026-11-09 13:00:37",
       "broker_order_id": "7c7e53f2-61da-4a79-aba9-1f3e92a12279",
-      "exit_order_id": null
+      "exit_order_id": "3628cae1-ce61-49c8-98d8-5f4469ac7379"
     }
   ],
   "orders": [
@@ -299,5 +285,5 @@
       "created_at": "2026-10-08 20:00:25"
     }
   ],
-  "generated_ts": 1794243634.252928
+  "generated_ts": 1794247238.363634
 }
