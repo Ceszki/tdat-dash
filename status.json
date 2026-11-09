@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-09 11:00 ET",
+  "generated_at": "2026-11-09 12:00 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100228.1,
+  "equity": 100234.17,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -106,43 +106,43 @@
       "ticker": "AMTM",
       "qty": 139,
       "entry": 21.1,
-      "current": 22.265,
-      "unrealized_pct": 5.521
+      "current": 22.406,
+      "unrealized_pct": 6.1899999999999995
     },
     {
       "ticker": "BTCUSD",
       "qty": 0,
       "entry": 75436.563,
-      "current": 75391.354,
-      "unrealized_pct": -0.06
+      "current": 74982.0,
+      "unrealized_pct": -0.603
     },
     {
       "ticker": "ETHUSD",
       "qty": 0,
       "entry": 2145.68,
-      "current": 2141.91,
-      "unrealized_pct": -0.17600000000000002
+      "current": 2131.2,
+      "unrealized_pct": -0.675
     },
     {
       "ticker": "QQQ",
       "qty": 2,
       "entry": 672.62,
-      "current": 677.93,
-      "unrealized_pct": 0.7889999999999999
+      "current": 676.47,
+      "unrealized_pct": 0.5720000000000001
     },
     {
       "ticker": "SPY",
       "qty": 2,
       "entry": 747.475,
-      "current": 751.38,
-      "unrealized_pct": 0.522
+      "current": 750.8701,
+      "unrealized_pct": 0.45399999999999996
     },
     {
       "ticker": "XAR",
       "qty": 13,
       "entry": 214.23,
-      "current": 235.01,
-      "unrealized_pct": 9.700000000000001
+      "current": 235.8725,
+      "unrealized_pct": 10.102
     }
   ],
   "positions_unavailable": false,
@@ -299,5 +299,5 @@
       "created_at": "2026-10-08 20:00:25"
     }
   ],
-  "generated_ts": 1794240038.400436
+  "generated_ts": 1794243634.252928
 }
