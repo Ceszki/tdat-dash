@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-09 10:00 ET",
+  "generated_at": "2026-11-09 11:00 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100084.74,
+  "equity": 100228.1,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -106,15 +106,43 @@
       "ticker": "AMTM",
       "qty": 139,
       "entry": 21.1,
-      "current": 21.79,
-      "unrealized_pct": 3.27
+      "current": 22.265,
+      "unrealized_pct": 5.521
+    },
+    {
+      "ticker": "BTCUSD",
+      "qty": 0,
+      "entry": 75436.563,
+      "current": 75391.354,
+      "unrealized_pct": -0.06
+    },
+    {
+      "ticker": "ETHUSD",
+      "qty": 0,
+      "entry": 2145.68,
+      "current": 2141.91,
+      "unrealized_pct": -0.17600000000000002
+    },
+    {
+      "ticker": "QQQ",
+      "qty": 2,
+      "entry": 672.62,
+      "current": 677.93,
+      "unrealized_pct": 0.7889999999999999
+    },
+    {
+      "ticker": "SPY",
+      "qty": 2,
+      "entry": 747.475,
+      "current": 751.38,
+      "unrealized_pct": 0.522
     },
     {
       "ticker": "XAR",
       "qty": 13,
       "entry": 214.23,
-      "current": 229.44,
-      "unrealized_pct": 7.1
+      "current": 235.01,
+      "unrealized_pct": 9.700000000000001
     }
   ],
   "positions_unavailable": false,
@@ -150,6 +178,38 @@
       "exit_reason": null,
       "exited_at": null,
       "broker_order_id": "5a43a0fd-6d92-4875-b03e-95c0cf2eadfe",
+      "exit_order_id": null
+    },
+    {
+      "id": 80,
+      "symbol": "BTC/USD",
+      "qty": 0.026523,
+      "entry_price": 75587.89,
+      "tp_price": 76721.71,
+      "stop_price": 74832.01,
+      "entered_at": "2026-11-09 11:00:37",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "8ca75a26-f7b2-42cb-a71c-631dc0ef5d75",
+      "exit_order_id": null
+    },
+    {
+      "id": 81,
+      "symbol": "ETH/USD",
+      "qty": 0.932792,
+      "entry_price": 2149.28,
+      "tp_price": 2181.52,
+      "stop_price": 2127.79,
+      "entered_at": "2026-11-09 11:00:38",
+      "status": "open",
+      "exit_price": null,
+      "pnl_usd": null,
+      "exit_reason": null,
+      "exited_at": null,
+      "broker_order_id": "7c7e53f2-61da-4a79-aba9-1f3e92a12279",
       "exit_order_id": null
     }
   ],
@@ -239,5 +299,5 @@
       "created_at": "2026-10-08 20:00:25"
     }
   ],
-  "generated_ts": 1794236429.370561
+  "generated_ts": 1794240038.400436
 }
