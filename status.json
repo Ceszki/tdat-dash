@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-10 13:00 ET",
+  "generated_at": "2026-11-10 13:59 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100268.92,
+  "equity": 100291.09,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -106,34 +106,53 @@
       "ticker": "AMTM",
       "qty": 139,
       "entry": 21.1,
-      "current": 23.015,
-      "unrealized_pct": 9.075999999999999
-    },
-    {
-      "ticker": "QQQ",
-      "qty": 2,
-      "entry": 672.62,
-      "current": 669.49,
-      "unrealized_pct": -0.46499999999999997
-    },
-    {
-      "ticker": "SPY",
-      "qty": 2,
-      "entry": 747.475,
-      "current": 746.29,
-      "unrealized_pct": -0.159
+      "current": 23.18,
+      "unrealized_pct": 9.858
     },
     {
       "ticker": "XAR",
       "qty": 13,
       "entry": 214.23,
-      "current": 235.78,
-      "unrealized_pct": 10.059
+      "current": 235.72,
+      "unrealized_pct": 10.030999999999999
     }
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [],
+  "sw_trades": [
+    {
+      "id": 78,
+      "symbol": "SPY",
+      "qty": 2.0,
+      "entry_price": 749.23,
+      "tp_price": 760.47,
+      "stop_price": 741.74,
+      "entered_at": "2026-11-09 10:00:28",
+      "status": "closed",
+      "exit_price": 746.29,
+      "pnl_usd": -2.3700000000001182,
+      "exit_reason": "next-session exit; broker fills, estimated fees",
+      "exited_at": "2026-11-10 13:59:28",
+      "broker_order_id": "7292e926-240d-4249-9a67-69b75870ac50",
+      "exit_order_id": "2ae21260-2a33-4724-b68c-8e992e0c46d2"
+    },
+    {
+      "id": 79,
+      "symbol": "QQQ",
+      "qty": 2.0,
+      "entry_price": 674.66,
+      "tp_price": 684.78,
+      "stop_price": 667.91,
+      "entered_at": "2026-11-09 10:00:29",
+      "status": "closed",
+      "exit_price": 669.5,
+      "pnl_usd": -6.240000000000009,
+      "exit_reason": "next-session exit; broker fills, estimated fees",
+      "exited_at": "2026-11-10 13:59:28",
+      "broker_order_id": "5a43a0fd-6d92-4875-b03e-95c0cf2eadfe",
+      "exit_order_id": "be5b4939-e60b-41e7-aa48-b6eb73aef3d2"
+    }
+  ],
   "orders": [
     {
       "ticker": "XAR",
@@ -220,5 +239,5 @@
       "created_at": "2026-10-08 20:00:25"
     }
   ],
-  "generated_ts": 1794333629.570664
+  "generated_ts": 1794337169.864688
 }
