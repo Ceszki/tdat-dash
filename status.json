@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-11-10 06:55 ET",
+  "generated_at": "2026-11-10 13:00 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100122.89,
+  "equity": 100268.92,
   "equity_unavailable": false,
   "equity_curve": [
-    {
-      "ts": 1791590400,
-      "equity": 100105.67
-    },
     {
       "ts": 1791849600,
       "equity": 100066.9
@@ -110,29 +106,29 @@
       "ticker": "AMTM",
       "qty": 139,
       "entry": 21.1,
-      "current": 22.04,
-      "unrealized_pct": 4.455
+      "current": 23.015,
+      "unrealized_pct": 9.075999999999999
     },
     {
       "ticker": "QQQ",
       "qty": 2,
       "entry": 672.62,
-      "current": 677.05,
-      "unrealized_pct": 0.659
+      "current": 669.49,
+      "unrealized_pct": -0.46499999999999997
     },
     {
       "ticker": "SPY",
       "qty": 2,
       "entry": 747.475,
-      "current": 753.5,
-      "unrealized_pct": 0.8059999999999999
+      "current": 746.29,
+      "unrealized_pct": -0.159
     },
     {
       "ticker": "XAR",
       "qty": 13,
       "entry": 214.23,
-      "current": 232.7,
-      "unrealized_pct": 8.622
+      "current": 235.78,
+      "unrealized_pct": 10.059
     }
   ],
   "positions_unavailable": false,
@@ -224,5 +220,5 @@
       "created_at": "2026-10-08 20:00:25"
     }
   ],
-  "generated_ts": 1794311703.030536
+  "generated_ts": 1794333629.570664
 }
