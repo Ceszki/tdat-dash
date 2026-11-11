@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10 22:32 ET",
+  "generated_at": "2026-11-11 01:45 ET",
   "broker_mode": "Alpaca PAPER",
   "equity": 100277.77,
   "equity_unavailable": false,
@@ -90,14 +90,10 @@
     }
   ],
   "decisions": {
-    "considered": 10,
+    "considered": 0,
     "traded": 0,
-    "dropped": 10,
-    "lines": [
-      "\u2715 5\u00d7 duplicate",
-      "\u2715 4\u00d7 unresolved company",
-      "\u2715 1\u00d7 below threshold"
-    ]
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -123,40 +119,7 @@
   ],
   "positions_unavailable": false,
   "analyst": [],
-  "sw_trades": [
-    {
-      "id": 78,
-      "symbol": "SPY",
-      "qty": 2.0,
-      "entry_price": 749.23,
-      "tp_price": 760.47,
-      "stop_price": 741.74,
-      "entered_at": "2026-11-09 10:00:28",
-      "status": "closed",
-      "exit_price": 746.29,
-      "pnl_usd": -2.3700000000001182,
-      "exit_reason": "next-session exit; broker fills, estimated fees",
-      "exited_at": "2026-11-10 13:59:28",
-      "broker_order_id": "7292e926-240d-4249-9a67-69b75870ac50",
-      "exit_order_id": "2ae21260-2a33-4724-b68c-8e992e0c46d2"
-    },
-    {
-      "id": 79,
-      "symbol": "QQQ",
-      "qty": 2.0,
-      "entry_price": 674.66,
-      "tp_price": 684.78,
-      "stop_price": 667.91,
-      "entered_at": "2026-11-09 10:00:29",
-      "status": "closed",
-      "exit_price": 669.5,
-      "pnl_usd": -6.240000000000009,
-      "exit_reason": "next-session exit; broker fills, estimated fees",
-      "exited_at": "2026-11-10 13:59:28",
-      "broker_order_id": "5a43a0fd-6d92-4875-b03e-95c0cf2eadfe",
-      "exit_order_id": "be5b4939-e60b-41e7-aa48-b6eb73aef3d2"
-    }
-  ],
+  "sw_trades": [],
   "orders": [
     {
       "ticker": "XAR",
@@ -243,5 +206,5 @@
       "created_at": "2026-10-08 20:00:25"
     }
   ],
-  "generated_ts": 1794367941.353041
+  "generated_ts": 1794379525.603999
 }
