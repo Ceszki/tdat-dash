@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-12 17:13 ET",
+  "generated_at": "2026-11-12 17:47 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100120.99,
+  "equity": 100102.14,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -121,8 +121,8 @@
       "ticker": "XAR",
       "qty": 13,
       "entry": 214.23,
-      "current": 233.44,
-      "unrealized_pct": 8.967
+      "current": 231.99,
+      "unrealized_pct": 8.290000000000001
     }
   ],
   "positions_unavailable": false,
@@ -214,5 +214,5 @@
       "created_at": "2026-10-08 20:00:25"
     }
   ],
-  "generated_ts": 1794521632.573886
+  "generated_ts": 1794523670.731249
 }
