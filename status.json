@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-12 14:00 ET",
+  "generated_at": "2026-11-12 15:00 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 100145.42,
+  "equity": 100153.43,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -114,15 +114,15 @@
       "ticker": "AMTM",
       "qty": 139,
       "entry": 21.1,
-      "current": 22.19,
-      "unrealized_pct": 5.1659999999999995
+      "current": 22.235,
+      "unrealized_pct": 5.379
     },
     {
       "ticker": "XAR",
       "qty": 13,
       "entry": 214.23,
-      "current": 235.105,
-      "unrealized_pct": 9.744
+      "current": 235.24,
+      "unrealized_pct": 9.807
     }
   ],
   "positions_unavailable": false,
@@ -214,5 +214,5 @@
       "created_at": "2026-10-08 20:00:25"
     }
   ],
-  "generated_ts": 1794510031.815644
+  "generated_ts": 1794513630.408418
 }
