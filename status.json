@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12 22:00 ET",
+  "generated_at": "2026-11-13 01:58 ET",
   "broker_mode": "Alpaca PAPER",
   "equity": 100112.37,
   "equity_unavailable": false,
@@ -98,14 +98,10 @@
     }
   ],
   "decisions": {
-    "considered": 6,
+    "considered": 0,
     "traded": 0,
-    "dropped": 6,
-    "lines": [
-      "\u2715 3\u00d7 unresolved company",
-      "\u2715 2\u00d7 duplicate",
-      "\u2715 1\u00d7 below threshold"
-    ]
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -218,5 +214,5 @@
       "created_at": "2026-10-08 20:00:25"
     }
   ],
-  "generated_ts": 1794538839.128773
+  "generated_ts": 1794553084.678756
 }
