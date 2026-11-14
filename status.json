@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13 19:00 ET",
+  "generated_at": "2026-11-13 20:30 ET",
   "broker_mode": "Alpaca PAPER",
   "equity": 100054.66,
   "equity_unavailable": false,
@@ -98,15 +98,20 @@
     }
   ],
   "decisions": {
-    "considered": 0,
-    "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "considered": 5,
+    "traded": 1,
+    "dropped": 4,
+    "lines": [
+      "\u2705 NOC \u2014 Northrop Grumman Systems Corp. \u2014 $2,061,087,012",
+      "\u2715 2\u00d7 duplicate",
+      "\u2715 1\u00d7 below threshold",
+      "\u2715 1\u00d7 unresolved company"
+    ]
   },
   "alerts": [
     {
-      "level": "warn",
-      "message": "No trades in 5 days"
+      "level": "ok",
+      "message": "All clear"
     }
   ],
   "positions": [
@@ -129,6 +134,13 @@
   "analyst": [],
   "sw_trades": [],
   "orders": [
+    {
+      "ticker": "NOC",
+      "qty": 5,
+      "limit_price": 551.64,
+      "status": "submitted",
+      "created_at": "2026-11-13 20:30:39"
+    },
     {
       "ticker": "XAR",
       "qty": 13,
@@ -205,14 +217,7 @@
       "limit_price": 227.35,
       "status": "filled",
       "created_at": "2026-10-08 20:00:25"
-    },
-    {
-      "ticker": "RTX",
-      "qty": 16,
-      "limit_price": 184.67,
-      "status": "filled",
-      "created_at": "2026-10-08 20:00:25"
     }
   ],
-  "generated_ts": 1794614410.750915
+  "generated_ts": 1794619843.233448
 }
