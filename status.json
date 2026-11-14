@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13 22:00 ET",
+  "generated_at": "2026-11-14 00:23 ET",
   "broker_mode": "Alpaca PAPER",
   "equity": 100054.66,
   "equity_unavailable": false,
@@ -98,15 +98,10 @@
     }
   ],
   "decisions": {
-    "considered": 5,
-    "traded": 1,
-    "dropped": 4,
-    "lines": [
-      "\u2705 NOC \u2014 Northrop Grumman Systems Corp. \u2014 $2,061,087,012",
-      "\u2715 2\u00d7 duplicate",
-      "\u2715 1\u00d7 below threshold",
-      "\u2715 1\u00d7 unresolved company"
-    ]
+    "considered": 0,
+    "traded": 0,
+    "dropped": 0,
+    "lines": []
   },
   "alerts": [
     {
@@ -219,5 +214,5 @@
       "created_at": "2026-10-08 20:00:25"
     }
   ],
-  "generated_ts": 1794625229.908919
+  "generated_ts": 1794633806.264529
 }
