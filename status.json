@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17 16:00 ET",
+  "generated_at": "2026-11-17 17:00 ET",
   "broker_mode": "Alpaca PAPER",
   "equity": 99933.69,
   "equity_unavailable": false,
@@ -125,7 +125,7 @@
       "ticker": "NOC",
       "qty": 5,
       "limit_price": 546.81,
-      "status": "submitted",
+      "status": "expired",
       "created_at": "2026-11-16 21:10:58"
     },
     {
@@ -199,5 +199,5 @@
       "created_at": "2026-10-21 20:03:42"
     }
   ],
-  "generated_ts": 1794949230.816832
+  "generated_ts": 1794952825.476915
 }
