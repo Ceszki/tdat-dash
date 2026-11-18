@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-18 02:43 ET",
+  "generated_at": "2026-11-18 04:24 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 99933.69,
+  "equity": 99933.68,
   "equity_unavailable": false,
   "equity_curve": [
     {
@@ -87,6 +87,10 @@
     {
       "ts": 1794877200,
       "equity": 99966.71
+    },
+    {
+      "ts": 1794963600,
+      "equity": 99933.68
     }
   ],
   "decisions": {
@@ -199,5 +203,5 @@
       "created_at": "2026-10-21 20:03:42"
     }
   ],
-  "generated_ts": 1794987820.701351
+  "generated_ts": 1794993869.563797
 }
