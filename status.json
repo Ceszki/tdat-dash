@@ -1,21 +1,9 @@
 {
-  "generated_at": "2026-11-23 08:46 ET",
+  "generated_at": "2026-11-23 10:00 ET",
   "broker_mode": "Alpaca PAPER",
-  "equity": 99782.13,
+  "equity": 99771.68,
   "equity_unavailable": false,
   "equity_curve": [
-    {
-      "ts": 1792540800,
-      "equity": 98017.83
-    },
-    {
-      "ts": 1792627200,
-      "equity": 100129.56
-    },
-    {
-      "ts": 1792713600,
-      "equity": 100104.76
-    },
     {
       "ts": 1792800000,
       "equity": 99967.16
@@ -113,7 +101,15 @@
       "message": "All clear"
     }
   ],
-  "positions": [],
+  "positions": [
+    {
+      "ticker": "LMT",
+      "qty": 5,
+      "entry": 566.54,
+      "current": 564.45,
+      "unrealized_pct": -0.369
+    }
+  ],
   "positions_unavailable": false,
   "analyst": [],
   "sw_trades": [],
@@ -122,7 +118,7 @@
       "ticker": "LMT",
       "qty": 5,
       "limit_price": 566.65,
-      "status": "submitted",
+      "status": "filled",
       "created_at": "2026-11-20 21:24:03"
     },
     {
@@ -203,5 +199,5 @@
       "created_at": "2026-11-03 20:29:10"
     }
   ],
-  "generated_ts": 1795441617.889438
+  "generated_ts": 1795446027.536227
 }
