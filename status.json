@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23 20:19 ET",
+  "generated_at": "2026-11-23 21:55 ET",
   "broker_mode": "Alpaca PAPER",
   "equity": 99819.08,
   "equity_unavailable": false,
@@ -90,10 +90,17 @@
     }
   ],
   "decisions": {
-    "considered": 0,
-    "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "considered": 12,
+    "traded": 2,
+    "dropped": 10,
+    "lines": [
+      "\u2705 XAR \u2014 Sea Box Inc. \u2014 $216,364,156",
+      "\u2705 BA \u2014 The Boeing Co. \u2014 $4,520,172,874",
+      "\u2715 5\u00d7 unresolved company",
+      "\u2715 3\u00d7 duplicate",
+      "\u2715 1\u00d7 below threshold",
+      "\u2715 1\u00d7 negative sentiment"
+    ]
   },
   "alerts": [
     {
@@ -114,6 +121,20 @@
   "analyst": [],
   "sw_trades": [],
   "orders": [
+    {
+      "ticker": "BA",
+      "qty": 18,
+      "limit_price": 162.68,
+      "status": "submitted",
+      "created_at": "2026-11-23 21:55:02"
+    },
+    {
+      "ticker": "XAR",
+      "qty": 13,
+      "limit_price": 214.88,
+      "status": "submitted",
+      "created_at": "2026-11-23 21:54:59"
+    },
     {
       "ticker": "LMT",
       "qty": 5,
@@ -183,21 +204,7 @@
       "limit_price": 214.67,
       "status": "filled",
       "created_at": "2026-11-05 20:37:50"
-    },
-    {
-      "ticker": "AMTM",
-      "qty": 139,
-      "limit_price": 21.39,
-      "status": "filled",
-      "created_at": "2026-11-05 20:37:49"
-    },
-    {
-      "ticker": "XAR",
-      "qty": 12,
-      "limit_price": 234.53,
-      "status": "filled",
-      "created_at": "2026-11-03 20:29:10"
     }
   ],
-  "generated_ts": 1795483163.699833
+  "generated_ts": 1795488904.173572
 }
