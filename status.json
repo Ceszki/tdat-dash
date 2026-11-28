@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27 17:00 ET",
+  "generated_at": "2026-11-27 19:02 ET",
   "broker_mode": "Alpaca PAPER",
   "equity": 99995.82,
   "equity_unavailable": false,
@@ -94,10 +94,14 @@
     }
   ],
   "decisions": {
-    "considered": 0,
-    "traded": 0,
-    "dropped": 0,
-    "lines": []
+    "considered": 7,
+    "traded": 1,
+    "dropped": 6,
+    "lines": [
+      "\u2705 XAR \u2014 Carahsoft Technology Corp. \u2014 $413,793,192",
+      "\u2715 4\u00d7 unresolved company",
+      "\u2715 2\u00d7 duplicate"
+    ]
   },
   "alerts": [
     {
@@ -139,6 +143,13 @@
   "analyst": [],
   "sw_trades": [],
   "orders": [
+    {
+      "ticker": "XAR",
+      "qty": 13,
+      "limit_price": 220.52,
+      "status": "submitted",
+      "created_at": "2026-11-27 19:02:34"
+    },
     {
       "ticker": "XAR",
       "qty": 13,
@@ -215,14 +226,7 @@
       "limit_price": 206.36,
       "status": "expired_retried",
       "created_at": "2026-11-20 17:40:17"
-    },
-    {
-      "ticker": "XAR",
-      "qty": 13,
-      "limit_price": 215.69,
-      "status": "filled",
-      "created_at": "2026-11-19 21:24:25"
     }
   ],
-  "generated_ts": 1795816829.093984
+  "generated_ts": 1795824157.617894
 }
